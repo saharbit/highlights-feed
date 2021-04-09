@@ -1,36 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
-import redis from "./api/redis";
+import redis from "../services/redis";
 import axios from "axios";
-import Check from "./Check";
-
-const CACHE_TTL = 1000 * 60 * 10;
-
-export async function getServerSideProps(context) {
-  let highlights = {};
-  try {
-    const data = JSON.parse(await redis.get("highlights"));
-    if (data && data.lastupdated + CACHE_TTL > Date.now()) {
-      console.log("cache hit");
-      highlights = data;
-    } else {
-      const response = await axios.get(
-        "https://tja3tkic47.execute-api.eu-central-1.amazonaws.com/serverlessrepo-nba-highlights-helloworld-EAUJQ72BGT8C"
-      );
-      highlights = response.data;
-      redis.set(
-        "highlights",
-        JSON.stringify({ ...highlights, lastupdated: Date.now() })
-      );
-    }
-  } catch (error) {}
-
-  return {
-    props: {
-      highlights,
-    },
-  };
-}
 
 export default function Home({ highlights }) {
   const [subreddits, setSubreddits] = useState([
@@ -52,9 +23,12 @@ export default function Home({ highlights }) {
             Highlights Deck
           </div>
           {subreddits.map((sub) => (
-            <div className="p-5 flex items-center justify-between hover:bg-gray-100 cursor-pointer">
+            <div
+              className="p-5 flex items-center justify-between hover:bg-gray-100 cursor-pointer"
+              key={`subLabel_${sub.value}`}
+            >
               <div>{sub.label}</div>
-              <Check />
+              <img src="/check.svg" alt="Check Icon" />
             </div>
           ))}
         </div>
@@ -62,14 +36,14 @@ export default function Home({ highlights }) {
           const subHighlights = highlights[sub.value];
 
           return (
-            <div className="w-full lg:w-1/2 2xl:w-1/4">
+            <div className="w-full lg:w-1/2 2xl:w-1/4" key={`sub_${index}`}>
               <div className="text-xl font-bold border-gray-300 border-b p-4 border-r-4">
                 {sub.label}
               </div>
               <div>
                 {subHighlights?.slice(1, 10).map((highlight) => (
                   <div
-                    key={index}
+                    key={`highlight_${index}`}
                     className="flex flex-row border-gray-300 border-b p-4 border-r-4"
                   >
                     <div className="mr-2">
@@ -89,4 +63,34 @@ export default function Home({ highlights }) {
       </div>
     </div>
   );
+}
+
+const CACHE_TTL = 1000 * 60 * 10;
+
+export async function getServerSideProps(context) {
+  let highlights = {};
+
+  try {
+    const data = JSON.parse(await redis.get("highlights"));
+    if (data && data.lastupdated + CACHE_TTL > Date.now()) {
+      console.log("cache hit");
+      highlights = data;
+    } else {
+      console.log("cache miss");
+      const response = await axios.get(
+        "https://tja3tkic47.execute-api.eu-central-1.amazonaws.com/serverlessrepo-nba-highlights-helloworld-EAUJQ72BGT8C"
+      );
+      highlights = response.data;
+      redis.set(
+        "highlights",
+        JSON.stringify({ ...highlights, lastupdated: Date.now() })
+      );
+    }
+  } catch (error) {}
+
+  return {
+    props: {
+      highlights,
+    },
+  };
 }
