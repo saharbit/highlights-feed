@@ -1,65 +1,92 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { useState } from "react";
+import Head from "next/head";
+import redis from "./api/redis";
+import axios from "axios";
+import Check from "./Check";
 
-export default function Home() {
+const CACHE_TTL = 1000 * 60 * 10;
+
+export async function getServerSideProps(context) {
+  let highlights = {};
+  try {
+    const data = JSON.parse(await redis.get("highlights"));
+    if (data && data.lastupdated + CACHE_TTL > Date.now()) {
+      console.log("cache hit");
+      highlights = data;
+    } else {
+      const response = await axios.get(
+        "https://tja3tkic47.execute-api.eu-central-1.amazonaws.com/serverlessrepo-nba-highlights-helloworld-EAUJQ72BGT8C"
+      );
+      highlights = response.data;
+      redis.set(
+        "highlights",
+        JSON.stringify({ ...highlights, lastupdated: Date.now() })
+      );
+    }
+  } catch (error) {}
+
+  return {
+    props: {
+      highlights,
+    },
+  };
+}
+
+export default function Home({ highlights }) {
+  const [subreddits, setSubreddits] = useState([
+    { label: "r/soccer", value: "soccer" },
+    { label: "r/nba", value: "nba" },
+    { label: "r/nfl", value: "nfl" },
+  ]);
+
   return (
-    <div className={styles.container}>
+    <div className="bg-gray-50">
       <Head>
-        <title>Create Next App</title>
+        <title>Reddit Highlights</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className="flex w-full flex-wrap">
+        <div className="w-1/6 bg-gray-200">
+          <div className="flex justify-center p-5 font-bold text-xl">
+            Highlights Deck
+          </div>
+          {subreddits.map((sub) => (
+            <div className="p-5 flex items-center justify-between hover:bg-gray-100 cursor-pointer">
+              <div>{sub.label}</div>
+              <Check />
+            </div>
+          ))}
         </div>
-      </main>
+        {subreddits.map((sub, index) => {
+          const subHighlights = highlights[sub.value];
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+          return (
+            <div className="w-full lg:w-1/2 2xl:w-1/4">
+              <div className="text-xl font-bold border-gray-300 border-b p-4 border-r-4">
+                {sub.label}
+              </div>
+              <div>
+                {subHighlights?.slice(1, 10).map((highlight) => (
+                  <div
+                    key={index}
+                    className="flex flex-row border-gray-300 border-b p-4 border-r-4"
+                  >
+                    <div className="mr-2">
+                      <iframe
+                        src={highlight.url}
+                        frameBorder="0"
+                        allowFullScreen
+                      />
+                    </div>
+                    <div>{highlight.title}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
-  )
+  );
 }
