@@ -2,58 +2,37 @@ import { useState } from "react";
 import Head from "next/head";
 import redis from "../services/redis";
 import axios from "axios";
+import Highlight from "../components/Highlight";
+import Sidebar from "../components/Sidebar";
+
+let DEFAULT_SUBREDDITS = [
+  { label: "r/soccer", value: "soccer" },
+  { label: "r/nba", value: "nba" },
+  // { label: "r/nfl", value: "nfl" },
+];
 
 export default function Home({ highlights }) {
-  const [subreddits, setSubreddits] = useState([
-    { label: "r/soccer", value: "soccer" },
-    { label: "r/nba", value: "nba" },
-    { label: "r/nfl", value: "nfl" },
-  ]);
+  const [subreddits, setSubreddits] = useState(DEFAULT_SUBREDDITS);
 
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-100 p-2">
       <Head>
         <title>Reddit Highlights</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex w-full flex-wrap">
-        <div className="w-1/6 bg-gray-200">
-          <div className="flex justify-center p-5 font-bold text-xl">
-            Highlights Deck
-          </div>
-          {subreddits.map((sub) => (
-            <div
-              className="p-5 flex items-center justify-between hover:bg-gray-100 cursor-pointer"
-              key={`subLabel_${sub.value}`}
-            >
-              <div>{sub.label}</div>
-              <img src="/check.svg" alt="Check Icon" />
-            </div>
-          ))}
-        </div>
+      <div className="mx-auto max-w-screen-md">
+        {/*<Sidebar subreddits={subreddits} />*/}
         {subreddits.map((sub, index) => {
-          const subHighlights = highlights[sub.value];
+          const subHighlights = highlights[sub.value].slice(0, 3);
 
           return (
-            <div className="w-full lg:w-1/2 2xl:w-1/4" key={`sub_${index}`}>
-              <div className="text-xl font-bold border-gray-300 border-b p-4 border-r-4">
-                {sub.label}
-              </div>
+            <div className="w-full" key={`sub_${index}`}>
+              {/*<div className="text-xl font-bold p-4">{sub.label}</div>*/}
               <div>
-                {subHighlights?.slice(1, 10).map((highlight) => (
-                  <div
-                    key={`highlight_${index}`}
-                    className="flex flex-row border-gray-300 border-b p-4 border-r-4"
-                  >
-                    <div className="mr-2">
-                      <iframe
-                        src={highlight.url}
-                        frameBorder="0"
-                        allowFullScreen
-                      />
-                    </div>
-                    <div>{highlight.title}</div>
+                {subHighlights?.map((highlight) => (
+                  <div className="mb-4">
+                    <Highlight highlight={highlight} subreddit={sub.label} />
                   </div>
                 ))}
               </div>
