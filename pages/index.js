@@ -51,19 +51,15 @@ export async function getServerSideProps(context) {
 
   try {
     const data = JSON.parse(await redis.get("highlights"));
-    if (data && data.lastupdated + CACHE_TTL > Date.now()) {
+    if (data) {
       console.log("cache hit");
       highlights = data;
+      if (data.lastupdated + CACHE_TTL > Date.now()) {
+        fetchHighlights();
+      }
     } else {
       console.log("cache miss");
-      const response = await axios.get(
-        "https://tja3tkic47.execute-api.eu-central-1.amazonaws.com/serverlessrepo-nba-highlights-helloworld-EAUJQ72BGT8C"
-      );
-      highlights = response.data;
-      redis.set(
-        "highlights",
-        JSON.stringify({ ...highlights, lastupdated: Date.now() })
-      );
+      highlights = await fetchHighlights();
     }
   } catch (error) {}
 
@@ -72,4 +68,16 @@ export async function getServerSideProps(context) {
       highlights,
     },
   };
+}
+
+async function fetchHighlights() {
+  const response = await axios.get(
+    "https://tja3tkic47.execute-api.eu-central-1.amazonaws.com/serverlessrepo-nba-highlights-helloworld-EAUJQ72BGT8C"
+  );
+  let highlights = response.data;
+  await redis.set(
+    "highlights",
+    JSON.stringify({ ...highlights, lastupdated: Date.now() })
+  );
+  return highlights;
 }
