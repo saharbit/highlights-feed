@@ -1,9 +1,22 @@
 import { useState } from "react";
 import Head from "next/head";
 import redis from "../services/redis";
-import axios from "axios";
 import Highlight from "../components/Highlight";
 import Sidebar from "../components/Sidebar";
+
+export async function getServerSideProps(context) {
+  let highlights = {};
+
+  try {
+    highlights = JSON.parse(await redis.get("highlights"));
+  } catch (error) {}
+
+  return {
+    props: {
+      highlights,
+    },
+  };
+}
 
 let DEFAULT_SUBREDDITS = [
   { label: "r/soccer", value: "soccer" },
@@ -18,7 +31,7 @@ export default function Home({ highlights }) {
   return (
     <div className="bg-gray-100 px-2 min-h-screen">
       <Head>
-        <title>Reddit Highlights</title>
+        <title>Highlights Feed</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -45,37 +58,4 @@ export default function Home({ highlights }) {
       </div>
     </div>
   );
-}
-
-const CACHE_TTL = 1000 * 60 * 10;
-
-export async function getServerSideProps(context) {
-  let highlights = {};
-
-  try {
-    const data = JSON.parse(await redis.get("highlights"));
-    if (data) {
-      highlights = data;
-    } else {
-      highlights = await fetchHighlights();
-    }
-  } catch (error) {}
-
-  return {
-    props: {
-      highlights,
-    },
-  };
-}
-
-async function fetchHighlights() {
-  const response = await axios.get(
-    "https://tja3tkic47.execute-api.eu-central-1.amazonaws.com/serverlessrepo-nba-highlights-helloworld-EAUJQ72BGT8C"
-  );
-  let highlights = response.data;
-  redis.set(
-    "highlights",
-    JSON.stringify({ ...highlights, lastupdated: Date.now() })
-  );
-  return highlights;
 }
