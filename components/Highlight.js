@@ -29,7 +29,7 @@ const Highlight = ({ highlight, subreddit }) => {
   return (
     <div
       key={`highlight_${highlight.url}`}
-      className="bg-white rounded-lg shadow-md"
+      className="bg-white rounded-lg shadow-md mb-2"
     >
       <div className="flex justify-between align-center p-2">
         <div className="font-semibold">{subreddit}</div>
