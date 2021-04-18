@@ -9,7 +9,7 @@ const Sidebar = ({ subreddits }) => {
         <img
           src="/cog.svg"
           alt="Cog"
-          className="w-6 cursor-pointer"
+          className="w-5 cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
         />
       </div>
