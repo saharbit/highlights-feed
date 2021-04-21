@@ -4,19 +4,8 @@ import Header from "../components/Header";
 import Subreddits from "../components/Subreddits";
 import Tabs from "../components/Tabs";
 import Highlights from "../components/Highlights";
-
-let DEFAULT_SUBREDDITS = [
-  { label: "r/soccer", value: "soccer" },
-  { label: "r/nba", value: "nba" },
-  { label: "r/nfl", value: "nfl" },
-  { label: "r/formula1", value: "formula1" },
-];
-
-let DEFAULT_TABS = [
-  { label: "Hot", value: "hot" },
-  { label: "Top", value: "top" },
-  { label: "New", value: "new" },
-];
+import { DEFAULT_SUBREDDITS } from "../consts/subreddits";
+import { DEFAULT_TABS } from "../consts/tabs";
 
 export default function Home() {
   const [subreddits, setSubreddits] = useState(
@@ -40,9 +29,9 @@ export default function Home() {
         <div className="hidden w-0 md:w-1/4 md:block">
           <Tabs tabs={DEFAULT_TABS} currentTab={tab} setTab={setTab} />
         </div>
-        <div className="w-full md:px-2 md:border-r-2 md:border-l-2 md:w-2/4 min-h-screen">
+        <div className="w-full md:px-2 md:border-r-2 md:border-l-2 md:w-2/4 min-h-screen pb-6">
           <Header />
-          <Highlights subreddits={subreddits} />
+          <Highlights subreddits={subreddits.filter((sub) => sub.isSelected)} />
         </div>
         <div className="hidden w-0 md:w-1/4 md:block">
           <Subreddits subreddits={subreddits} setSubreddits={setSubreddits} />
