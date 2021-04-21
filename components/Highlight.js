@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
+import { motion } from "framer-motion";
 
 const Highlight = ({ highlight, subreddit }) => {
   const [erroredOut, setErroredOut] = useState(false);
@@ -48,9 +49,10 @@ const Highlight = ({ highlight, subreddit }) => {
       <div className="flex flex-col">
         <div className="mb-2 px-2">{highlight.title}</div>
         <div className="flex border">
-          <div
+          <motion.div
             className="w-full flex p-2 border-r text-sm justify-center cursor-pointer hover:bg-gray-50 transition-all"
             onClick={() => setIsLiked(!isLiked)}
+            whileTap={{ scale: 0.8 }}
           >
             <img
               src={isLiked ? "/like-solid.svg" : "/like.svg"}
@@ -58,18 +60,22 @@ const Highlight = ({ highlight, subreddit }) => {
               className="w-5 mr-2"
             />
             <div>Like</div>
-          </div>
-          <div
+          </motion.div>
+          <motion.div
             className="w-full flex p-2 border-r text-sm justify-center cursor-pointer hover:bg-gray-50 transition-all"
             onClick={share}
+            whileTap={{ scale: 0.8 }}
           >
             <img src="/share.svg" alt="Share" className="w-5 mr-2" />
             <div>Share</div>
-          </div>
-          <div className="w-full flex p-2 text-sm justify-center cursor-pointer hover:bg-gray-50 transition-all">
+          </motion.div>
+          <motion.div
+            className="w-full flex p-2 text-sm justify-center cursor-pointer hover:bg-gray-50 transition-all"
+            whileTap={{ scale: 0.8 }}
+          >
             <img src="/comment.svg" alt="Comment" className="w-5 mr-2" />
             <div>Post</div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
