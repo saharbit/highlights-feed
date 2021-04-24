@@ -7,14 +7,7 @@ import Highlights from "../components/Highlights";
 import { DEFAULT_SUBREDDITS } from "../consts/subreddits";
 import { DEFAULT_TABS } from "../consts/tabs";
 import SearchInput from "../components/SearchInput";
-
-function HighlightsFeedLogo() {
-  return (
-    <div className="width-full text-lg text-center font-bold my-3">
-      <span className="mr-2">🏆</span> Highlights Feed
-    </div>
-  );
-}
+import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 
 export default function Home() {
   const [subreddits, setSubreddits] = useState(
