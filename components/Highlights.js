@@ -2,6 +2,7 @@ import React from "react";
 import useSWR from "swr";
 import fetcher from "../services/fetcher";
 import Highlight from "./Highlight";
+import HighlightSkeleton from "./HighlightSkeleton";
 
 const Highlights = ({ subreddits, search }) => {
   const { data, error } = useSWR("/api/highlights", fetcher);
@@ -9,16 +10,7 @@ const Highlights = ({ subreddits, search }) => {
   if (!data) {
     return Array(10)
       .fill(0)
-      .map((_) => (
-        <div className="flex animate-pulse">
-          <div className="flex-1 space-y-2 mb-4">
-            <div className="h-4 bg-gray-300 rounded w-3/12" />
-            <div className="h-4 bg-gray-300 rounded w-full h-64" />
-            <div className="h-4 bg-gray-300 rounded w-full" />
-            <div className="h-4 bg-gray-300 rounded w-full" />
-          </div>
-        </div>
-      ));
+      .map((_) => <HighlightSkeleton />);
   }
 
   return (
