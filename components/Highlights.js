@@ -1,8 +1,8 @@
 import React from "react";
 import useSWR from "swr";
 import fetcher from "../services/fetcher";
-import Highlight from "./Highlight";
-import HighlightSkeleton from "./HighlightSkeleton";
+import Highlight from "./Highlight/Highlight";
+import HighlightSkeleton from "./Highlight/HighlightSkeleton";
 
 const Highlights = ({ subreddits, search }) => {
   const { data, error } = useSWR("/api/highlights", fetcher);

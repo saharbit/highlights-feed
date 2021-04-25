@@ -1,13 +1,14 @@
 import React from "react";
+import { DEFAULT_TABS } from "../consts/tabs";
 
-const Tabs = ({ tabs, currentTab, setTab }) => {
+const Tabs = ({ currentTab, setTab }) => {
   return (
     <div>
-      {tabs.map((tab) => {
+      {DEFAULT_TABS.map((tab) => {
         const isSelected = currentTab.value === tab.value;
         return (
           <div
-            className="px-2 py-4 flex items-center hover:bg-gray-200 cursor-pointer transition-all"
+            className="px-2 py-4 flex items-center hover:bg-gray-200 cursor-pointer transition-all rounded-lg"
             key={`subLabel_${tab.value}`}
             onClick={() => setTab(tab)}
           >

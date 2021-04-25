@@ -47,3 +47,8 @@ export const DEFAULT_SUBREDDITS = [
     value: "mma",
   },
 ];
+
+export const DEFAULT_SUBREDDITS_STATE = DEFAULT_SUBREDDITS.map((sub) => ({
+  ...sub,
+  isSelected: true,
+}));

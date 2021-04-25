@@ -10,7 +10,7 @@ function SearchInput({ search, setSearch, className }) {
     >
       <SearchIcon className="w-5 mr-3" color="#9CA3AF" />
       <input
-        className="outline-none bg-gray-200 w-full"
+        className="outline-none bg-gray-200 w-full overflow-ellipsis"
         placeholder="Search Highlights"
         value={search}
         onChange={(e) => setSearch(e.target.value)}

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Subreddits = ({ subreddits, setSubreddits }) => {
+const Subreddits = ({ subreddits, setSubreddits, onClose }) => {
   function selectSub(sub) {
     setSubreddits(
       subreddits.map((x) =>
@@ -10,12 +10,17 @@ const Subreddits = ({ subreddits, setSubreddits }) => {
   }
 
   return (
-    <div className="bg-gray-200 rounded-xl">
-      <div className="font-bold text-xl px-4 py-3">Subreddits</div>
+    <div className="bg-gray-100 rounded-xl">
+      <div className="flex justify-between items-center px-4 py-3">
+        <div className="font-bold text-xl">Subreddits</div>
+        {onClose && (
+          <img src="/close.svg" alt="Close" className="w-4" onClick={onClose} />
+        )}
+      </div>
       {subreddits.map((sub) => {
         return (
           <div
-            className="py-4 px-3 flex items-center justify-between hover:bg-gray-50 transition-all cursor-pointer"
+            className="py-4 px-3 flex items-center justify-between hover:bg-gray-200 transition-all cursor-pointer rounded-lg"
             key={`subLabel_${sub.value}`}
             onClick={() => selectSub(sub)}
           >

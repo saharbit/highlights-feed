@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
-import { motion } from "framer-motion";
+import dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime";
+import HighlightButton from "./HighlightButton";
+dayjs.extend(relativeTime);
 
 const Highlight = ({ highlight, subreddit }) => {
   const [erroredOut, setErroredOut] = useState(false);
@@ -32,8 +35,15 @@ const Highlight = ({ highlight, subreddit }) => {
       key={`highlight_${highlight.url}`}
       className="bg-white rounded-lg shadow-md mb-2"
     >
-      <div className="flex justify-between align-center p-2">
-        <div className="font-semibold">{subreddit}</div>
+      <div className="flex justify-between p-2">
+        <div className="flex items-center">
+          <div className="font-semibold">{subreddit}</div>
+          {highlight.date && (
+            <div className="ml-1 text-gray-400 text-sm">
+              • {dayjs(highlight.date).fromNow()}
+            </div>
+          )}
+        </div>
         <img src="/dots.svg" alt="Dots" className="w-5 mr-1" />
       </div>
       <div className="player-wrapper mb-2">
@@ -49,29 +59,18 @@ const Highlight = ({ highlight, subreddit }) => {
       <div className="flex flex-col">
         <div className="mb-2 px-2">{highlight.title}</div>
         <div className="flex border-t">
-          <motion.div
-            className="w-full flex p-2 text-sm justify-center cursor-pointer md:hover:bg-gray-100 transition-all"
-            onClick={() => setIsLiked(!isLiked)}
-            whileTap={{ scale: 0.9 }}
-          >
+          <HighlightButton onClick={() => setIsLiked(!isLiked)}>
             <img src={"/like.svg"} alt="Like" className={`w-5 mr-2`} />
             <div className={isLiked ? "font-bold" : ""}>Like</div>
-          </motion.div>
-          <motion.div
-            className="w-full flex p-2 text-sm justify-center cursor-pointer md:hover:bg-gray-100 transition-all"
-            onClick={share}
-            whileTap={{ scale: 0.9 }}
-          >
+          </HighlightButton>
+          <HighlightButton onClick={share}>
             <img src="/share.svg" alt="Share" className="w-5 mr-2" />
             <div>Share</div>
-          </motion.div>
-          <motion.div
-            className="w-full flex p-2 text-sm justify-center cursor-pointer md:hover:bg-gray-100 transition-all"
-            whileTap={{ scale: 0.9 }}
-          >
+          </HighlightButton>
+          <HighlightButton>
             <img src="/comment.svg" alt="Comment" className="w-5 mr-2" />
-            <div>Comments</div>
-          </motion.div>
+            <div>Post</div>
+          </HighlightButton>
         </div>
       </div>
     </div>
