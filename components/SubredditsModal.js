@@ -26,7 +26,7 @@ const modalStyles = {
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: "rgba(255, 255, 255, 0.65)",
+    backgroundColor: "rgba(0,0,0, 0.45)",
     zIndex: "20",
   },
   content: {
@@ -35,13 +35,14 @@ const modalStyles = {
     left: "0px",
     right: "0px",
     bottom: "0px",
-    background: "#E5E7EB",
+    background: "#fafafa",
     overflow: "auto",
     padding: "0px",
     WebkitOverflowScrolling: "touch",
     borderTopLeftRadius: "25px",
     borderTopRightRadius: "25px",
     outline: "none",
+    border: "0px",
   },
 };
 

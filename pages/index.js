@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Subreddits from "../components/Subreddits";
@@ -9,11 +9,16 @@ import SearchInput from "../components/SearchInput";
 import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Navbar from "../components/Navbar";
 import { DEFAULT_TABS } from "../consts/tabs";
+import Saved from "../components/Saved";
 
 export default function Home() {
   const [subreddits, setSubreddits] = useState(DEFAULT_SUBREDDITS_STATE);
   const [tab, setTab] = useState(DEFAULT_TABS[0]);
   const [search, setSearch] = useState("");
+  const selectedSubreddits = useMemo(
+    () => subreddits.filter((sub) => sub.isSelected),
+    [subreddits]
+  );
 
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -38,10 +43,12 @@ export default function Home() {
             subreddits={subreddits}
             setSubreddits={setSubreddits}
           />
-          <Highlights
-            subreddits={subreddits.filter((sub) => sub.isSelected)}
-            search={search}
-          />
+          {tab.value === DEFAULT_TABS[0].value && (
+            <Highlights subreddits={selectedSubreddits} search={search} />
+          )}
+          {tab.value === DEFAULT_TABS[2].value && (
+            <Saved search={search} subreddits={selectedSubreddits} />
+          )}
         </div>
         <div className="hidden w-0 md:w-3/12 md:block p-2">
           <SearchInput search={search} setSearch={setSearch} className="mb-4" />

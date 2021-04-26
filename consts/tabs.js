@@ -6,15 +6,15 @@ export const DEFAULT_TABS = [
     activeIcon: "/home-solid.svg",
   },
   {
-    label: "Top",
-    value: "top",
-    icon: "/heart.svg",
-    activeIcon: "/heart-solid.svg",
-  },
-  {
     label: "New",
     value: "new",
     icon: "/trending.svg",
     activeIcon: "/trending.svg",
+  },
+  {
+    label: "Saved",
+    value: "saved",
+    icon: "/heart.svg",
+    activeIcon: "/heart-solid.svg",
   },
 ];

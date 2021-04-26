@@ -10,8 +10,8 @@ const Subreddits = ({ subreddits, setSubreddits, onClose }) => {
   }
 
   return (
-    <div className="bg-gray-100 rounded-xl">
-      <div className="flex justify-between items-center px-4 py-3">
+    <div className="rounded-xl">
+      <div className="flex justify-between items-center px-4 pt-3 pb-4">
         <div className="font-bold text-xl">Subreddits</div>
         {onClose && (
           <img src="/close.svg" alt="Close" className="w-4" onClick={onClose} />
@@ -20,7 +20,7 @@ const Subreddits = ({ subreddits, setSubreddits, onClose }) => {
       {subreddits.map((sub) => {
         return (
           <div
-            className="py-4 px-3 flex items-center justify-between hover:bg-gray-200 transition-all cursor-pointer rounded-lg"
+            className="py-4 px-3 flex items-center justify-between md:hover:bg-gray-200 transition-all cursor-pointer rounded-lg"
             key={`subLabel_${sub.value}`}
             onClick={() => selectSub(sub)}
           >

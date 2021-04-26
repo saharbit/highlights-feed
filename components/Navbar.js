@@ -1,10 +1,10 @@
 import React from "react";
-import SearchIcon from "./SearchIcon";
+import SearchIcon from "../icons/SearchIcon";
 import { DEFAULT_TABS } from "../consts/tabs";
 
 const Navbar = ({ currentTab, setTab }) => {
   return (
-    <div className="fixed bg-white border-t h-12 w-full bottom-0 z-10 flex justify-between md:hidden">
+    <div className="fixed bg-white border-t-2 h-12 w-full bottom-0 z-10 flex justify-between md:hidden">
       {DEFAULT_TABS.map((tab) => {
         const isSelected = currentTab.value === tab.value;
 

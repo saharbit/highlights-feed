@@ -1,11 +1,15 @@
-import React from "react";
-import useSWR from "swr";
-import fetcher from "../services/fetcher";
-import Highlight from "./Highlight/Highlight";
+import React, { useEffect, useState } from "react";
 import HighlightSkeleton from "./Highlight/HighlightSkeleton";
+import Highlight from "./Highlight/Highlight";
 
-const Highlights = ({ subreddits, search }) => {
-  const { data, error } = useSWR("/api/highlights", fetcher);
+const Saved = ({ subreddits }) => {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const savedHighlights =
+      JSON.parse(localStorage.getItem("savedHighlights")) || {};
+    setData(savedHighlights);
+  }, []);
 
   if (!data) {
     return Array(10)
@@ -27,11 +31,9 @@ const Highlights = ({ subreddits, search }) => {
         );
       })}
       <div className="flex flex-col items-center my-12">
-        <div className="font-bold text-lg text-gray-600">
-          That's it for today!
-        </div>
+        <div className="font-bold text-lg text-gray-600">No saved videos</div>
         <div className="text-gray-600">
-          Add subreddits or come back tomorrow{" "}
+          Change subreddits or save a video{" "}
           <span aria-label="celebrate" role="img">
             🎉
           </span>
@@ -41,4 +43,4 @@ const Highlights = ({ subreddits, search }) => {
   );
 };
 
-export default Highlights;
+export default Saved;
