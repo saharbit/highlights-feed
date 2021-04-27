@@ -8,13 +8,13 @@ import { DEFAULT_SUBREDDITS_STATE } from "../consts/subreddits";
 import SearchInput from "../components/SearchInput";
 import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Navbar from "../components/Navbar";
-import { DEFAULT_TABS } from "../consts/tabs";
+import { TABS } from "../consts/tabs";
 import Saved from "../components/Saved";
 import New from "../components/New";
 
 export default function Home() {
   const [subreddits, setSubreddits] = useState(DEFAULT_SUBREDDITS_STATE);
-  const [tab, setTab] = useState(DEFAULT_TABS[0]);
+  const [tab, setTab] = useState(TABS[0]);
   const [search, setSearch] = useState("");
   const selectedSubreddits = useMemo(
     () => subreddits.filter((sub) => sub.isSelected),
@@ -44,11 +44,11 @@ export default function Home() {
             subreddits={subreddits}
             setSubreddits={setSubreddits}
           />
-          {tab.value === DEFAULT_TABS[0].value && (
+          {tab.value === TABS[0].value && (
             <Highlights subreddits={selectedSubreddits} search={search} />
           )}
-          {tab.value === DEFAULT_TABS[1].value && <New />}
-          {tab.value === DEFAULT_TABS[2].value && (
+          {tab.value === TABS[1].value && <New />}
+          {tab.value === TABS[2].value && (
             <Saved search={search} subreddits={selectedSubreddits} />
           )}
         </div>

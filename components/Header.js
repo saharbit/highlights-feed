@@ -3,13 +3,13 @@ import Modal from "react-modal";
 import Subreddits from "./Subreddits";
 import SubredditsModal from "./SubredditsModal";
 
-const Header = ({ tab, subreddits, setSubreddits }) => {
+const Header = ({ tab: { label, Icon }, subreddits, setSubreddits }) => {
   const [isSubredditsModalOpen, setIsSubredditsModalOpen] = useState(false);
   return (
     <div className="flex justify-between px-2 py-3">
-      <div className="flex">
-        <img src={tab.activeIcon} alt="Icon" className="w-6 mr-2" />
-        <div className="font-bold text-xl">{tab.label}</div>
+      <div className="flex items-center">
+        <Icon className="w-6 h-6 mr-2" />
+        <div className="font-bold text-xl">{label}</div>
       </div>
       <div
         onClick={() => setIsSubredditsModalOpen(true)}

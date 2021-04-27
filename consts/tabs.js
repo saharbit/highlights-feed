@@ -1,20 +1,46 @@
-export const DEFAULT_TABS = [
+import FireIcon from "../icons/FireIcon";
+import ChartIcon from "../icons/ChartIcon";
+import HeartIcon from "../icons/HeartIcon";
+import React from "react";
+import SearchIcon from "../icons/SearchIcon";
+
+export const TABS = [
   {
     label: "Hot",
     value: "hot",
-    icon: "/home.svg",
-    activeIcon: "/home-solid.svg",
+    Icon: FireIcon,
   },
   {
-    label: "New",
-    value: "new",
-    icon: "/trending.svg",
-    activeIcon: "/trending.svg",
+    label: "Rising",
+    value: "rising",
+    Icon: ChartIcon,
   },
   {
     label: "Saved",
     value: "saved",
-    icon: "/heart.svg",
-    activeIcon: "/heart-solid.svg",
+    Icon: HeartIcon,
+  },
+];
+
+export const MOBILE_TABS = [
+  {
+    label: "Hot",
+    value: "hot",
+    Icon: FireIcon,
+  },
+  {
+    label: "Rising",
+    value: "rising",
+    Icon: ChartIcon,
+  },
+  {
+    label: "Saved",
+    value: "saved",
+    Icon: HeartIcon,
+  },
+  {
+    label: "Search",
+    value: "search",
+    Icon: SearchIcon,
   },
 ];

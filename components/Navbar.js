@@ -1,31 +1,28 @@
 import React from "react";
-import SearchIcon from "../icons/SearchIcon";
-import { DEFAULT_TABS } from "../consts/tabs";
+import { MOBILE_TABS } from "../consts/tabs";
+
+function Tab({ label, Icon, children, isActive, ...props }) {
+  return (
+    <div className="flex w-full justify-center items-center" {...props}>
+      <Icon src={Icon} className="w-6" color={isActive ? "red" : "black"} />
+    </div>
+  );
+}
 
 const Navbar = ({ currentTab, setTab }) => {
   return (
     <div className="fixed bg-white border-t w-full bottom-0 z-10 md:hidden safe-bottom">
-      <div className="flex justify-between p-2">
-        {DEFAULT_TABS.map((tab) => {
-          const isSelected = currentTab.value === tab.value;
-
+      <div className="flex justify-between p-3">
+        {MOBILE_TABS.map((tab) => {
           return (
-            <div
-              className="flex w-full justify-center items-center"
+            <Tab
               onClick={() => setTab(tab)}
-              key={tab.value}
-            >
-              <img
-                src={isSelected ? tab.activeIcon : tab.icon}
-                alt="icon"
-                className="w-6"
-              />
-            </div>
+              label={tab.label}
+              Icon={tab.Icon}
+              isActive={currentTab.value === tab.value}
+            />
           );
         })}
-        <div className="flex w-full justify-center items-center">
-          <SearchIcon className="w-6" />
-        </div>
       </div>
     </div>
   );

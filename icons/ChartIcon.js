@@ -1,6 +1,6 @@
 import React from "react";
 
-const ChartIcon = () => {
+const ChartIcon = ({ ...props }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,6 +8,7 @@ const ChartIcon = () => {
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
+      {...props}
     >
       <path
         strokeLinecap="round"
