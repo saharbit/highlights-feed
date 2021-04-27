@@ -30,3 +30,7 @@ body {
 .ReactModal__Overlay--before-close {
   opacity: 0;
 }
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}

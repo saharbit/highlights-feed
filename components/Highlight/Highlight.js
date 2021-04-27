@@ -93,11 +93,11 @@ const Highlight = ({ highlight, subreddit }) => {
               stroke={isSaved ? "#EF4444" : "black"}
               fill={isSaved ? "#EF4444" : "none"}
             />
-            <div className={isSaved ? "text-red-500" : ""}>
+            <div className={isSaved ? "font-semibold" : ""}>
               {isSaved ? "Saved" : "Save"}
             </div>
           </HighlightButton>
-          <div className="border-r"></div>
+          <span className="border-r" />
           <HighlightButton onClick={share}>
             <img src="/share.svg" alt="Share" className="w-5 mr-2" />
             <div className="">Share</div>

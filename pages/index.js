@@ -10,6 +10,7 @@ import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Navbar from "../components/Navbar";
 import { DEFAULT_TABS } from "../consts/tabs";
 import Saved from "../components/Saved";
+import New from "../components/New";
 
 export default function Home() {
   const [subreddits, setSubreddits] = useState(DEFAULT_SUBREDDITS_STATE);
@@ -46,6 +47,7 @@ export default function Home() {
           {tab.value === DEFAULT_TABS[0].value && (
             <Highlights subreddits={selectedSubreddits} search={search} />
           )}
+          {tab.value === DEFAULT_TABS[1].value && <New />}
           {tab.value === DEFAULT_TABS[2].value && (
             <Saved search={search} subreddits={selectedSubreddits} />
           )}

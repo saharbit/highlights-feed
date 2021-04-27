@@ -22,7 +22,6 @@ const Header = ({ tab, subreddits, setSubreddits }) => {
         onRequestClose={() => setIsSubredditsModalOpen(false)}
         subreddits={subreddits}
         setSubreddits={setSubreddits}
-        onClose={() => setIsSubredditsModalOpen(false)}
       />
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "react-modal";
 import Subreddits from "./Subreddits";
 
-const SubredditsModal = ({ subreddits, setSubreddits, onClose, ...props }) => {
+const SubredditsModal = ({ subreddits, setSubreddits, ...props }) => {
   return (
     <Modal
       closeTimeoutMS={200}
@@ -10,11 +10,7 @@ const SubredditsModal = ({ subreddits, setSubreddits, onClose, ...props }) => {
       style={modalStyles}
       {...props}
     >
-      <Subreddits
-        subreddits={subreddits}
-        setSubreddits={setSubreddits}
-        onClose={onClose}
-      />
+      <Subreddits subreddits={subreddits} setSubreddits={setSubreddits} />
     </Modal>
   );
 };
@@ -26,7 +22,7 @@ const modalStyles = {
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: "rgba(0,0,0, 0.45)",
+    backgroundColor: "rgba(0,0,0, 0.55)",
     zIndex: "20",
   },
   content: {
