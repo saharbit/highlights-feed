@@ -86,10 +86,10 @@ const Highlight = ({ highlight, subreddit }) => {
       </div>
       <div className="flex flex-col">
         <div className="mb-2 px-2">{highlight.title}</div>
-        <div className="flex border-t">
+        <div className="flex items-center border-t">
           <HighlightButton onClick={save}>
             <HeartIcon
-              className="w-5 mr-2"
+              className="w-5 h-5 mr-2"
               stroke={isSaved ? "#EF4444" : "black"}
               fill={isSaved ? "#EF4444" : "none"}
             />
@@ -99,7 +99,7 @@ const Highlight = ({ highlight, subreddit }) => {
           </HighlightButton>
           <span className="border-r" />
           <HighlightButton onClick={share}>
-            <img src="/share.svg" alt="Share" className="w-5 mr-2" />
+            <img src="/share.svg" alt="Share" className="w-5 h-5 mr-2" />
             <div className="">Share</div>
           </HighlightButton>
         </div>
