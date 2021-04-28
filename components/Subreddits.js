@@ -1,7 +1,7 @@
 import React from "react";
 import CheckIcon from "../icons/CheckIcon";
 
-const Subreddits = ({ subreddits, setSubreddits, onClose }) => {
+const Subreddits = ({ subreddits, setSubreddits }) => {
   function selectSub(sub) {
     setSubreddits(
       subreddits.map((x) =>
@@ -22,8 +22,11 @@ const Subreddits = ({ subreddits, setSubreddits, onClose }) => {
             key={`subLabel_${sub.value}`}
             onClick={() => selectSub(sub)}
           >
-            <div className={sub.isSelected ? "font-semibold" : ""}>
-              {sub.label}
+            <div className="flex">
+              <div className="mr-2">{sub.icon}</div>
+              <div className={sub.isSelected ? "font-semibold" : ""}>
+                {sub.label}
+              </div>
             </div>
             {sub.isSelected && <CheckIcon />}
           </div>

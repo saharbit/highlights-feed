@@ -1,54 +1,34 @@
-export const DEFAULT_SUBREDDITS = [
-  {
-    label: (
-      <div>
-        <span className="mr-3">⚽️</span>r/soccer
-      </div>
-    ),
-    value: "soccer",
+export const SUBREDDITS = {
+  soccer: {
+    icon: "⚽",
+    label: "r/soccer",
   },
-  {
-    label: (
-      <div>
-        <span className="mr-3">🏀️</span>r/nba
-      </div>
-    ),
-    value: "nba",
+  nba: {
+    icon: "🏀",
+    label: "r/nba",
   },
-  {
-    label: (
-      <div>
-        <span className="mr-3">🏈</span>r/nfl
-      </div>
-    ),
+  nfl: {
+    icon: "🏈",
+    label: "r/nfl",
   },
-  {
-    label: (
-      <div>
-        <span className="mr-3">🏎</span>r/formula1
-      </div>
-    ),
-    value: "formula1",
+  formula1: {
+    icon: "🏎",
+    label: "r/formula1",
   },
-  {
-    label: (
-      <div>
-        <span className="mr-3">⚾️</span>r/baseball
-      </div>
-    ),
-    value: "baseball",
+  baseball: {
+    icon: "⚾",
+    label: "r/baseball",
   },
-  {
-    label: (
-      <div>
-        <span className="mr-3">🥊️</span>r/mma
-      </div>
-    ),
-    value: "mma",
+  mma: {
+    icon: "🥊",
+    label: "r/mma",
   },
-];
+};
 
-export const DEFAULT_SUBREDDITS_STATE = DEFAULT_SUBREDDITS.map((sub) => ({
-  ...sub,
-  isSelected: true,
-}));
+export const SUBREDDITS_STATE = Object.entries(SUBREDDITS).map(
+  ([value, sub]) => ({
+    ...sub,
+    value,
+    isSelected: true,
+  })
+);

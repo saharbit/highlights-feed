@@ -3,7 +3,7 @@ import { MOBILE_TABS } from "../consts/tabs";
 
 function Tab({ label, Icon, children, isActive, ...props }) {
   return (
-    <div className="flex w-full justify-center items-center" {...props}>
+    <div className="flex w-full justify-center items-center p-3" {...props}>
       <Icon src={Icon} className="w-6" color={isActive ? "red" : "black"} />
     </div>
   );
@@ -12,7 +12,7 @@ function Tab({ label, Icon, children, isActive, ...props }) {
 const Navbar = ({ currentTab, setTab }) => {
   return (
     <div className="fixed bg-white border-t w-full bottom-0 z-10 md:hidden safe-bottom">
-      <div className="flex justify-between p-3">
+      <div className="flex justify-between">
         {MOBILE_TABS.map((tab) => {
           return (
             <Tab

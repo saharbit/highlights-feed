@@ -23,21 +23,7 @@ export const TABS = [
 ];
 
 export const MOBILE_TABS = [
-  {
-    label: "Hot",
-    value: "hot",
-    Icon: FireIcon,
-  },
-  {
-    label: "Rising",
-    value: "rising",
-    Icon: ChartIcon,
-  },
-  {
-    label: "Saved",
-    value: "saved",
-    Icon: HeartIcon,
-  },
+  ...TABS,
   {
     label: "Search",
     value: "search",

@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Subreddits from "../components/Subreddits";
 import Tabs from "../components/Tabs";
 import Highlights from "../components/Highlights";
-import { DEFAULT_SUBREDDITS_STATE } from "../consts/subreddits";
+import { SUBREDDITS_STATE } from "../consts/subreddits";
 import SearchInput from "../components/SearchInput";
 import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Navbar from "../components/Navbar";
@@ -13,7 +13,7 @@ import Saved from "../components/Saved";
 import New from "../components/New";
 
 export default function Home() {
-  const [subreddits, setSubreddits] = useState(DEFAULT_SUBREDDITS_STATE);
+  const [subreddits, setSubreddits] = useState(SUBREDDITS_STATE);
   const [tab, setTab] = useState(TABS[0]);
   const [search, setSearch] = useState("");
   const selectedSubreddits = useMemo(
