@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import useSWR from "swr";
-import fetcher from "../services/fetcher";
-import Highlight from "./Highlight/Highlight";
-import HighlightSkeleton from "./Highlight/HighlightSkeleton";
-import { SUBREDDITS } from "../consts/subreddits";
+import fetcher from "../../services/fetcher";
+import Highlight from "../Highlight/Highlight";
+import HighlightSkeleton from "../Highlight/HighlightSkeleton";
+import { SUBREDDITS } from "../../consts/subreddits";
 import dayjs from "dayjs";
 
 const Highlights = ({ subreddits, search }) => {
@@ -47,6 +47,10 @@ const Highlights = ({ subreddits, search }) => {
         .filter((highlight) => selectedSubs.has(highlight.sub))
     );
   }, [highlights, search, subreddits]);
+
+  if (error) {
+    return null;
+  }
 
   if (!data) {
     return Array(10)

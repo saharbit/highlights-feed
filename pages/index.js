@@ -3,14 +3,14 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Subreddits from "../components/Subreddits";
 import Tabs from "../components/Tabs";
-import Highlights from "../components/Highlights";
+import Highlights from "../components/Hot/Highlights";
 import { SUBREDDITS_STATE } from "../consts/subreddits";
 import SearchInput from "../components/SearchInput";
 import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Navbar from "../components/Navbar";
 import { TABS } from "../consts/tabs";
-import Saved from "../components/Saved";
-import New from "../components/New";
+import Saved from "../components/Saved/Saved";
+import New from "../components/New/New";
 
 export default function Home() {
   const [subreddits, setSubreddits] = useState(SUBREDDITS_STATE);
