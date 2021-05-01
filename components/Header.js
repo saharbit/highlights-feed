@@ -6,6 +6,7 @@ import BoxesIcon from "../icons/BoxesIcon";
 
 const Header = ({ tab: { label, Icon }, subreddits, setSubreddits }) => {
   const [isSubredditsModalOpen, setIsSubredditsModalOpen] = useState(false);
+
   return (
     <div className="flex justify-between items-center px-2 py-3">
       <div className="flex items-center">

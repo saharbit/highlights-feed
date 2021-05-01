@@ -4,12 +4,7 @@ import Subreddits from "./Subreddits";
 
 const SubredditsModal = ({ subreddits, setSubreddits, ...props }) => {
   return (
-    <Modal
-      closeTimeoutMS={200}
-      contentLabel="modal"
-      style={modalStyles}
-      {...props}
-    >
+    <Modal contentLabel="modal" style={modalStyles} {...props}>
       <Subreddits subreddits={subreddits} setSubreddits={setSubreddits} />
     </Modal>
   );

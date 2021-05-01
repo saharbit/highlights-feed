@@ -30,7 +30,7 @@ const Highlight = ({ highlight }) => {
   return (
     <div
       key={`highlight_${highlight.url}`}
-      className="bg-white rounded-lg shadow-md mb-2"
+      className="rounded-lg mb-3 bg-gray-100 border"
     >
       <div className="flex justify-between p-2">
         <div className="flex items-center">
@@ -42,7 +42,6 @@ const Highlight = ({ highlight }) => {
             </div>
           )}
         </div>
-        <img src="/dots.svg" alt="Dots" className="w-5 mr-1" />
       </div>
       <div className="player-wrapper mb-2">
         <ReactPlayer
@@ -56,7 +55,7 @@ const Highlight = ({ highlight }) => {
       </div>
       <div className="flex flex-col">
         <div className="mb-2 px-2">{highlight.title}</div>
-        <div className="flex items-center border-t divide-x">
+        <div className="flex items-center border-t border-gray-200 divide-x divide-gray-200">
           <HighlightButton onClick={save}>
             <HeartIcon
               className="w-5 h-5 mr-2"

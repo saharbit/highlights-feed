@@ -35,6 +35,7 @@ const Highlights = ({ subreddits, search }) => {
 
   useEffect(() => {
     const selectedSubs = new Set();
+
     for (let sub of subreddits) {
       selectedSubs.add(sub.value);
     }
