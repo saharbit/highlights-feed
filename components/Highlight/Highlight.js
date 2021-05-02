@@ -28,10 +28,7 @@ const Highlight = ({ highlight }) => {
   }
 
   return (
-    <div
-      key={`highlight_${highlight.url}`}
-      className="rounded-lg mb-3 bg-gray-100 border"
-    >
+    <div key={`highlight_${highlight.url}`} className="rounded-lg mb-3 border">
       <div className="flex justify-between p-2">
         <div className="flex items-center">
           <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>

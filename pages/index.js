@@ -1,18 +1,35 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Subreddits from "../components/Subreddits";
 import Tabs from "../components/Tabs";
 import Highlights from "../components/Hot/Highlights";
-import { SUBREDDITS_STATE } from "../consts/subreddits";
+import { SUBREDDITS, SUBREDDITS_STATE } from "../consts/subreddits";
 import SearchInput from "../components/SearchInput";
 import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Navbar from "../components/Navbar";
 import { TABS } from "../consts/tabs";
 import Saved from "../components/Saved/Saved";
 import New from "../components/New/New";
+import useSWR from "swr";
+import fetcher from "../services/fetcher";
 
 export default function Home() {
+  const { data, error } = useSWR("/api/highlights", fetcher);
+  const hotHighlights = useMemo(() => {
+    let list = [];
+    if (!data) {
+      return list;
+    }
+    for (let [sub, categories] of Object.entries(data)) {
+      if (sub !== "lastupdated") {
+        list.push(
+          ...categories["top"].map((highlight) => ({ ...highlight, sub }))
+        );
+      }
+    }
+    return list;
+  }, [data]);
   const [subreddits, setSubreddits] = useState(SUBREDDITS_STATE);
   const [tab, setTab] = useState(TABS[0]);
   const [search, setSearch] = useState("");
@@ -45,7 +62,11 @@ export default function Home() {
             setSubreddits={setSubreddits}
           />
           {tab.value === TABS[0].value && (
-            <Highlights subreddits={selectedSubreddits} search={search} />
+            <Highlights
+              subreddits={selectedSubreddits}
+              search={search}
+              highlights={hotHighlights}
+            />
           )}
           {tab.value === TABS[1].value && <New />}
           {tab.value === TABS[2].value && (
