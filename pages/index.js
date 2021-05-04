@@ -3,40 +3,23 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Subreddits from "../components/Subreddits";
 import Tabs from "../components/Tabs";
-import Highlights from "../components/Hot/Highlights";
-import { SUBREDDITS, SUBREDDITS_STATE } from "../consts/subreddits";
+import Hot from "../components/Hot/Hot";
 import SearchInput from "../components/SearchInput";
 import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Navbar from "../components/Navbar";
 import { TABS } from "../consts/tabs";
 import Saved from "../components/Saved/Saved";
 import New from "../components/New/New";
-import useSWR from "swr";
-import fetcher from "../services/fetcher";
+import { fetchHighlights, setSearch } from "../store/appState";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function Home() {
-  const { data, error } = useSWR("/api/highlights", fetcher);
-  const hotHighlights = useMemo(() => {
-    let list = [];
-    if (!data) {
-      return list;
-    }
-    for (let [sub, categories] of Object.entries(data)) {
-      if (sub !== "lastupdated") {
-        list.push(
-          ...categories["top"].map((highlight) => ({ ...highlight, sub }))
-        );
-      }
-    }
-    return list;
-  }, [data]);
-  const [subreddits, setSubreddits] = useState(SUBREDDITS_STATE);
-  const [tab, setTab] = useState(TABS[0]);
-  const [search, setSearch] = useState("");
-  const selectedSubreddits = useMemo(
-    () => subreddits.filter((sub) => sub.isSelected),
-    [subreddits]
-  );
+  const dispatch = useDispatch();
+  const { search, tab } = useSelector((state) => state.appState);
+
+  useEffect(() => {
+    dispatch(fetchHighlights());
+  }, []);
 
   return (
     <div className="min-h-screen">
@@ -53,33 +36,25 @@ export default function Home() {
       <div className="flex max-w-screen-xl mx-auto px-2">
         <div className="hidden w-0 md:w-3/12 md:block p-2">
           <HighlightsFeedLogo />
-          <Tabs currentTab={tab} setTab={setTab} />
+          <Tabs />
         </div>
-        <div className="w-full md:px-2 md:border-r-2 md:border-l-2 md:w-6/12 min-h-screen pb-6">
-          <Header
-            tab={tab}
-            subreddits={subreddits}
-            setSubreddits={setSubreddits}
-          />
-          {tab.value === TABS[0].value && (
-            <Highlights
-              subreddits={selectedSubreddits}
-              search={search}
-              highlights={hotHighlights}
-            />
-          )}
-          {tab.value === TABS[1].value && <New />}
-          {tab.value === TABS[2].value && (
-            <Saved search={search} subreddits={selectedSubreddits} />
-          )}
+        <div className="w-full md:px-2 md:w-6/12 min-h-screen pb-6">
+          <Header />
+          {tab.value === "hot" && <Hot />}
+          {tab.value === "new" && <New />}
+          {tab.value === "saved" && <Saved />}
         </div>
         <div className="hidden w-0 md:w-3/12 md:block p-2">
-          <SearchInput search={search} setSearch={setSearch} className="mb-4" />
-          <Subreddits subreddits={subreddits} setSubreddits={setSubreddits} />
+          <SearchInput
+            search={search}
+            setSearch={(search) => dispatch(setSearch({ search }))}
+            className="mb-4"
+          />
+          <Subreddits />
         </div>
       </div>
 
-      <Navbar currentTab={tab} setTab={setTab} />
+      <Navbar />
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import { TABS } from "../consts/tabs";
+import { useDispatch, useSelector } from "react-redux";
+import { setTab } from "../store/appState";
 
 function Tab({ label, Icon, children, isActive, ...props }) {
   return (
@@ -13,12 +15,15 @@ function Tab({ label, Icon, children, isActive, ...props }) {
   );
 }
 
-const Tabs = ({ currentTab, setTab }) => {
+const Tabs = () => {
+  const dispatch = useDispatch();
+  const { tab: currentTab } = useSelector((state) => state.appState);
+
   return (
     <div>
       {TABS.map((tab) => (
         <Tab
-          onClick={() => setTab(tab)}
+          onClick={() => dispatch(setTab({ tab }))}
           label={tab.label}
           Icon={tab.Icon}
           isActive={currentTab.value === tab.value}

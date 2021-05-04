@@ -11,8 +11,8 @@ export const TABS = [
     Icon: FireIcon,
   },
   {
-    label: "Rising",
-    value: "rising",
+    label: "New",
+    value: "new",
     Icon: ChartIcon,
   },
   {

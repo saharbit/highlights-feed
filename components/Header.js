@@ -3,9 +3,13 @@ import Modal from "react-modal";
 import Subreddits from "./Subreddits";
 import SubredditsModal from "./SubredditsModal";
 import BoxesIcon from "../icons/BoxesIcon";
+import { useSelector } from "react-redux";
 
-const Header = ({ tab: { label, Icon }, subreddits, setSubreddits }) => {
+const Header = ({ subreddits, setSubreddits }) => {
   const [isSubredditsModalOpen, setIsSubredditsModalOpen] = useState(false);
+  const {
+    tab: { label, Icon },
+  } = useSelector((state) => state.appState);
 
   return (
     <div className="flex justify-between items-center px-2 py-3">

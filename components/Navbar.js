@@ -1,5 +1,7 @@
 import React from "react";
 import { MOBILE_TABS } from "../consts/tabs";
+import { useDispatch, useSelector } from "react-redux";
+import { setTab } from "../store/appState";
 
 function Tab({ label, Icon, children, isActive, ...props }) {
   return (
@@ -9,14 +11,17 @@ function Tab({ label, Icon, children, isActive, ...props }) {
   );
 }
 
-const Navbar = ({ currentTab, setTab }) => {
+const Navbar = () => {
+  const dispatch = useDispatch();
+  const { tab: currentTab } = useSelector((state) => state.appState);
+
   return (
     <div className="fixed bg-white border-t w-full bottom-0 z-10 md:hidden safe-bottom">
       <div className="flex justify-between">
         {MOBILE_TABS.map((tab) => {
           return (
             <Tab
-              onClick={() => setTab(tab)}
+              onClick={() => dispatch(setTab({ tab }))}
               label={tab.label}
               Icon={tab.Icon}
               isActive={currentTab.value === tab.value}

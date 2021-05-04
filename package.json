@@ -8,20 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
-    "@types/ioredis": "^4.26.0",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@types/ioredis": "^4.26.1",
     "autoprefixer": "^10.2.5",
     "axios": "^0.21.1",
     "dayjs": "^1.10.4",
-    "framer-motion": "^4.1.9",
-    "ioredis": "^4.27.1",
+    "framer-motion": "^4.1.11",
+    "ioredis": "^4.27.2",
     "next": "^10.2.0",
-    "postcss": "^8.2.12",
+    "postcss": "^8.2.13",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-infinite-scroll-component": "^6.1.0",
     "react-modal": "^3.13.1",
     "react-player": "^2.9.0",
-    "swr": "^0.5.5",
+    "react-redux": "^7.2.4",
+    "swr": "^0.5.6",
     "tailwindcss": "^2.1.2"
   },
   "devDependencies": {

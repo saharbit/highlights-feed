@@ -1,17 +1,13 @@
 import React from "react";
+import NoHighlights from "../NoHighlights";
 
 const New = () => {
   return (
     <div>
-      <div className="flex flex-col items-center my-12">
-        <div className="font-bold text-lg text-gray-600">No new highlights</div>
-        <div className="text-gray-600">
-          Change subreddits or filter{" "}
-          <span aria-label="celebrate" role="img">
-            🎉
-          </span>
-        </div>
-      </div>
+      <NoHighlights
+        title="No new highlights"
+        text="Change subreddits or filters"
+      />
     </div>
   );
 };

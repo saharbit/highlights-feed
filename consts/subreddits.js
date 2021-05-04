@@ -25,7 +25,7 @@ export const SUBREDDITS = {
   },
 };
 
-export const SUBREDDITS_STATE = Object.entries(SUBREDDITS).map(
+export const SUBREDDITS_INITIAL_STATE = Object.entries(SUBREDDITS).map(
   ([value, sub]) => ({
     ...sub,
     value,
