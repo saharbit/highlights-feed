@@ -53,6 +53,8 @@ const appState = createSlice({
     setTab(state, action) {
       const { tab } = action.payload;
       state.tab = tab;
+      state.visibleHighlights = 10;
+      window.scrollTo(0, 0);
     },
   },
 });
