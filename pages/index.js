@@ -33,14 +33,14 @@ export default function Home() {
         />
       </Head>
 
-      <div className="flex max-w-screen-xl mx-auto px-2">
+      <div className="flex max-w-screen-xl mx-auto">
         <div className="hidden w-0 md:w-3/12 md:block p-2">
           <HighlightsFeedLogo />
           <Tabs />
         </div>
-        <div className="w-full md:px-2 md:w-6/12 min-h-screen pb-6">
+        <div className="w-full md:w-6/12 min-h-screen pb-6">
           <Header />
-          {tab.value === "hot" && <Hot />}
+          {tab.value === "top" && <Hot />}
           {tab.value === "new" && <New />}
           {tab.value === "saved" && <Saved />}
         </div>

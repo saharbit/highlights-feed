@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
@@ -28,18 +28,7 @@ const Highlight = ({ highlight }) => {
   }
 
   return (
-    <div key={`highlight_${highlight.url}`} className="rounded-lg mb-3 border">
-      <div className="flex justify-between p-2">
-        <div className="flex items-center">
-          <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>
-          <div className="font-semibold">{SUBREDDITS[highlight.sub].label}</div>
-          {highlight.date && (
-            <div className="ml-1 text-gray-400 text-sm">
-              • {dayjs(highlight.date).fromNow()}
-            </div>
-          )}
-        </div>
-      </div>
+    <div className="mb-4">
       <div className="player-wrapper mb-2">
         <ReactPlayer
           url={highlight.url}
@@ -50,24 +39,32 @@ const Highlight = ({ highlight }) => {
           onReady={() => setIsReady(true)}
         />
       </div>
-      <div className="flex flex-col">
-        <div className="mb-2 px-2">{highlight.title}</div>
-        <div className="flex items-center border-t border-gray-200 divide-x divide-gray-200">
-          <HighlightButton onClick={save}>
-            <HeartIcon
-              className="w-5 h-5 mr-2"
-              stroke={isSaved ? "#EF4444" : "black"}
-              fill={isSaved ? "#EF4444" : "none"}
-            />
-            <div className={isSaved ? "font-semibold" : ""}>
-              {isSaved ? "Saved" : "Save"}
-            </div>
-          </HighlightButton>
-          <HighlightButton onClick={share}>
-            <img src="/share.svg" alt="Share" className="w-5 h-5 mr-2" />
-            <div className="">Share</div>
-          </HighlightButton>
+      <div className="flex flex-col px-2">
+        <div className="font-semibold mb-1">{highlight.title}</div>
+        <div className="flex items-center">
+          <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>
+          <div className="text-gray-600 mr-1">
+            {SUBREDDITS[highlight.sub].label}
+          </div>
+          <div className="text-gray-400 text-sm">
+            • {dayjs(highlight.date).fromNow()}
+          </div>
         </div>
+
+        {/*<HighlightButton onClick={save}>*/}
+        {/*  <HeartIcon*/}
+        {/*    className="w-5 h-5 mr-2"*/}
+        {/*    stroke={isSaved ? "#EF4444" : "black"}*/}
+        {/*    fill={isSaved ? "#EF4444" : "none"}*/}
+        {/*  />*/}
+        {/*  <div className={isSaved ? "font-semibold" : ""}>*/}
+        {/*    {isSaved ? "Saved" : "Save"}*/}
+        {/*  </div>*/}
+        {/*</HighlightButton>*/}
+        {/*<HighlightButton onClick={share}>*/}
+        {/*  <img src="/share.svg" alt="Share" className="w-5 h-5 mr-2" />*/}
+        {/*  <div className="">Share</div>*/}
+        {/*</HighlightButton>*/}
       </div>
     </div>
   );

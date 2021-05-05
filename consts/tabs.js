@@ -7,7 +7,7 @@ import SearchIcon from "../icons/SearchIcon";
 export const TABS = [
   {
     label: "Hot",
-    value: "hot",
+    value: "top",
     Icon: FireIcon,
   },
   {

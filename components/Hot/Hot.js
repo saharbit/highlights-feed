@@ -4,11 +4,11 @@ import HighlightSkeleton from "../Highlight/HighlightSkeleton";
 import InfiniteScroll from "react-infinite-scroll-component";
 import NoHighlights from "../NoHighlights";
 import { useDispatch, useSelector } from "react-redux";
-import { getHotHighlights } from "../../store/appStateSelectors";
+import { getTabHighlights } from "../../store/appStateSelectors";
 import { bumpVisibleHighlightsAsync } from "../../store/appState";
 
 const Hot = () => {
-  const highlights = useSelector(getHotHighlights);
+  const highlights = useSelector(getTabHighlights);
   const hasMoreHighlights = useSelector(
     (state) => state.appState.hasMoreHighlights
   );

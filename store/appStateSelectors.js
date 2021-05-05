@@ -2,10 +2,11 @@ import { createSelector } from "@reduxjs/toolkit";
 
 const getHighlights = (state) => state.appState.highlights;
 const getVisibleHighlights = (state) => state.appState.visibleHighlights;
+const getTab = (state) => state.appState.tab;
 
-export const getHotHighlightsCount = createSelector(
-  [getHighlights, getVisibleHighlights],
-  (highlights) => {
+export const getHighlightsCount = createSelector(
+  [getHighlights, getTab],
+  (highlights, tab) => {
     let list = [];
     if (!highlights) {
       return list;
@@ -13,7 +14,7 @@ export const getHotHighlightsCount = createSelector(
     for (let [sub, categories] of Object.entries(highlights)) {
       if (sub !== "lastupdated") {
         list.push(
-          ...categories["top"].map((highlight) => ({ ...highlight, sub }))
+          ...categories[tab.value].map((highlight) => ({ ...highlight, sub }))
         );
       }
     }
@@ -21,9 +22,9 @@ export const getHotHighlightsCount = createSelector(
   }
 );
 
-export const getHotHighlights = createSelector(
-  [getHighlights, getVisibleHighlights],
-  (highlights, visibleHighlights) => {
+export const getTabHighlights = createSelector(
+  [getHighlights, getVisibleHighlights, getTab],
+  (highlights, visibleHighlights, tab) => {
     let list = [];
     if (!highlights) {
       return list;
@@ -31,7 +32,7 @@ export const getHotHighlights = createSelector(
     for (let [sub, categories] of Object.entries(highlights)) {
       if (sub !== "lastupdated") {
         list.push(
-          ...categories["top"].map((highlight) => ({ ...highlight, sub }))
+          ...categories[tab.value].map((highlight) => ({ ...highlight, sub }))
         );
       }
     }

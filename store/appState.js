@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-import { getHotHighlightsCount } from "./appStateSelectors";
+import { getHighlightsCount } from "./appStateSelectors";
 import { SUBREDDITS_INITIAL_STATE } from "../consts/subreddits";
 import { TABS } from "../consts/tabs";
 
@@ -30,10 +30,10 @@ const appState = createSlice({
       state.isFetchingHighlights = true;
     },
     bumpVisibleHighlights(state, action) {
-      const { hotHighlightsCount } = action.payload;
+      const { highlightsCount } = action.payload;
 
       state.visibleHighlights = state.visibleHighlights + 10;
-      if (hotHighlightsCount < state.visibleHighlights) {
+      if (highlightsCount < state.visibleHighlights) {
         state.hasMoreHighlights = false;
       }
     },
@@ -82,10 +82,7 @@ export const fetchHighlights = () => async (dispatch) => {
 export const bumpVisibleHighlightsAsync = () => async (dispatch, getState) => {
   try {
     const state = getState();
-    const hotHighlightsCount = getHotHighlightsCount(state);
-    setTimeout(
-      () => dispatch(bumpVisibleHighlights({ hotHighlightsCount })),
-      500
-    );
+    const highlightsCount = getHighlightsCount(state);
+    setTimeout(() => dispatch(bumpVisibleHighlights({ highlightsCount })), 500);
   } catch (err) {}
 };
