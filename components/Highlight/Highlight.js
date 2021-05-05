@@ -28,8 +28,17 @@ const Highlight = ({ highlight }) => {
   }
 
   return (
-    <div className="mb-4">
-      <div className="player-wrapper mb-2">
+    <div className="border-b md:border-l md:border-r">
+      <div className="flex items-center p-2">
+        <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>
+        <div className="text-gray-600 mr-1">
+          {SUBREDDITS[highlight.sub].label}
+        </div>
+        <div className="text-gray-400 text-sm">
+          • {dayjs(highlight.date).fromNow()}
+        </div>
+      </div>
+      <div className="player-wrapper">
         <ReactPlayer
           url={highlight.url}
           width="100%"
@@ -39,32 +48,21 @@ const Highlight = ({ highlight }) => {
           onReady={() => setIsReady(true)}
         />
       </div>
-      <div className="flex flex-col px-2">
-        <div className="font-semibold mb-1">{highlight.title}</div>
-        <div className="flex items-center">
-          <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>
-          <div className="text-gray-600 mr-1">
-            {SUBREDDITS[highlight.sub].label}
-          </div>
-          <div className="text-gray-400 text-sm">
-            • {dayjs(highlight.date).fromNow()}
-          </div>
-        </div>
-
-        {/*<HighlightButton onClick={save}>*/}
-        {/*  <HeartIcon*/}
-        {/*    className="w-5 h-5 mr-2"*/}
-        {/*    stroke={isSaved ? "#EF4444" : "black"}*/}
-        {/*    fill={isSaved ? "#EF4444" : "none"}*/}
-        {/*  />*/}
-        {/*  <div className={isSaved ? "font-semibold" : ""}>*/}
-        {/*    {isSaved ? "Saved" : "Save"}*/}
-        {/*  </div>*/}
-        {/*</HighlightButton>*/}
-        {/*<HighlightButton onClick={share}>*/}
-        {/*  <img src="/share.svg" alt="Share" className="w-5 h-5 mr-2" />*/}
-        {/*  <div className="">Share</div>*/}
-        {/*</HighlightButton>*/}
+      <div className="flex flex-col p-2">
+        <div className="font-semibold">{highlight.title}</div>
+        {/*<div className="flex">*/}
+        {/*  <HighlightButton onClick={save}>*/}
+        {/*    <HeartIcon*/}
+        {/*      className="w-5 h-5 mr-2"*/}
+        {/*      stroke={isSaved ? "#EF4444" : "black"}*/}
+        {/*      fill={isSaved ? "#EF4444" : "none"}*/}
+        {/*    />*/}
+        {/*    <div className={isSaved ? "font-semibold" : ""}></div>*/}
+        {/*  </HighlightButton>*/}
+        {/*  <HighlightButton onClick={share}>*/}
+        {/*    <img src="/share.svg" alt="Share" className="w-5 h-5 mr-2" />*/}
+        {/*  </HighlightButton>*/}
+        {/*</div>*/}
       </div>
     </div>
   );

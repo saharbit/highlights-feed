@@ -12,7 +12,7 @@ const Header = ({ subreddits, setSubreddits }) => {
   } = useSelector((state) => state.appState);
 
   return (
-    <div className="flex justify-between items-center px-2 py-3 border-b shadow-sm md:border-none md:shadow-none">
+    <div className="flex justify-between items-center px-2 py-3 border-b md:border">
       <div className="flex items-center">
         <Icon className="w-6 h-6 mr-2" />
         <div className="font-bold text-xl">{label}</div>

@@ -11,7 +11,7 @@ function Tab({ label, Icon, children, isActive, ...props }) {
   );
 }
 
-const Navbar = () => {
+const MobileNavbar = () => {
   const dispatch = useDispatch();
   const { tab: currentTab } = useSelector((state) => state.appState);
 
@@ -33,4 +33,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default MobileNavbar;
