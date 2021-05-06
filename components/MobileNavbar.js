@@ -16,7 +16,7 @@ const MobileNavbar = () => {
   const { tab: currentTab } = useSelector((state) => state.appState);
 
   return (
-    <div className="fixed bg-white border-t w-full bottom-0 z-10 md:hidden safe-bottom">
+    <div className="fixed bg-white border-t w-full bottom-0 z-10 safe-bottom md:hidden">
       <div className="flex justify-between">
         {MOBILE_TABS.map((tab) => {
           return (

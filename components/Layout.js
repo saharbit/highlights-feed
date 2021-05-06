@@ -1,10 +1,11 @@
 import React from "react";
 import MobileNavbar from "./MobileNavbar";
 import Head from "next/head";
+import MobileHeader from "./MobileHeader";
 
 const Layout = ({ children, title }) => {
   return (
-    <div className="min-h-screen">
+    <div className="flex max-w-screen-xl mx-auto min-h-screen">
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.svg" />
@@ -14,7 +15,11 @@ const Layout = ({ children, title }) => {
           rel="stylesheet"
         />
       </Head>
-      {children}
+
+      <MobileHeader />
+
+      <div className="mt-12 md:mt-0 flex w-full">{children}</div>
+
       <MobileNavbar />
     </div>
   );
