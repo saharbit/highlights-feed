@@ -54,6 +54,7 @@ const appState = createSlice({
       const { tab } = action.payload;
       state.tab = tab;
       state.visibleHighlights = 10;
+      state.hasMoreHighlights = true;
       window.scrollTo(0, 0);
     },
   },

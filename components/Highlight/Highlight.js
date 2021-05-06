@@ -7,6 +7,8 @@ import HeartIcon from "../../icons/HeartIcon";
 import { saveHighlightToLocalStorage } from "../../services/localStorage";
 import { shareHighlight } from "../../services/share";
 import { SUBREDDITS } from "../../consts/subreddits";
+import { kFormatter } from "../../utils/utils";
+import ArrowUp from "../../icons/ArrowUp";
 dayjs.extend(relativeTime);
 
 const Highlight = ({ highlight }) => {
@@ -29,13 +31,19 @@ const Highlight = ({ highlight }) => {
 
   return (
     <div className="border-b md:border-l md:border-r">
-      <div className="flex items-center p-2">
-        <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>
-        <div className="text-gray-600 mr-1">
-          {SUBREDDITS[highlight.sub].label}
+      <div className="flex justify-between p-2 mr-1">
+        <div className="flex items-center">
+          <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>
+          <div className="text-gray-600 mr-1">
+            {SUBREDDITS[highlight.sub].label}
+          </div>
+          <div className="text-gray-400 text-sm">
+            • {dayjs(highlight.date).fromNow()}
+          </div>
         </div>
-        <div className="text-gray-400 text-sm">
-          • {dayjs(highlight.date).fromNow()}
+        <div className="flex items-center">
+          <ArrowUp color="#EF4444" />
+          <span className="text-gray-500">{kFormatter(highlight.score)}</span>
         </div>
       </div>
       <div className="player-wrapper">
