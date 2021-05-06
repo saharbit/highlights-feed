@@ -1,5 +1,5 @@
 import React from "react";
-import MobileNavbar from "./MobileNavbar";
+import MobileTabs from "./MobileTabs";
 import Head from "next/head";
 import MobileHeader from "./MobileHeader";
 
@@ -17,10 +17,8 @@ const Layout = ({ children, title }) => {
       </Head>
 
       <MobileHeader />
-
       <div className="mt-12 md:mt-0 flex w-full">{children}</div>
-
-      <MobileNavbar />
+      <MobileTabs />
     </div>
   );
 };
