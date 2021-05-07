@@ -23,10 +23,11 @@ const Tabs = () => {
     <div>
       {TABS.map((tab) => (
         <Tab
-          onClick={() => dispatch(setTab({ tab }))}
+          onClick={() => dispatch(setTab({ tab: tab.value }))}
           label={tab.label}
           Icon={tab.Icon}
-          isActive={currentTab.value === tab.value}
+          isActive={currentTab === tab.value}
+          key={tab.value}
         />
       ))}
     </div>

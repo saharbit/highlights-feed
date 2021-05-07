@@ -13,6 +13,7 @@
     "autoprefixer": "^10.2.5",
     "axios": "^0.21.1",
     "dayjs": "^1.10.4",
+    "fast-sort": "^3.0.2",
     "framer-motion": "^4.1.11",
     "ioredis": "^4.27.2",
     "next": "^10.2.0",

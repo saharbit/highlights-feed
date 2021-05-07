@@ -6,7 +6,7 @@ import { setTab } from "../store/appState";
 function Tab({ label, Icon, children, isActive, ...props }) {
   return (
     <div className="flex w-full justify-center items-center p-3" {...props}>
-      <Icon src={Icon} className="w-6" color={isActive ? "red" : "black"} />
+      <Icon className="w-6" color={isActive ? "red" : "black"} />
     </div>
   );
 }
@@ -21,10 +21,11 @@ const MobileTabs = () => {
         {MOBILE_TABS.map((tab) => {
           return (
             <Tab
-              onClick={() => dispatch(setTab({ tab }))}
+              onClick={() => dispatch(setTab({ tab: tab.value }))}
               label={tab.label}
               Icon={tab.Icon}
-              isActive={currentTab.value === tab.value}
+              isActive={currentTab === tab.value}
+              key={tab.value}
             />
           );
         })}

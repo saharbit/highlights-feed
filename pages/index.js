@@ -9,6 +9,7 @@ import New from "../components/New/New";
 import { fetchHighlights, setSearch } from "../store/appState";
 import { useDispatch, useSelector } from "react-redux";
 import Layout from "../components/Layout";
+import SearchTab from "../components/SearchTab";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -25,10 +26,11 @@ export default function Home() {
         <Tabs />
       </div>
 
-      <div className="w-full md:w-6/12 min-h-screen pb-6">
-        {tab.value === "top" && <Hot />}
-        {tab.value === "new" && <New />}
-        {tab.value === "saved" && <Saved />}
+      <div className="w-full md:w-6/12 pb-6">
+        {tab === "top" && <Hot />}
+        {tab === "new" && <New />}
+        {tab === "saved" && <Saved />}
+        {tab === "search" && <SearchTab />}
       </div>
 
       <div className="hidden w-0 md:w-3/12 md:block p-2">

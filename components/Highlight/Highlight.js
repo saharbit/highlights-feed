@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
-import HighlightButton from "./HighlightButton";
-import HeartIcon from "../../icons/HeartIcon";
 import { saveHighlightToLocalStorage } from "../../services/localStorage";
 import { shareHighlight } from "../../services/share";
 import { SUBREDDITS } from "../../consts/subreddits";
@@ -42,7 +40,7 @@ const Highlight = ({ highlight }) => {
           </div>
         </div>
         <div className="flex items-center">
-          <ArrowUp color="#EF4444" />
+          <ArrowUp color="#ff8b60" />
           <span className="text-gray-500">{kFormatter(highlight.score)}</span>
         </div>
       </div>

@@ -11,7 +11,7 @@ const initialState = {
   hasMoreHighlights: true,
   search: "",
   subreddits: SUBREDDITS_INITIAL_STATE,
-  tab: TABS[0],
+  tab: TABS[0].value,
 };
 
 const appState = createSlice({
@@ -23,11 +23,11 @@ const appState = createSlice({
     },
     fetchHighlightsSuccess(state, action) {
       const { highlights } = action.payload;
-      state.isFetchingHighlights = true;
+      state.isFetchingHighlights = false;
       state.highlights = highlights;
     },
     fetchHighlightsFailure(state) {
-      state.isFetchingHighlights = true;
+      state.isFetchingHighlights = false;
     },
     bumpVisibleHighlights(state, action) {
       const { highlightsCount } = action.payload;

@@ -21,9 +21,7 @@ const Subreddits = () => {
           >
             <div className="flex">
               <div className="mr-2">{sub.icon}</div>
-              <div className={sub.isSelected ? "font-semibold" : ""}>
-                {sub.label}
-              </div>
+              <div className={sub.isSelected ? "" : ""}>{sub.label}</div>
             </div>
             {sub.isSelected && <CheckIcon />}
           </div>

@@ -4,12 +4,11 @@ import Subreddits from "./Subreddits";
 import SubredditsModal from "./SubredditsModal";
 import BoxesIcon from "../icons/BoxesIcon";
 import { useSelector } from "react-redux";
+import { getCurrentTab } from "../store/appStateSelectors";
 
 const MobileHeader = ({ subreddits, setSubreddits }) => {
   const [isSubredditsModalOpen, setIsSubredditsModalOpen] = useState(false);
-  const {
-    tab: { label, Icon },
-  } = useSelector((state) => state.appState);
+  const { label, Icon } = useSelector(getCurrentTab);
 
   return (
     <div className="flex justify-between items-center px-2 h-12 border-b fixed inset-x-0 top-0 z-10 bg-white md:hidden">

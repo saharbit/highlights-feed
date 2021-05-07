@@ -17,7 +17,7 @@ const Hot = () => {
   function createSkeleton(length) {
     return Array(length)
       .fill(0)
-      .map((_) => <HighlightSkeleton />);
+      .map((_, index) => <HighlightSkeleton key={`skeleton_${index}`} />);
   }
 
   if (!highlights) {
@@ -39,7 +39,7 @@ const Hot = () => {
         }
       >
         {highlights.map((highlight, index) => (
-          <Highlight highlight={highlight} index={`highlight_${index}`} />
+          <Highlight highlight={highlight} key={`highlight_${index}`} />
         ))}
       </InfiniteScroll>
     </div>
