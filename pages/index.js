@@ -26,7 +26,7 @@ export default function Home() {
         <Tabs />
       </div>
 
-      <div className="w-full md:w-6/12 pb-6">
+      <div className="w-full md:w-6/12 pb-6 md:border-l md:border-r">
         {tab === "top" && <Hot />}
         {tab === "new" && <New />}
         {tab === "saved" && <Saved />}

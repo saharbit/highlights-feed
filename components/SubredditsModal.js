@@ -2,10 +2,10 @@ import React from "react";
 import Modal from "react-modal";
 import Subreddits from "./Subreddits";
 
-const SubredditsModal = ({ subreddits, setSubreddits, ...props }) => {
+const SubredditsModal = ({ ...props }) => {
   return (
     <Modal contentLabel="modal" style={modalStyles} {...props}>
-      <Subreddits subreddits={subreddits} setSubreddits={setSubreddits} />
+      <Subreddits />
     </Modal>
   );
 };

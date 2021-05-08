@@ -7,6 +7,10 @@ import { shareHighlight } from "../../services/share";
 import { SUBREDDITS } from "../../consts/subreddits";
 import { kFormatter } from "../../utils/utils";
 import ArrowUp from "../../icons/ArrowUp";
+import HighlightButton from "./HighlightButton";
+import HeartIcon from "../../icons/HeartIcon";
+import ShareIcon from "../../icons/ShareIcon";
+import CommentIcon from "../../icons/CommentIcon";
 dayjs.extend(relativeTime);
 
 const Highlight = ({ highlight }) => {
@@ -28,7 +32,7 @@ const Highlight = ({ highlight }) => {
   }
 
   return (
-    <div className="border-b md:border-l md:border-r">
+    <div className="border-b">
       <div className="flex justify-between p-2 mr-1">
         <div className="flex items-center">
           <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>
@@ -54,21 +58,25 @@ const Highlight = ({ highlight }) => {
           onReady={() => setIsReady(true)}
         />
       </div>
-      <div className="flex flex-col p-2">
-        <div className="font-semibold">{highlight.title}</div>
-        {/*<div className="flex">*/}
-        {/*  <HighlightButton onClick={save}>*/}
-        {/*    <HeartIcon*/}
-        {/*      className="w-5 h-5 mr-2"*/}
-        {/*      stroke={isSaved ? "#EF4444" : "black"}*/}
-        {/*      fill={isSaved ? "#EF4444" : "none"}*/}
-        {/*    />*/}
-        {/*    <div className={isSaved ? "font-semibold" : ""}></div>*/}
-        {/*  </HighlightButton>*/}
-        {/*  <HighlightButton onClick={share}>*/}
-        {/*    <img src="/share.svg" alt="Share" className="w-5 h-5 mr-2" />*/}
-        {/*  </HighlightButton>*/}
-        {/*</div>*/}
+      <div className="flex flex-col">
+        <div className="font-semibold p-2">{highlight.title}</div>
+        <div className="flex pb-2 px-2">
+          <HighlightButton
+            onClick={save}
+            IconComponent={HeartIcon}
+            className="md:hover:bg-red-100"
+          />
+          <HighlightButton
+            onClick={share}
+            IconComponent={ShareIcon}
+            className="md:hover:bg-green-100"
+          />
+          <HighlightButton
+            onClick={() => console.log("go to post")}
+            IconComponent={CommentIcon}
+            className="md:hover:bg-blue-100"
+          />
+        </div>
       </div>
     </div>
   );

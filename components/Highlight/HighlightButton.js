@@ -1,15 +1,19 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-function HighlightButton({ children, ...props }) {
+function HighlightButton({ IconComponent, className, ...props }) {
   return (
-    <motion.div
-      className="flex flex-1 p-2 text-sm justify-center items-center cursor-pointer md:hover:bg-gray-50 md:transition-all"
-      whileTap={{ scale: 0.8 }}
-      {...props}
-    >
-      {children}
-    </motion.div>
+    <div className="flex justify-center items-center mr-2">
+      <motion.div
+        className={`p-1 px-3 text-sm cursor-pointer rounded-full transition duration-300 ease-in-out border ${
+          className ? className : ""
+        }`}
+        whileTap={{ scale: 0.8 }}
+        {...props}
+      >
+        <IconComponent className="w-5 h-5" color="#9CA3AF" />
+      </motion.div>
+    </div>
   );
 }
 export default HighlightButton;

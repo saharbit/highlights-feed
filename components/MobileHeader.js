@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import Modal from "react-modal";
-import Subreddits from "./Subreddits";
 import SubredditsModal from "./SubredditsModal";
 import BoxesIcon from "../icons/BoxesIcon";
 import { useSelector } from "react-redux";
 import { getCurrentTab } from "../store/appStateSelectors";
 
-const MobileHeader = ({ subreddits, setSubreddits }) => {
+const MobileHeader = () => {
   const [isSubredditsModalOpen, setIsSubredditsModalOpen] = useState(false);
   const { label, Icon } = useSelector(getCurrentTab);
 
@@ -25,8 +23,6 @@ const MobileHeader = ({ subreddits, setSubreddits }) => {
       <SubredditsModal
         isOpen={isSubredditsModalOpen}
         onRequestClose={() => setIsSubredditsModalOpen(false)}
-        subreddits={subreddits}
-        setSubreddits={setSubreddits}
       />
     </div>
   );

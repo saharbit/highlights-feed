@@ -9,7 +9,7 @@ const Subreddits = () => {
 
   return (
     <div className="rounded-xl">
-      <div className="flex justify-between items-center px-4 pt-3 pb-4">
+      <div className="hidden md:flex justify-between items-center px-4 pt-3 pb-4">
         <div className="font-bold text-xl">Subreddits</div>
       </div>
       {subreddits.map((sub) => {
