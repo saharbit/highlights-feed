@@ -1,7 +1,7 @@
 import React from "react";
-import { MOBILE_TABS } from "../consts/tabs";
+import { MOBILE_TABS } from "../../consts/tabs";
 import { useDispatch, useSelector } from "react-redux";
-import { setTab } from "../store/appState";
+import { setTab } from "../../store/appState";
 
 function Tab({ label, Icon, children, isActive, ...props }) {
   return (

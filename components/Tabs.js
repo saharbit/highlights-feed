@@ -6,7 +6,7 @@ import { setTab } from "../store/appState";
 function Tab({ label, Icon, children, isActive, ...props }) {
   return (
     <div
-      className="px-2 py-4 flex items-center hover:bg-gray-200 cursor-pointer transition-all rounded-lg"
+      className="px-2 py-4 flex items-center hover:bg-gray-100 cursor-pointer transition-all first:rounded-t-xl last:rounded-b-xl"
       {...props}
     >
       <Icon className="h-7 w-7 mr-2" />
@@ -20,7 +20,7 @@ const Tabs = () => {
   const { tab: currentTab } = useSelector((state) => state.appState);
 
   return (
-    <div>
+    <div className="bg-gray-200 rounded-xl">
       {TABS.map((tab) => (
         <Tab
           onClick={() => dispatch(setTab({ tab: tab.value }))}

@@ -40,6 +40,12 @@ const appState = createSlice({
     setSearch(state, action) {
       const { search } = action.payload;
       state.search = search;
+      if (search) {
+        state.hasMoreHighlights = false;
+      } else {
+        state.hasMoreHighlights = true;
+        state.visibleHighlights = 10;
+      }
     },
     selectSub(state, action) {
       const { selectedSub } = action.payload;

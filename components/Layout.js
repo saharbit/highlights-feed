@@ -1,8 +1,8 @@
 import React from "react";
-import MobileTabs from "./MobileTabs";
+import MobileTabs from "./MobileComponents/MobileTabs";
 import Head from "next/head";
-import MobileHeader from "./MobileHeader";
-import MobileFilters from "./MobileFilters";
+import MobileHeader from "./MobileComponents/MobileHeader";
+import MobileFilters from "./MobileComponents/MobileFilters";
 
 const Layout = ({ children, title }) => {
   return (

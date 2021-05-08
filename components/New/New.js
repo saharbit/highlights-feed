@@ -1,11 +1,11 @@
 import React from "react";
-import NoHighlights from "../NoHighlights";
+import NoHighlights from "../Highlights/NoHighlights";
 import { useDispatch, useSelector } from "react-redux";
 import { getTabHighlights } from "../../store/appStateSelectors";
-import HighlightSkeleton from "../Highlight/HighlightSkeleton";
+import HighlightSkeleton from "../Highlights/HighlightSkeleton";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { bumpVisibleHighlightsAsync } from "../../store/appState";
-import Highlight from "../Highlight/Highlight";
+import Highlight from "../Highlights/Highlight";
 
 const New = () => {
   const highlights = useSelector(getTabHighlights);

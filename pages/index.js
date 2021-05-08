@@ -2,14 +2,14 @@ import { useEffect } from "react";
 import Subreddits from "../components/Subreddits";
 import Tabs from "../components/Tabs";
 import Hot from "../components/Hot/Hot";
-import SearchInput from "../components/SearchInput";
+import SearchInput from "../components/Search/SearchInput";
 import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Saved from "../components/Saved/Saved";
 import New from "../components/New/New";
 import { fetchHighlights, setSearch } from "../store/appState";
 import { useDispatch, useSelector } from "react-redux";
 import Layout from "../components/Layout";
-import SearchTab from "../components/SearchTab";
+import SearchTab from "../components/Search/SearchTab";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -21,8 +21,7 @@ export default function Home() {
 
   return (
     <Layout title="highlights.live">
-      <div className="hidden w-0 md:w-3/12 md:block p-2">
-        <HighlightsFeedLogo />
+      <div className="hidden w-0 md:w-3/12 md:block px-3 pt-2">
         <Tabs />
       </div>
 
@@ -33,7 +32,7 @@ export default function Home() {
         {tab === "search" && <SearchTab />}
       </div>
 
-      <div className="hidden w-0 md:w-3/12 md:block p-2">
+      <div className="hidden w-0 md:w-3/12 md:block px-3 pt-2">
         <SearchInput
           search={search}
           setSearch={(search) => dispatch(setSearch({ search }))}

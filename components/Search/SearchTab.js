@@ -1,5 +1,5 @@
 import React from "react";
-import NoHighlights from "./NoHighlights";
+import NoHighlights from "../Highlights/NoHighlights";
 
 const SearchTab = () => {
   return (

@@ -6,6 +6,7 @@ import { sort } from "fast-sort";
 const getHighlights = (state) => state.appState.highlights;
 const getVisibleHighlights = (state) => state.appState.visibleHighlights;
 const getTab = (state) => state.appState.tab;
+const getSearch = (state) => state.appState.search;
 
 export const getHighlightsCount = createSelector(
   [getHighlights, getTab],
@@ -24,8 +25,8 @@ export const getHighlightsCount = createSelector(
 );
 
 export const getTabHighlights = createSelector(
-  [getHighlights, getVisibleHighlights, getTab],
-  (highlights, visibleHighlights, tab) => {
+  [getHighlights, getVisibleHighlights, getTab, getSearch],
+  (highlights, visibleHighlights, tab, search) => {
     let list = [];
 
     if (!highlights) {
@@ -45,7 +46,15 @@ export const getTabHighlights = createSelector(
     }
 
     if (tab === "new") {
-      list = list.sort((a, b) => dayjs(b.date) - dayjs(a.date));
+      list = sort(list).desc((highlight) => dayjs(highlight.date));
+    }
+
+    if (search) {
+      list = list.filter((highlight) =>
+        highlight.title.toLowerCase().includes(search.toLowerCase())
+      );
+
+      return list;
     }
 
     if (list.length > visibleHighlights) {

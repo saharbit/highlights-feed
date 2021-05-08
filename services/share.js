@@ -3,7 +3,7 @@ export function shareHighlight(highlight) {
     navigator
       .share({
         title: highlight.title,
-        url: highlight.url,
+        url: highlight.videoUrl,
       })
       .then(() => {
         console.log("Thanks for sharing!");

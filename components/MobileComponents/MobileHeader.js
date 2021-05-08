@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import SubredditsModal from "./SubredditsModal";
-import BoxesIcon from "../icons/BoxesIcon";
+import BoxesIcon from "../../icons/BoxesIcon";
 import { useSelector } from "react-redux";
-import { getCurrentTab } from "../store/appStateSelectors";
+import { getCurrentTab } from "../../store/appStateSelectors";
 
 const MobileHeader = () => {
   const [isSubredditsModalOpen, setIsSubredditsModalOpen] = useState(false);

@@ -8,14 +8,14 @@ const Subreddits = () => {
   const { subreddits } = useSelector((state) => state.appState);
 
   return (
-    <div className="rounded-xl">
+    <div className="pt-2 rounded-xl md:pt-0 md:bg-gray-200">
       <div className="hidden md:flex justify-between items-center px-4 pt-3 pb-4">
         <div className="font-bold text-xl">Subreddits</div>
       </div>
       {subreddits.map((sub) => {
         return (
           <div
-            className="py-4 px-3 flex items-center justify-between md:hover:bg-gray-200 transition-all cursor-pointer rounded-lg"
+            className="py-4 px-3 flex items-center justify-between md:hover:bg-gray-100 transition-all cursor-pointer last:rounded-b-xl"
             key={`subLabel_${sub.value}`}
             onClick={() => dispatch(selectSub({ selectedSub: sub }))}
           >

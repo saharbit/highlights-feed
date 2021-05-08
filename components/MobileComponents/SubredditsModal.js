@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
-import Subreddits from "./Subreddits";
+import Subreddits from "../Subreddits";
 
 const SubredditsModal = ({ ...props }) => {
   return (

@@ -50,7 +50,7 @@ const Highlight = ({ highlight }) => {
       </div>
       <div className="player-wrapper">
         <ReactPlayer
-          url={highlight.url}
+          url={highlight.videoUrl}
           width="100%"
           height="100%"
           className="react-player"
@@ -64,17 +64,19 @@ const Highlight = ({ highlight }) => {
           <HighlightButton
             onClick={save}
             IconComponent={HeartIcon}
-            className="md:hover:bg-red-100"
+            className={`md:hover:bg-red-100 ${isSaved ? "border-red-400" : ""}`}
+            activeColor="#F87171"
+            isActive={isSaved}
+          />
+          <HighlightButton
+            onClick={() => window.open(highlight.postUrl)}
+            IconComponent={CommentIcon}
+            className="md:hover:bg-blue-100"
           />
           <HighlightButton
             onClick={share}
             IconComponent={ShareIcon}
             className="md:hover:bg-green-100"
-          />
-          <HighlightButton
-            onClick={() => console.log("go to post")}
-            IconComponent={CommentIcon}
-            className="md:hover:bg-blue-100"
           />
         </div>
       </div>
