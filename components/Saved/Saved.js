@@ -5,7 +5,7 @@ import Highlight from "../Highlights/Highlight";
 import { createSkeleton } from "../Hot/Hot";
 
 const Saved = () => {
-  const [highlights, setHighlights] = useState(null);
+  const [highlights, setHighlights] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

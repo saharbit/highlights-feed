@@ -21,18 +21,18 @@ export default function Home() {
 
   return (
     <Layout title="highlights.live">
-      <div className="hidden w-0 md:w-3/12 md:block px-3 pt-2">
+      <div className="hidden w-0 md:w-1/4 md:block px-3 pt-2">
         <Tabs />
       </div>
 
-      <div className="w-full md:w-6/12 pb-6 md:border-l md:border-r">
+      <div className="w-full md:w-2/4 pb-6 md:border-l md:border-r">
         {tab === "top" && <Hot />}
         {tab === "new" && <New />}
         {tab === "saved" && <Saved />}
         {tab === "search" && <SearchTab />}
       </div>
 
-      <div className="hidden w-0 md:w-3/12 md:block px-3 pt-2">
+      <div className="hidden w-0 md:w-1/4 md:block px-3 pt-2">
         <SearchInput
           search={search}
           setSearch={(search) => dispatch(setSearch({ search }))}

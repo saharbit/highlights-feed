@@ -11,7 +11,7 @@ function HighlightButton({
   return (
     <div className="flex mr-2">
       <motion.div
-        className={`p-1 px-3 text-sm cursor-pointer rounded-full transition duration-300 ease-in-out border ${
+        className={`p-1 px-3 text-sm cursor-pointer rounded-full border ${
           className ? className : ""
         }`}
         {...props}

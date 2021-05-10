@@ -1,16 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import { TABS } from "../consts/tabs";
 import { useDispatch, useSelector } from "react-redux";
 import { setTab } from "../store/appState";
 
 function Tab({ label, Icon, children, isActive, ...props }) {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div
-      className="px-2 py-4 flex items-center hover:bg-gray-100 cursor-pointer transition-all first:rounded-t-xl last:rounded-b-xl"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      className="flex cursor-pointer pb-3"
       {...props}
     >
-      <Icon className="h-7 w-7 mr-2" />
-      <div className={`font-lg ${isActive ? "font-bold" : ""}`}>{label}</div>
+      <div
+        className={`flex items-center rounded-3xl pl-4 pr-7 py-3 transition-all ${
+          isHovered ? "bg-red-50" : ""
+        }`}
+      >
+        <Icon
+          className={`h-8 w-8 mr-4`}
+          color={isActive || isHovered ? "red" : "black"}
+        />
+        <div
+          className={`text-xl font-semibold ${
+            isActive || isHovered ? "text-red-500" : ""
+          }`}
+        >
+          {label}
+        </div>
+      </div>
     </div>
   );
 }
@@ -20,7 +39,7 @@ const Tabs = () => {
   const { tab: currentTab } = useSelector((state) => state.appState);
 
   return (
-    <div className="bg-gray-200 rounded-xl">
+    <div className="">
       {TABS.map((tab) => (
         <Tab
           onClick={() => dispatch(setTab({ tab: tab.value }))}
