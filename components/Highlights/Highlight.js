@@ -18,10 +18,6 @@ const Highlight = ({ highlight }) => {
   const [isReady, setIsReady] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
 
-  if (erroredOut) {
-    return null;
-  }
-
   function share() {
     shareHighlight(highlight);
   }
@@ -32,7 +28,7 @@ const Highlight = ({ highlight }) => {
   }
 
   return (
-    <div className="border-b">
+    <div className={`border-b ${erroredOut ? "" : ""}`}>
       <div className="flex justify-between p-2 mr-1">
         <div className="flex items-center">
           <div className="mr-2">{SUBREDDITS[highlight.sub].icon}</div>
@@ -48,16 +44,27 @@ const Highlight = ({ highlight }) => {
           <span className="text-gray-500">{kFormatter(highlight.score)}</span>
         </div>
       </div>
-      <div className="player-wrapper">
-        <ReactPlayer
-          url={highlight.videoUrl}
-          width="100%"
-          height="100%"
-          className="react-player"
-          onError={() => setErroredOut(true)}
-          onReady={() => setIsReady(true)}
-        />
-      </div>
+      {erroredOut ? (
+        <div className="text-center pb-3 pt-4 bg-red-50">
+          Failed to preview video, try the{" "}
+          <a className="underline text-blue-500" href={highlight.videoUrl}>
+            original
+          </a>{" "}
+          link
+        </div>
+      ) : (
+        <div className="player-wrapper">
+          <ReactPlayer
+            url={highlight.videoUrl}
+            width="100%"
+            height="100%"
+            className="react-player"
+            onError={() => setErroredOut(true)}
+            onReady={() => setIsReady(true)}
+          />
+        </div>
+      )}
+
       <div className="flex flex-col">
         <div className="font-semibold p-2">{highlight.title}</div>
         <div className="flex pb-2 px-2">

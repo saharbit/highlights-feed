@@ -7,6 +7,7 @@ const getHighlights = (state) => state.appState.highlights;
 const getVisibleHighlights = (state) => state.appState.visibleHighlights;
 const getTab = (state) => state.appState.tab;
 const getSearch = (state) => state.appState.search;
+const getSubreddit = (state) => state.appState.subreddit;
 
 export const getHighlightsCount = createSelector(
   [getHighlights, getTab],
@@ -25,8 +26,8 @@ export const getHighlightsCount = createSelector(
 );
 
 export const getTabHighlights = createSelector(
-  [getHighlights, getVisibleHighlights, getTab, getSearch],
-  (highlights, visibleHighlights, tab, search) => {
+  [getHighlights, getVisibleHighlights, getTab, getSearch, getSubreddit],
+  (highlights, visibleHighlights, tab, search, subreddit) => {
     let list = [];
 
     if (!highlights) {
@@ -34,7 +35,7 @@ export const getTabHighlights = createSelector(
     }
 
     for (let [sub, categories] of Object.entries(highlights)) {
-      if (sub !== "lastupdated") {
+      if (sub !== "lastupdated" && (!subreddit || subreddit.value === sub)) {
         list.push(
           ...categories[tab].map((highlight) => ({ ...highlight, sub }))
         );

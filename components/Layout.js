@@ -2,7 +2,6 @@ import React from "react";
 import MobileTabs from "./MobileComponents/MobileTabs";
 import Head from "next/head";
 import MobileHeader from "./MobileComponents/MobileHeader";
-import MobileFilters from "./MobileComponents/MobileFilters";
 
 const Layout = ({ children, title }) => {
   return (
@@ -18,7 +17,6 @@ const Layout = ({ children, title }) => {
       </Head>
 
       <MobileHeader />
-      {/*<MobileFilters />*/}
       <div className="mt-12 md:mt-0 flex w-full">{children}</div>
       <MobileTabs />
     </div>

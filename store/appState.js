@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { getHighlightsCount } from "./appStateSelectors";
-import { SUBREDDITS_INITIAL_STATE } from "../consts/subreddits";
 import { TABS } from "../consts/tabs";
 
 const initialState = {
@@ -10,7 +9,7 @@ const initialState = {
   visibleHighlights: 10,
   hasMoreHighlights: true,
   search: "",
-  subreddits: SUBREDDITS_INITIAL_STATE,
+  subreddit: null,
   tab: TABS[0].value,
 };
 
@@ -48,13 +47,9 @@ const appState = createSlice({
       }
     },
     selectSub(state, action) {
-      const { selectedSub } = action.payload;
+      const { sub } = action.payload;
 
-      state.subreddits = state.subreddits.map((sub) =>
-        sub.value === selectedSub.value
-          ? { ...sub, isSelected: !sub.isSelected }
-          : sub
-      );
+      state.subreddit = sub;
     },
     setTab(state, action) {
       const { tab } = action.payload;

@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import SubredditsModal from "./SubredditsModal";
-import BoxesIcon from "../../icons/BoxesIcon";
 import { useSelector } from "react-redux";
 import { getCurrentTab } from "../../store/appStateSelectors";
 
 const MobileHeader = () => {
-  const [isSubredditsModalOpen, setIsSubredditsModalOpen] = useState(false);
   const { label, Icon } = useSelector(getCurrentTab);
 
   return (
@@ -14,16 +11,6 @@ const MobileHeader = () => {
         <Icon className="w-6 h-6 mr-2" />
         <div className="font-bold text-xl">{label}</div>
       </div>
-      <div
-        onClick={() => setIsSubredditsModalOpen(true)}
-        className="cursor-pointer"
-      >
-        <BoxesIcon />
-      </div>
-      <SubredditsModal
-        isOpen={isSubredditsModalOpen}
-        onRequestClose={() => setIsSubredditsModalOpen(false)}
-      />
     </div>
   );
 };

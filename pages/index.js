@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Subreddits from "../components/Subreddits";
 import Tabs from "../components/Tabs";
 import Hot from "../components/Hot/Hot";
@@ -10,6 +10,7 @@ import { fetchHighlights, setSearch } from "../store/appState";
 import { useDispatch, useSelector } from "react-redux";
 import Layout from "../components/Layout";
 import SearchTab from "../components/Search/SearchTab";
+import MobileSubreddits from "../components/MobileComponents/MobileSubreddits";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -26,6 +27,7 @@ export default function Home() {
       </div>
 
       <div className="w-full md:w-2/4 pb-6 md:border-l md:border-r">
+        <MobileSubreddits />
         {tab === "top" && <Hot />}
         {tab === "new" && <New />}
         {tab === "saved" && <Saved />}
