@@ -5,7 +5,7 @@ import MobileHeader from "./MobileComponents/MobileHeader";
 
 const Layout = ({ children, title }) => {
   return (
-    <div className="flex max-w-screen-xl mx-auto min-h-screen">
+    <div className="relative max-w-screen-xl mx-auto">
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.svg" />
@@ -17,7 +17,7 @@ const Layout = ({ children, title }) => {
       </Head>
 
       <MobileHeader />
-      <div className="mt-12 md:mt-0 flex w-full">{children}</div>
+      <div className="flex mt-12 md:mt-0 min-h-screen mb-2">{children}</div>
       <MobileTabs />
     </div>
   );

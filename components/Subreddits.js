@@ -2,7 +2,6 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSub } from "../store/appState";
 import { SUBREDDITS_LIST } from "../consts/subreddits";
-import CheckIcon from "../icons/CheckIcon";
 
 const Subreddits = () => {
   const dispatch = useDispatch();
@@ -18,17 +17,16 @@ const Subreddits = () => {
 
         return (
           <div
-            className="py-4 pl-3 pr-5 flex items-center justify-between md:hover:bg-gray-200 transition-all cursor-pointer last:rounded-b-xl"
+            className={`py-4 pl-3 pr-5 flex items-center justify-between  transition-all cursor-pointer last:rounded-b-xl ${
+              isSelected ? "bg-red-100" : "md:hover:bg-red-50"
+            }`}
             key={`subLabel_${sub.value}`}
             onClick={() => dispatch(selectSub({ sub }))}
           >
             <div className="flex">
               <div className="mr-2">{sub.icon}</div>
-              <div className={isSelected ? "font-semibold" : ""}>
-                {sub.label}
-              </div>
+              <div className="">{sub.label}</div>
             </div>
-            {isSelected && <CheckIcon />}
           </div>
         );
       })}

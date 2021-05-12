@@ -3,7 +3,6 @@ import Subreddits from "../components/Subreddits";
 import Tabs from "../components/Tabs";
 import Hot from "../components/Hot/Hot";
 import SearchInput from "../components/Search/SearchInput";
-import HighlightsFeedLogo from "../components/HighlightsFeedLogo";
 import Saved from "../components/Saved/Saved";
 import New from "../components/New/New";
 import { fetchHighlights, setSearch } from "../store/appState";
@@ -22,11 +21,13 @@ export default function Home() {
 
   return (
     <Layout title="highlights.live">
-      <div className="hidden w-0 md:w-1/4 md:block px-3 pt-2">
-        <Tabs />
+      <div className="relative flex-grow">
+        <div className="hidden w-0 md:flex md:flex-col md:w-full px-3 pt-2 fixed">
+          <Tabs />
+        </div>
       </div>
 
-      <div className="w-full md:w-2/4 pb-6 md:border-l md:border-r">
+      <div className="flex flex-col mx-auto w-full md:w-1/2 pb-5 md:border-l md:border-r">
         <MobileSubreddits />
         {tab === "top" && <Hot />}
         {tab === "new" && <New />}
@@ -34,13 +35,15 @@ export default function Home() {
         {tab === "search" && <SearchTab />}
       </div>
 
-      <div className="hidden w-0 md:w-1/4 md:block px-3 pt-2">
-        <SearchInput
-          search={search}
-          setSearch={(search) => dispatch(setSearch({ search }))}
-          className="mb-4"
-        />
-        <Subreddits />
+      <div className="relative flex-grow">
+        <div className="hidden w-0 md:flex md:flex-col md:w-1/6 px-4 pt-2 fixed">
+          <SearchInput
+            search={search}
+            setSearch={(search) => dispatch(setSearch({ search }))}
+            className="mb-4"
+          />
+          <Subreddits />
+        </div>
       </div>
     </Layout>
   );
