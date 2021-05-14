@@ -14,13 +14,16 @@ const MobileSubreddits = () => {
 
         return (
           <div
+            key={sub.value}
             onClick={() => dispatch(selectSub({ sub }))}
-            className={`mr-2 ${
-              isSelected ? "bg-red-200" : "bg-gray-100"
+            className={`mr-2 bg-gray-100 ${
+              isSelected
+                ? "border border-gray-400 bg-gray-200"
+                : "border border-gray-200"
             } p-1 px-2 rounded-full`}
           >
             <div className="flex">
-              <div className="mr-2">{sub.icon}</div>
+              <div className="mr-1">{sub.icon}</div>
               <div>{sub.label}</div>
             </div>
           </div>

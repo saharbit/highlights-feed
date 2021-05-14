@@ -4,7 +4,7 @@ import SearchIcon from "../../icons/SearchIcon";
 function SearchInput({ search, setSearch, className }) {
   return (
     <div
-      className={`flex w-full p-3 pr-6 items-center rounded-3xl bg-gray-200 ${
+      className={`flex p-3 pr-6 items-center rounded-3xl bg-gray-200 ${
         className ? className : ""
       }`}
     >

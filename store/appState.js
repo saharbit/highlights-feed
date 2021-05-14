@@ -49,7 +49,11 @@ const appState = createSlice({
     selectSub(state, action) {
       const { sub } = action.payload;
 
-      state.subreddit = sub;
+      if (state.subreddit?.value === sub.value) {
+        state.subreddit = null;
+      } else {
+        state.subreddit = sub;
+      }
     },
     setTab(state, action) {
       const { tab } = action.payload;

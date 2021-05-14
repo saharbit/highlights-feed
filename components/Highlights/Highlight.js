@@ -45,7 +45,7 @@ const Highlight = ({ highlight }) => {
         </div>
       </div>
       {erroredOut ? (
-        <div className="text-center pb-3 pt-4 bg-red-50">
+        <div className="text-center pb-5 pt-6 bg-red-50">
           Failed to preview video, try the{" "}
           <a className="underline text-blue-500" href={highlight.videoUrl}>
             original
@@ -71,19 +71,19 @@ const Highlight = ({ highlight }) => {
           <HighlightButton
             onClick={save}
             IconComponent={HeartIcon}
-            className={`md:hover:bg-red-100 ${isSaved ? "border-red-400" : ""}`}
+            className={`md:hover:bg-red-50 ${isSaved ? "border-red-400" : ""}`}
             activeColor="#F87171"
             isActive={isSaved}
           />
           <HighlightButton
             onClick={() => window.open(highlight.postUrl)}
             IconComponent={CommentIcon}
-            className="md:hover:bg-blue-100"
+            className="md:hover:bg-blue-50"
           />
           <HighlightButton
             onClick={share}
             IconComponent={ShareIcon}
-            className="md:hover:bg-green-100"
+            className="md:hover:bg-green-50"
           />
         </div>
       </div>

@@ -19,7 +19,7 @@ function HighlightButton({
         <IconComponent
           className="w-5 h-5"
           color={isActive ? activeColor : "#9CA3AF"}
-          fill={isActive ? activeColor : "none"}
+          // fill={isActive ? activeColor : "none"}
         />
       </motion.div>
     </div>

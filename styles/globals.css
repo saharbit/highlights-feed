@@ -21,3 +21,7 @@ body {
 .safe-bottom {
   padding-bottom: env(safe-area-inset-bottom);
 }
+
+.width-inherit {
+  width: inherit;
+}

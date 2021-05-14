@@ -20,14 +20,14 @@ export default function Home() {
   }, []);
 
   return (
-    <Layout title="highlights.live">
-      <div className="relative flex-grow">
-        <div className="hidden w-0 md:flex md:flex-col md:w-full px-3 pt-2 fixed">
+    <Layout title="Highlights">
+      <div className="hidden md:block relative flex-grow w-1/4 xl:w-1/3">
+        <div className="hidden md:flex flex-col fixed width-inherit items-end p-3">
           <Tabs />
         </div>
       </div>
 
-      <div className="flex flex-col mx-auto w-full md:w-1/2 pb-5 md:border-l md:border-r">
+      <div className="flex flex-col w-full pb-5 md:border-l md:border-r md:w-1/2 xl:w-1/3">
         <MobileSubreddits />
         {tab === "top" && <Hot />}
         {tab === "new" && <New />}
@@ -35,8 +35,8 @@ export default function Home() {
         {tab === "search" && <SearchTab />}
       </div>
 
-      <div className="relative flex-grow">
-        <div className="hidden w-0 md:flex md:flex-col md:w-1/6 px-4 pt-2 fixed">
+      <div className="hidden md:block relative flex-grow w-1/4 xl:w-1/3">
+        <div className="flex flex-col fixed width-inherit md:max-w-xs p-3">
           <SearchInput
             search={search}
             setSearch={(search) => dispatch(setSearch({ search }))}

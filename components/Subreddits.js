@@ -17,8 +17,8 @@ const Subreddits = () => {
 
         return (
           <div
-            className={`py-4 pl-3 pr-5 flex items-center justify-between  transition-all cursor-pointer last:rounded-b-xl ${
-              isSelected ? "bg-red-100" : "md:hover:bg-red-50"
+            className={`py-4 pl-3 pr-5 flex items-center justify-between transition-all cursor-pointer last:rounded-b-xl ${
+              isSelected ? "bg-gray-300" : "md:hover:bg-gray-200"
             }`}
             key={`subLabel_${sub.value}`}
             onClick={() => dispatch(selectSub({ sub }))}

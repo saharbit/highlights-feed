@@ -14,7 +14,7 @@ function Tab({ label, Icon, children, isActive, ...props }) {
       {...props}
     >
       <div
-        className={`flex items-center rounded-3xl pl-4 pr-7 py-3 transition-all ${
+        className={`flex items-center rounded-full pl-4 pr-7 py-3 transition-all ${
           isHovered ? "bg-red-50" : ""
         }`}
       >
@@ -39,7 +39,7 @@ const Tabs = () => {
   const { tab: currentTab } = useSelector((state) => state.appState);
 
   return (
-    <div className="">
+    <div className="w-full md:max-w-xs">
       {TABS.map((tab) => (
         <Tab
           onClick={() => dispatch(setTab({ tab: tab.value }))}
