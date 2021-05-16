@@ -1,8 +1,8 @@
 import React from "react";
-import Highlight from "../Highlights/Highlight";
-import HighlightSkeleton from "../Highlights/HighlightSkeleton";
+import Highlight from "../Highlight/Highlight";
+import HighlightSkeleton from "../Highlight/HighlightSkeleton";
 import InfiniteScroll from "react-infinite-scroll-component";
-import NoHighlights from "../Highlights/NoHighlights";
+import NoHighlights from "../NoHighlights";
 import { useDispatch, useSelector } from "react-redux";
 import { getTabHighlights } from "../../store/appStateSelectors";
 import { bumpVisibleHighlightsAsync } from "../../store/appState";
@@ -25,24 +25,22 @@ const Hot = () => {
   }
 
   return (
-    <div>
-      <InfiniteScroll
-        dataLength={highlights.length}
-        next={() => dispatch(bumpVisibleHighlightsAsync())}
-        hasMore={hasMoreHighlights}
-        loader={createSkeleton(10)}
-        endMessage={
-          <NoHighlights
-            title="That's it for today!"
-            text="Add subreddits or come back later"
-          />
-        }
-      >
-        {highlights.map((highlight, index) => (
-          <Highlight highlight={highlight} key={`highlight_${index}`} />
-        ))}
-      </InfiniteScroll>
-    </div>
+    <InfiniteScroll
+      dataLength={highlights.length}
+      next={() => dispatch(bumpVisibleHighlightsAsync())}
+      hasMore={hasMoreHighlights}
+      loader={createSkeleton(10)}
+      endMessage={
+        <NoHighlights
+          title="That's it for today!"
+          text="Add subreddits or come back later"
+        />
+      }
+    >
+      {highlights.map((highlight, index) => (
+        <Highlight highlight={highlight} key={`highlight_${index}`} />
+      ))}
+    </InfiniteScroll>
   );
 };
 

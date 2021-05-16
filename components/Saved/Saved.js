@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import NoHighlights from "../Highlights/NoHighlights";
+import NoHighlights from "../NoHighlights";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Highlight from "../Highlights/Highlight";
+import Highlight from "../Highlight/Highlight";
 import { createSkeleton } from "../Hot/Hot";
 
 const Saved = () => {
@@ -20,24 +20,31 @@ const Saved = () => {
   }
 
   return (
-    <div>
-      <InfiniteScroll
-        dataLength={highlights.length}
-        next={() => true}
-        hasMore={isLoading}
-        loader={createSkeleton(10)}
-        endMessage={
-          <NoHighlights
-            title="No more saved highlights"
-            text="Change subreddits or save a video"
-          />
-        }
-      >
-        {highlights.map((highlight, index) => (
-          <Highlight highlight={highlight} key={`highlight_${index}`} />
-        ))}
-      </InfiniteScroll>
-    </div>
+    <InfiniteScroll
+      dataLength={highlights.length}
+      next={() => true}
+      hasMore={isLoading}
+      loader={createSkeleton(10)}
+      endMessage={
+        <NoHighlights
+          title="No more saved highlights"
+          text="Change subreddits or save a video"
+        />
+      }
+    >
+      {highlights.map((highlight, index) => (
+        <Highlight
+          highlight={highlight}
+          key={`highlight_${index}`}
+          saved={true}
+          onSave={() =>
+            setHighlights(
+              highlights.filter((x) => x.videoUrl !== highlight.videoUrl)
+            )
+          }
+        />
+      ))}
+    </InfiniteScroll>
   );
 };
 
