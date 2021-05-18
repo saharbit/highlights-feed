@@ -1,7 +1,12 @@
 import React from "react";
 import SearchIcon from "../../icons/SearchIcon";
+import { useDispatch, useSelector } from "react-redux";
+import { setSearch } from "../../store/appState";
 
-function SearchInput({ search, setSearch, className }) {
+function SearchInput({ className }) {
+  const dispatch = useDispatch();
+  const { search } = useSelector((state) => state.appState);
+
   return (
     <div
       className={`flex p-3 pr-6 items-center rounded-3xl bg-gray-200 ${
@@ -13,7 +18,7 @@ function SearchInput({ search, setSearch, className }) {
         className="outline-none bg-gray-200 w-full overflow-ellipsis"
         placeholder="Search Highlights"
         value={search}
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={(e) => dispatch(setSearch({ search: e.target.value }))}
       />
     </div>
   );

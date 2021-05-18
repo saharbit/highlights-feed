@@ -3,13 +3,16 @@ import ReactPlayer from "react-player";
 
 const HighlightVideo = ({ highlight }) => {
   const [erroredOut, setErroredOut] = useState(false);
-  const [isReady, setIsReady] = useState(false);
 
   if (erroredOut) {
     return (
-      <div className="text-center pb-10 pt-12 bg-red-50">
+      <div className="text-center pb-4 pt-5 bg-red-50">
         Failed to preview video, try the{" "}
-        <a className="underline text-blue-500" href={highlight.videoUrl}>
+        <a
+          className="underline text-blue-500"
+          href={highlight.videoUrl}
+          target="_blank"
+        >
           original
         </a>{" "}
         link
@@ -25,7 +28,6 @@ const HighlightVideo = ({ highlight }) => {
         height="100%"
         className="react-player"
         onError={() => setErroredOut(true)}
-        onReady={() => setIsReady(true)}
       />
     </div>
   );
