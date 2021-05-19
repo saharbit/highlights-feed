@@ -9,7 +9,7 @@ function SearchInput({ className }) {
 
   return (
     <div
-      className={`flex p-3 pr-6 items-center rounded-3xl bg-gray-200 ${
+      className={`flex p-3 pr-6 items-center rounded-full bg-gray-200 ${
         className ? className : ""
       }`}
     >

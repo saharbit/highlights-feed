@@ -39,7 +39,7 @@ const Tabs = () => {
   const { tab: currentTab } = useSelector((state) => state.appState);
 
   return (
-    <div className="w-full md:max-w-xs">
+    <div className="w-64">
       {TABS.map((tab) => (
         <Tab
           onClick={() => dispatch(setTab({ tab: tab.value }))}

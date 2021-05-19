@@ -22,12 +22,12 @@ export default function Home() {
   return (
     <Layout title="Highlights">
       <div className="hidden md:block relative flex-grow w-1/4 xl:w-1/3">
-        <div className="hidden md:flex flex-col fixed width-inherit items-end p-3">
+        <div className="md:flex p-4 justify-end">
           <Tabs />
         </div>
       </div>
 
-      <div className="flex flex-col w-full pb-5 md:border-l md:border-r md:w-1/2 max-w-2xl">
+      <div className="flex flex-col w-full pb-5 md:border-l md:border-r md:w-1/2 md:max-w-2xl">
         <MobileSubreddits />
         {tab === "top" && <Hot />}
         {tab === "new" && <New />}
@@ -36,7 +36,7 @@ export default function Home() {
       </div>
 
       <div className="hidden md:block relative flex-grow w-1/4 xl:w-1/3">
-        <div className="flex flex-col fixed width-inherit md:max-w-xs p-3">
+        <div className="md:flex flex-col p-4 justify-start max-w-md">
           <SearchInput className="mb-4" />
           <Subreddits />
         </div>
