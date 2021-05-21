@@ -23,6 +23,10 @@ export const SUBREDDITS = {
     icon: "🥊",
     label: "r/mma",
   },
+  hockey: {
+    icon: "🏒",
+    label: "r/hockey",
+  },
 };
 
 export const SUBREDDITS_LIST = Object.entries(SUBREDDITS).map(
