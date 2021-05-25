@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSub } from "../store/appState";
-import { SUBREDDITS_LIST } from "../consts/subreddits";
+import { SUBREDDITS_LIST } from "../utils/subreddits";
 
 const Subreddits = () => {
   const dispatch = useDispatch();
@@ -25,9 +25,7 @@ const Subreddits = () => {
           >
             <div className="flex">
               <div className="mr-2">{sub.icon}</div>
-              <div className={isSelected ? "font-semibold" : ""}>
-                {sub.label}
-              </div>
+              <div>{sub.label}</div>
             </div>
           </div>
         );

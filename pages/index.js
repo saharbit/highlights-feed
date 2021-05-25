@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col w-full pb-5 md:border-l md:border-r md:w-1/2 md:max-w-2xl z-10">
-        <MobileSubreddits />
+        {(tab === "top" || tab === "new") && <MobileSubreddits />}
         {tab === "top" && <Hot />}
         {tab === "new" && <New />}
         {tab === "saved" && <Saved />}

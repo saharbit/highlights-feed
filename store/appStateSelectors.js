@@ -1,6 +1,6 @@
 import { createSelector } from "@reduxjs/toolkit";
 import dayjs from "dayjs";
-import { MOBILE_TABS } from "../consts/tabs";
+import { MOBILE_TABS } from "../utils/tabs";
 import { sort } from "fast-sort";
 
 const getHighlights = (state) => state.appState.highlights;

@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { getHighlightsCount } from "./appStateSelectors";
-import { TABS } from "../consts/tabs";
+import { TABS } from "../utils/tabs";
 
 const initialState = {
   highlights: {},

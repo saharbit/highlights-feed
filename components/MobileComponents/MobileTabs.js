@@ -1,5 +1,5 @@
 import React from "react";
-import { MOBILE_TABS } from "../../consts/tabs";
+import { MOBILE_TABS } from "../../utils/tabs";
 import { useDispatch, useSelector } from "react-redux";
 import { setTab } from "../../store/appState";
 

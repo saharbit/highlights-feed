@@ -7,7 +7,7 @@ const MobileHeader = () => {
 
   return (
     <div className="flex justify-between items-center px-2 h-12 border-b fixed inset-x-0 top-0 z-20 bg-white md:hidden">
-      <div className="flex items-center">
+      <div className="flex w-full items-center justify-center">
         <Icon className="w-6 h-6 mr-2" />
         <div className="font-bold text-xl">{label}</div>
       </div>

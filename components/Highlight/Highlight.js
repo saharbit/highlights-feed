@@ -8,7 +8,7 @@ const Highlight = ({ highlight, saved, onSave }) => {
   const [isSaved, setIsSaved] = useState(saved || false);
 
   return (
-    <div className={`border-b`}>
+    <div className={`border-b bg-white`}>
       <HighlightHeader highlight={highlight} />
       <HighlightVideo highlight={highlight} />
       <div className="flex flex-col">

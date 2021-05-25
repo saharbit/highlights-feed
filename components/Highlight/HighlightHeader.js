@@ -1,5 +1,5 @@
 import React from "react";
-import { SUBREDDITS } from "../../consts/subreddits";
+import { SUBREDDITS } from "../../utils/subreddits";
 import dayjs from "dayjs";
 import ArrowUp from "../../icons/ArrowUp";
 import { kFormatter } from "../../utils/utils";

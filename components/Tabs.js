@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TABS } from "../consts/tabs";
+import { TABS } from "../utils/tabs";
 import { useDispatch, useSelector } from "react-redux";
 import { setTab } from "../store/appState";
 
