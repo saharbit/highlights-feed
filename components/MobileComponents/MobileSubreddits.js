@@ -18,7 +18,7 @@ const MobileSubreddits = () => {
             onClick={() => dispatch(selectSub({ sub }))}
             className={`mr-2 p-1 pl-2 pr-3 rounded-full ${
               isSelected
-                ? "bg-gray-200 border border-gray-300"
+                ? "bg-gray-100 border border-black"
                 : "bg-gray-100 border border-gray-100"
             } `}
           >

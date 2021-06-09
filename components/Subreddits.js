@@ -8,7 +8,7 @@ const Subreddits = () => {
   const { subreddit } = useSelector((state) => state.appState);
 
   return (
-    <div className="pt-2 rounded-xl md:pt-0 md:bg-gray-100">
+    <div className="pt-2 rounded-xl md:pt-0 md:bg-gray-100 border">
       <div className="hidden md:flex justify-between items-center px-4 pt-3 pb-4">
         <div className="font-bold text-xl">By subreddit</div>
       </div>
@@ -17,8 +17,8 @@ const Subreddits = () => {
 
         return (
           <div
-            className={`py-4 pl-3 pr-5 flex items-center justify-between transition-all cursor-pointer last:rounded-b-xl ${
-              isSelected ? "bg-gray-300" : "md:hover:bg-gray-200"
+            className={`py-4 pl-3 pr-5 flex items-center justify-between transition-all cursor-pointer last:rounded-b-xl md:hover:bg-gray-200 ${
+              isSelected ? "bg-gray-200" : ""
             }`}
             key={`subLabel_${sub.value}`}
             onClick={() => dispatch(selectSub({ sub }))}
