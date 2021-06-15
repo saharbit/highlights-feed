@@ -8,10 +8,11 @@ const Subreddits = () => {
   const { subreddit } = useSelector((state) => state.appState);
 
   return (
-    <div className="pt-2 rounded-xl md:pt-0 md:bg-gray-100 border">
+    <div className="pt-2 rounded-xl md:pt-0 md:bg-gray-100">
       <div className="hidden md:flex justify-between items-center px-4 pt-3 pb-4">
         <div className="font-bold text-xl">By subreddit</div>
       </div>
+
       {SUBREDDITS_LIST.map((sub) => {
         const isSelected = subreddit?.value === sub.value;
 
