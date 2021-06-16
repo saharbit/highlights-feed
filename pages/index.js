@@ -25,7 +25,7 @@ export default function Home() {
       <div className="hidden md:block relative flex-grow w-1/4 xl:w-1/3">
         <div className="fixed p-5 flex items-end width-inherit flex-col">
           <Tabs />
-          <ShareButton />
+          {/*<ShareButton />*/}
         </div>
       </div>
 
