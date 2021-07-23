@@ -8,26 +8,26 @@
     "start": "next start"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.6.0",
-    "@types/ioredis": "^4.26.4",
-    "autoprefixer": "^10.2.6",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@types/ioredis": "^4.26.6",
+    "autoprefixer": "^10.3.1",
     "axios": "^0.21.1",
-    "dayjs": "^1.10.5",
+    "dayjs": "^1.10.6",
     "fast-sort": "^3.0.2",
     "framer-motion": "^4.1.17",
     "ioredis": "^4.27.6",
-    "next": "^11.0.0",
-    "postcss": "^8.3.4",
+    "next": "^11.0.1",
+    "postcss": "^8.3.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-infinite-scroll-component": "^6.1.0",
-    "react-modal": "^3.14.2",
+    "react-modal": "^3.14.3",
     "react-player": "^2.9.0",
     "react-redux": "^7.2.4",
     "swr": "^0.5.6",
-    "tailwindcss": "^2.1.4"
+    "tailwindcss": "^2.2.7"
   },
   "devDependencies": {
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.2"
   }
 }
