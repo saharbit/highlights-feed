@@ -10,7 +10,6 @@ import { useDispatch, useSelector } from "react-redux";
 import Layout from "../components/Layout";
 import SearchTab from "../components/Search/SearchTab";
 import MobileSubreddits from "../components/MobileComponents/MobileSubreddits";
-import ShareButton from "../components/ShareButton";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -25,7 +24,6 @@ export default function Home() {
       <div className="hidden md:block relative flex-grow w-1/4 xl:w-1/3">
         <div className="fixed p-5 flex items-end width-inherit flex-col">
           <Tabs />
-          {/*<ShareButton />*/}
         </div>
       </div>
 
