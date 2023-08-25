@@ -13,9 +13,8 @@ const HighlightVideo = ({ highlight }) => {
           href={highlight.videoUrl}
           target="_blank"
         >
-          original
-        </a>{" "}
-        link
+          original link
+        </a>
       </div>
     );
   }

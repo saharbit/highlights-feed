@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { getHighlightsCount } from "./appStateSelectors";
 import { TABS } from "../utils/tabs";
+import { MOCK_HIGHLIGHTS } from "../pages/api/mock";
 
 const initialState = {
   highlights: {},
@@ -80,8 +81,7 @@ export default reducer;
 export const fetchHighlights = () => async (dispatch) => {
   dispatch(fetchHighlightsStarted());
   try {
-    const response = await axios.get("/api/highlights");
-    dispatch(fetchHighlightsSuccess({ highlights: response.data }));
+    dispatch(fetchHighlightsSuccess({ highlights: MOCK_HIGHLIGHTS }));
   } catch (err) {
     dispatch(fetchHighlightsFailure(err.toString()));
   }
