@@ -3,241 +3,448 @@ export const MOCK_HIGHLIGHTS = {
     top: [
       {
         title:
-          "[Highlight] Mario Hezonja with the game-saving block on Lebron and stares him down! 17-65 Knicks with a comeback victory vs. the Lakers",
-        videoUrl: "https://streamable.com/7m9vsd",
-        score: 65,
-        date: "2023-08-24T16:02:35+00:00",
+          "[Highlight] What Lebron thought about to create a quick bucket off of a jump ball. Simple yet smart.",
+        videoUrl: "https://streamable.com/gfei8b",
+        score: 5561,
+        date: "2023-12-22T21:00:26+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/16060t3/highlight_mario_hezonja_with_the_gamesaving_block/",
+          "https://old.reddit.com/r/nba/comments/18oot8k/highlight_what_lebron_thought_about_to_create_a/",
       },
       {
-        title: "Why Dominique Wilkins is called the Human Highlights Film",
-        videoUrl: "https://www.youtube.com/watch?v=AS5putGxdcI",
-        score: 61,
-        date: "2023-08-24T14:11:06+00:00",
+        title:
+          "[Highlight] Malik Monk bounces off the trampoline for a slam dunk off the turnover",
+        videoUrl: "https://streamable.com/oogzx7",
+        score: 3324,
+        date: "2023-12-23T04:02:40+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/1603202/why_dominique_wilkins_is_called_the_human/",
+          "https://old.reddit.com/r/nba/comments/18ox5cp/highlight_malik_monk_bounces_off_the_trampoline/",
+      },
+      {
+        title:
+          "[Highlight] Embiid tries to draw fouls on 2 plays, refs dont call it and the Raptors score 2 easy points in transition each time",
+        videoUrl: "https://streamable.com/sd78wx",
+        score: 2979,
+        date: "2023-12-23T00:52:24+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18otnt8/highlight_embiid_tries_to_draw_fouls_on_2_plays/",
+      },
+      {
+        title: "[Highlight] Embiid scores 17 straight points for the Sixers",
+        videoUrl: "https://streamable.com/lkgyee",
+        score: 1465,
+        date: "2023-12-23T02:02:22+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ov00h/highlight_embiid_scores_17_straight_points_for/",
+      },
+      {
+        title: "[Highlight] A sexy smooth steal by Mike Conley",
+        videoUrl: "https://streamable.com/c7pdpd",
+        score: 851,
+        date: "2023-12-22T17:00:12+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ojjhd/highlight_a_sexy_smooth_steal_by_mike_conley/",
+      },
+      {
+        title:
+          "[Highlight] Jordan Poole gets a warm welcome from the Golden State Warriors fans in the Chase Center, including a welcome video when his name is called up during the presentation of the Wizards' starting lineup.",
+        videoUrl: "https://streamable.com/nwqs5z",
+        score: 529,
+        date: "2023-12-23T03:45:38+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18owuvr/highlight_jordan_poole_gets_a_warm_welcome_from/",
+      },
+      {
+        title:
+          "[Highlight] Scottie Barnes gets the transition block on the opposite side of the rim",
+        videoUrl: "https://streamable.com/bfdu6m",
+        score: 492,
+        date: "2023-12-23T01:00:44+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ottjd/highlight_scottie_barnes_gets_the_transition/",
+      },
+      {
+        title:
+          "[Highlight] Durant and Booker both pick up successive technical fouls after the dunk from Azubuike",
+        videoUrl: "https://streamable.com/n34tc3",
+        score: 484,
+        date: "2023-12-23T04:08:57+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ox9cd/highlight_durant_and_booker_both_pick_up/",
+      },
+      {
+        title:
+          "[Highlight] Ja Morant knows the Desmond Bane 3 is going in (wasn't picked up by broadcast)",
+        videoUrl: "https://streamable.com/k1mbhl",
+        score: 404,
+        date: "2023-12-22T20:44:15+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oogr0/highlight_ja_morant_knows_the_desmond_bane_3_is/",
+      },
+      {
+        title:
+          "[Highlight] Steph Curry gets upset for not receving an And-One foul call, and gets a technical foul instead (with a replay of the play and his talk ot the ref).",
+        videoUrl: "https://streamable.com/ltydeg",
+        score: 379,
+        date: "2023-12-23T04:29:14+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oxm16/highlight_steph_curry_gets_upset_for_not_receving/",
+      },
+      {
+        title:
+          "[Highlight] Trayce Jackson-Davis gets the block on one end and gets the lob from Chris Paul on the other end to give him his 2nd career double-double (in just 3 quarters)",
+        videoUrl: "https://streamable.com/aqta66",
+        score: 337,
+        date: "2023-12-23T05:04:55+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oy7v7/highlight_trayce_jacksondavis_gets_the_block_on/",
+      },
+      {
+        title:
+          "[Highlight] De'Aaron Fox becomes the assists leader in Sacramento franchise history with the dime to Barnes",
+        videoUrl: "https://streamable.com/zkwwdz",
+        score: 304,
+        date: "2023-12-23T04:47:03+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oxx2u/highlight_deaaron_fox_becomes_the_assists_leader/",
+      },
+      {
+        title:
+          "[Highlight] The Sixers run the same Maxey-Embiid PnR action 3 times in a row, leading to 3 straight buckets",
+        videoUrl: "https://streamable.com/7gtb1h",
+        score: 272,
+        date: "2023-12-23T01:45:08+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ouo57/highlight_the_sixers_run_the_same_maxeyembiid_pnr/",
+      },
+      {
+        title:
+          "[Highlight] Chris Paul finds Jonathan Kuminga for the And-1 Layup to give Kuminga 17 points in 10 minutes",
+        videoUrl: "https://streamable.com/udt03a",
+        score: 262,
+        date: "2023-12-23T03:59:57+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ox3de/highlight_chris_paul_finds_jonathan_kuminga_for/",
+      },
+      {
+        title:
+          "[Highlight] Steph Curry hits his 8th 3 of the night and to give him 30 points with less than 6 minutes left in the 3rd Quarter",
+        videoUrl: "https://streamable.com/bnwt3c",
+        score: 233,
+        date: "2023-12-23T04:53:13+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oy0qe/highlight_steph_curry_hits_his_8th_3_of_the_night/",
+      },
+      {
+        title:
+          "[Highlight] Tyler Herro with the tough 3 to beat the shot clock and push the Heat’s lead to 9 with two minutes remaining!",
+        videoUrl: "https://streamable.com/aahpb0",
+        score: 154,
+        date: "2023-12-23T03:55:31+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ox0u4/highlight_tyler_herro_with_the_tough_3_to_beat/",
+      },
+      {
+        title:
+          "[Highlight] Jonathan Kuminga takes flight in between the bodies of Kyle Kuzma and Daniel Gafford for the Putback Jam",
+        videoUrl: "https://streamable.com/tlahwq",
+        score: 124,
+        date: "2023-12-23T04:51:01+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oxzfv/highlight_jonathan_kuminga_takes_flight_in/",
+      },
+      {
+        title:
+          "[Highlight] Anthony Edwards soars for the showtime alley-oop set up by Nickeil-Alexander Walker!",
+        videoUrl: "https://streamable.com/x5yuv1",
+        score: 103,
+        date: "2023-12-22T17:04:59+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ojnuz/highlight_anthony_edwards_soars_for_the_showtime/",
+      },
+      {
+        title:
+          "[Highlight] Vogel receives the 3rd Suns technical after yelling at the ref for the backcourt violation call",
+        videoUrl: "https://streamable.com/tac99t",
+        score: 91,
+        date: "2023-12-23T04:22:57+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oxi52/highlight_vogel_receives_the_3rd_suns_technical/",
+      },
+      {
+        title:
+          "[Highlight] Amen Thompson fakes out Richaun Holmes for the easy layup",
+        videoUrl: "https://streamable.com/ridnyu",
+        score: 88,
+        date: "2023-12-23T04:31:48+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oxnp3/highlight_amen_thompson_fakes_out_richaun_holmes/",
+      },
+      {
+        title: "[Highlight] Peyton Watson with the And-1 Dunk in the clutch",
+        videoUrl: "https://streamable.com/lm1rhj",
+        score: 91,
+        date: "2023-12-23T03:08:23+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ow7a2/highlight_peyton_watson_with_the_and1_dunk_in_the/",
+      },
+      {
+        title:
+          "[Highlights] The last few possessions in the game between the Wizards and Trail Blazers (118-117 to the Wizards) - the clutch shots and the missed ones, the rebound fumbles - the whole late drama (with replays)!",
+        videoUrl: "https://streamable.com/7ej32w",
+        score: 85,
+        date: "2023-12-22T12:56:21+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oeb8p/highlights_the_last_few_possessions_in_the_game/",
+      },
+      {
+        title:
+          "[Highlight] Jordan Poole talking to his imaginary friend before the tip-off vs. the Trail Blazers last night.",
+        videoUrl: "https://streamable.com/y8nr3n",
+        score: 90,
+        date: "2023-12-22T13:24:09+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oeu5w/highlight_jordan_poole_talking_to_his_imaginary/",
+      },
+      {
+        title:
+          "[Highlight] Cam Whitmore almost hits his head off the backboard as he finishes the alley oop",
+        videoUrl: "https://streamable.com/241kmi",
+        score: 87,
+        date: "2023-12-23T04:56:44+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oy2o9/highlight_cam_whitmore_almost_hits_his_head_off/",
+      },
+      {
+        title: "[Highlight] Brad Miller made it on the Kings Hair Cam tonight",
+        videoUrl: "https://streamable.com/xhzo1l",
+        score: 80,
+        date: "2023-12-23T05:33:57+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18oyplz/highlight_brad_miller_made_it_on_the_kings_hair/",
       },
     ],
     new: [
       {
-        title:
-          "[Highlight] Mario Hezonja with the game-saving block on Lebron and stares him down! 17-65 Knicks with a comeback victory vs. the Lakers",
-        videoUrl: "https://streamable.com/7m9vsd",
-        score: 67,
-        date: "2023-08-24T16:02:35+00:00",
+        title: "[Highlight] Brad Miller made it on the Kings Hair Cam tonight",
+        videoUrl: "https://streamable.com/xhzo1l",
+        score: 75,
+        date: "2023-12-23T05:33:57+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/16060t3/highlight_mario_hezonja_with_the_gamesaving_block/",
-      },
-      {
-        title: "Why Dominique Wilkins is called the Human Highlights Film",
-        videoUrl: "https://www.youtube.com/watch?v=AS5putGxdcI",
-        score: 59,
-        date: "2023-08-24T14:11:06+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nba/comments/1603202/why_dominique_wilkins_is_called_the_human/",
+          "https://old.reddit.com/r/nba/comments/18oyplz/highlight_brad_miller_made_it_on_the_kings_hair/",
       },
       {
         title:
-          "Draymond Green Full Series Highlights vs Trail Blazers | 2019 NBA Playoffs WCF",
-        videoUrl:
-          "https://m.youtube.com/watch?v=om5z5GTTAkg&pp=ygUdZHJheW1vbmQgZ3JlZW4gMjAxOSBwbGF5b2ZmcyA%3D",
-        score: 14,
-        date: "2023-08-23T23:14:46+00:00",
+          "[Highlight] John Konchar chasedown block against Indiana (with replays)",
+        videoUrl: "https://streamable.com/luklha",
+        score: 13,
+        date: "2023-12-23T05:05:45+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15zk85w/draymond_green_full_series_highlights_vs_trail/",
+          "https://old.reddit.com/r/nba/comments/18oy8f3/highlight_john_konchar_chasedown_block_against/",
       },
       {
         title:
-          '[Highlight] "LeBron James, like a cheetah on the plains of the Serengeti stalking his prey" - LeBron with a filthy block on Monta Ellis',
-        videoUrl: "https://streamable.com/qqg23q",
-        score: 421,
-        date: "2023-08-23T21:55:35+00:00",
+          "[Highlight] Trayce Jackson-Davis gets the block on one end and gets the lob from Chris Paul on the other end to give him his 2nd career double-double (in just 3 quarters)",
+        videoUrl: "https://streamable.com/aqta66",
+        score: 338,
+        date: "2023-12-23T05:04:55+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15zi1ps/highlight_lebron_james_like_a_cheetah_on_the/",
+          "https://old.reddit.com/r/nba/comments/18oy7v7/highlight_trayce_jacksondavis_gets_the_block_on/",
       },
       {
         title:
-          "[highlight] Keljin Blevins legendary performance against the Celtics. (3 points, 1 assist)",
-        videoUrl: "https://youtu.be/wO4N47Ga428?si=njGLejtUtvUIpRHf",
-        score: 58,
-        date: "2023-08-23T20:42:00+00:00",
+          "[Highlight] Cam Whitmore almost hits his head off the backboard as he finishes the alley oop",
+        videoUrl: "https://streamable.com/241kmi",
+        score: 85,
+        date: "2023-12-23T04:56:44+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15zg11b/highlight_keljin_blevins_legendary_performance/",
+          "https://old.reddit.com/r/nba/comments/18oy2o9/highlight_cam_whitmore_almost_hits_his_head_off/",
       },
       {
         title:
-          "[Highlights] Rex Chapman cooks Jordan for 40 points, talks trash to his face (1996)",
-        videoUrl: "https://www.youtube.com/watch?v=uXVT9b1FXpo",
-        score: 190,
-        date: "2023-08-23T03:22:01+00:00",
+          "[Highlight] Steph Curry hits his 8th 3 of the night and to give him 30 points with less than 6 minutes left in the 3rd Quarter",
+        videoUrl: "https://streamable.com/bnwt3c",
+        score: 229,
+        date: "2023-12-23T04:53:13+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15yrsls/highlights_rex_chapman_cooks_jordan_for_40_points/",
+          "https://old.reddit.com/r/nba/comments/18oy0qe/highlight_steph_curry_hits_his_8th_3_of_the_night/",
       },
       {
         title:
-          "Pistol Pete Maravich Greatest Game EVER! 68 Points Highlights vs Knicks | February 25, 1977",
-        videoUrl: "https://www.youtube.com/watch?v=kSEKSF9tKoM",
-        score: 102,
-        date: "2023-08-22T20:44:30+00:00",
+          "[Highlight] Jonathan Kuminga takes flight in between the bodies of Kyle Kuzma and Daniel Gafford for the Putback Jam",
+        videoUrl: "https://streamable.com/tlahwq",
+        score: 129,
+        date: "2023-12-23T04:51:01+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15yi06u/pistol_pete_maravich_greatest_game_ever_68_points/",
+          "https://old.reddit.com/r/nba/comments/18oxzfv/highlight_jonathan_kuminga_takes_flight_in/",
       },
       {
         title:
-          "[Highlight] J.R. Smith breaks down Jeff Teague and finds Channing Frye for a dagger 3",
-        videoUrl: "https://streamable.com/xeh5pm",
-        score: 18,
-        date: "2023-08-22T19:39:46+00:00",
+          "[Highlight] De'Aaron Fox becomes the assists leader in Sacramento franchise history with the dime to Barnes",
+        videoUrl: "https://streamable.com/zkwwdz",
+        score: 303,
+        date: "2023-12-23T04:47:03+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15yg7ia/highlight_jr_smith_breaks_down_jeff_teague_and/",
-      },
-      {
-        title: "[2015 Highlights] The 41-9 Hawks take on the 39-8 Warriors",
-        videoUrl: "https://youtu.be/Jj4wEvEG7I4",
-        score: 118,
-        date: "2023-08-22T13:36:12+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nba/comments/15y62n8/2015_highlights_the_419_hawks_take_on_the_398/",
+          "https://old.reddit.com/r/nba/comments/18oxx2u/highlight_deaaron_fox_becomes_the_assists_leader/",
       },
       {
         title:
-          "LeBron James Full Highlights 2010 Playoffs R1G3 at Bulls - 39 Pts, 10 Rebs, 8 Assists, 3 Blks",
-        videoUrl:
-          "https://m.youtube.com/watch?v=i6k6Ho2FKA8&pp=ygURTGVicm9uIDIwMTAgYnVsbHM%3D",
-        score: 16,
-        date: "2023-08-22T12:11:22+00:00",
+          "[Highlight] Amen Thompson fakes out Richaun Holmes for the easy layup",
+        videoUrl: "https://streamable.com/ridnyu",
+        score: 88,
+        date: "2023-12-23T04:31:48+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15y400e/lebron_james_full_highlights_2010_playoffs_r1g3/",
+          "https://old.reddit.com/r/nba/comments/18oxnp3/highlight_amen_thompson_fakes_out_richaun_holmes/",
       },
       {
         title:
-          "[Highlights] Austin Reaves and Tyrese Haliburton off the bench for Team USA.",
-        videoUrl: "https://youtu.be/4r-j5_KoGvc",
-        score: 199,
-        date: "2023-08-22T11:09:32+00:00",
+          "[Highlight] Steph Curry gets upset for not receving an And-One foul call, and gets a technical foul instead (with a replay of the play and his talk ot the ref).",
+        videoUrl: "https://streamable.com/ltydeg",
+        score: 376,
+        date: "2023-12-23T04:29:14+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15y2lys/highlights_austin_reaves_and_tyrese_haliburton/",
+          "https://old.reddit.com/r/nba/comments/18oxm16/highlight_steph_curry_gets_upset_for_not_receving/",
       },
       {
-        title: "[Highlight] Michael Jordan’s last 3 minutes as a Chicago Bull.",
-        videoUrl: "https://youtu.be/530z-_yjdlU",
+        title:
+          "[Highlight] Vogel receives the 3rd Suns technical after yelling at the ref for the backcourt violation call",
+        videoUrl: "https://streamable.com/tac99t",
         score: 96,
-        date: "2023-08-21T21:49:48+00:00",
+        date: "2023-12-23T04:22:57+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15xlbf6/highlight_michael_jordans_last_3_minutes_as_a/",
+          "https://old.reddit.com/r/nba/comments/18oxi52/highlight_vogel_receives_the_3rd_suns_technical/",
       },
       {
         title:
-          "[Highlight] LeBron goes behind the back, nutmegs his own teammate, and gets the And 1",
-        videoUrl: "https://streamable.com/18fx79",
-        score: 557,
-        date: "2023-08-21T21:19:12+00:00",
+          "[Highlight] A lil PnR action between rookies Brandin Podziemski and Trayce Jackson-Davis leads to an alley-pop",
+        videoUrl: "https://streamable.com/xy0x34",
+        score: 66,
+        date: "2023-12-23T04:19:44+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15xkhlu/highlight_lebron_goes_behind_the_back_nutmegs_his/",
-      },
-      {
-        title: "[Highlight] Zion Williamson’s INSANE block at UVA 🤯",
-        videoUrl:
-          "https://m.youtube.com/watch?v=-dzXCT7Sy-s&pp=ygUtemlvbiB3aWxsaWFtc29uIGluc2FuZSBibG9jayBvbiB0aGUgcGVyaW1ldGVy",
-        score: 11,
-        date: "2023-08-21T20:45:36+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nba/comments/15xjjfk/highlight_zion_williamsons_insane_block_at_uva/",
-      },
-      {
-        title: "[Highlight] Anthony Edwards Dunk vs Germany - Closer Look",
-        videoUrl: "https://streamable.com/bp379f",
-        score: 17,
-        date: "2023-08-21T07:48:07+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nba/comments/15x0rlm/highlight_anthony_edwards_dunk_vs_germany_closer/",
+          "https://old.reddit.com/r/nba/comments/18oxg0y/highlight_a_lil_pnr_action_between_rookies/",
       },
       {
         title:
-          "[Highlight] Eric Gordon with three clutch threes in the closing minutes to seal the victory over Argentina",
-        videoUrl: "https://streamable.com/e7spf5",
-        score: 885,
-        date: "2023-08-21T03:11:17+00:00",
+          "[Highlight] Durant and Booker both pick up successive technical fouls after the dunk from Azubuike",
+        videoUrl: "https://streamable.com/n34tc3",
+        score: 484,
+        date: "2023-12-23T04:08:57+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15wvifw/highlight_eric_gordon_with_three_clutch_threes_in/",
-      },
-      {
-        title: "[Highlight] Corey Maggette travels six times in 1 play",
-        videoUrl: "https://youtu.be/xN_ljDfevB0?si=AnYz-8LexvVdj0h1",
-        score: 53,
-        date: "2023-08-21T01:48:18+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nba/comments/15wtosi/highlight_corey_maggette_travels_six_times_in_1/",
-      },
-      {
-        title: "John Wall Offense Highlights 2013/2014 Part 3",
-        videoUrl: "https://youtu.be/RC77O1nbP-8",
-        score: 16,
-        date: "2023-08-20T20:12:38+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nba/comments/15wll88/john_wall_offense_highlights_20132014_part_3/",
-      },
-      {
-        title: "Anthony Edwards highlights vs Germany (34 pts, 6 reb, 2 blks)",
-        videoUrl: "https://www.youtube.com/watch?v=lQ4hlQ-l7iw",
-        score: 936,
-        date: "2023-08-20T18:38:52+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nba/comments/15wj6l6/anthony_edwards_highlights_vs_germany_34_pts_6/",
+          "https://old.reddit.com/r/nba/comments/18ox9cd/highlight_durant_and_booker_both_pick_up/",
       },
       {
         title:
-          "[Highlight] Anthony Edwards hits the double clutch fadeaway on Schroder, then shushes the crowd as he puts Team USA up 7 with under a minute left (with replay)",
-        videoUrl: "https://streamable.com/1idy63",
-        score: 742,
-        date: "2023-08-20T18:04:08+00:00",
+          "[Highlight] Malik Monk bounces off the trampoline for a slam dunk off the turnover",
+        videoUrl: "https://streamable.com/oogzx7",
+        score: 3326,
+        date: "2023-12-23T04:02:40+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15wiamc/highlight_anthony_edwards_hits_the_double_clutch/",
+          "https://old.reddit.com/r/nba/comments/18ox5cp/highlight_malik_monk_bounces_off_the_trampoline/",
       },
       {
         title:
-          "[Highlight] Austin Reaves closes it out with the two handed slam to give Team USA the win!",
-        videoUrl: "https://streamable.com/bl5uv2",
-        score: 4056,
-        date: "2023-08-20T18:03:46+00:00",
+          "[Highlight] Chris Paul finds Jonathan Kuminga for the And-1 Layup to give Kuminga 17 points in 10 minutes",
+        videoUrl: "https://streamable.com/udt03a",
+        score: 258,
+        date: "2023-12-23T03:59:57+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15wia90/highlight_austin_reaves_closes_it_out_with_the/",
-      },
-      {
-        title: "[Highlight] Anthony Edwards puts the dagger in Germany",
-        videoUrl: "https://streamable.com/68ja7l",
-        score: 1184,
-        date: "2023-08-20T17:58:43+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nba/comments/15wi53h/highlight_anthony_edwards_puts_the_dagger_in/",
+          "https://old.reddit.com/r/nba/comments/18ox3de/highlight_chris_paul_finds_jonathan_kuminga_for/",
       },
       {
         title:
-          "[Highlight] Third time's the charm for Mikal Bridges as he finally hits the three from the left corner to give Team USA the 3 pt lead.",
-        videoUrl: "https://streamable.com/6eopuw",
-        score: 37,
-        date: "2023-08-20T17:58:12+00:00",
+          "[Highlight] Tyler Herro with the tough 3 to beat the shot clock and push the Heat’s lead to 9 with two minutes remaining!",
+        videoUrl: "https://streamable.com/aahpb0",
+        score: 152,
+        date: "2023-12-23T03:55:31+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15wi4mo/highlight_third_times_the_charm_for_mikal_bridges/",
+          "https://old.reddit.com/r/nba/comments/18ox0u4/highlight_tyler_herro_with_the_tough_3_to_beat/",
       },
       {
         title:
-          "[Highlight] Block by JJJ leads to a pull up 3 from Ant to tie the game!",
-        videoUrl: "https://streamable.com/s3ycvu",
-        score: 394,
-        date: "2023-08-20T17:47:45+00:00",
+          "[Highlight] Jordan Poole scores for the first time against his former team since he got traded to the Wizards, in the first possession of the game.",
+        videoUrl: "https://streamable.com/o85sb6",
+        score: 43,
+        date: "2023-12-23T03:49:02+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15whv6w/highlight_block_by_jjj_leads_to_a_pull_up_3_from/",
+          "https://old.reddit.com/r/nba/comments/18owwwa/highlight_jordan_poole_scores_for_the_first_time/",
       },
       {
         title:
-          "[Highlight] Anthony Edwards drills the pull up 3 to tie the game (with replay)",
-        videoUrl: "https://streamable.com/5z2gs9",
-        score: 140,
-        date: "2023-08-20T17:47:28+00:00",
+          "[Highlight] Jordan Poole gets a warm welcome from the Golden State Warriors fans in the Chase Center, including a welcome video when his name is called up during the presentation of the Wizards' starting lineup.",
+        videoUrl: "https://streamable.com/nwqs5z",
+        score: 523,
+        date: "2023-12-23T03:45:38+00:00",
         postUrl:
-          "https://old.reddit.com/r/nba/comments/15whuxu/highlight_anthony_edwards_drills_the_pull_up_3_to/",
+          "https://old.reddit.com/r/nba/comments/18owuvr/highlight_jordan_poole_gets_a_warm_welcome_from/",
+      },
+      {
+        title:
+          "[Highlights] All the last few possessions from the game between the Nets and the Nuggets tonight - all the clutch shots, the missed ones and the drama (with replays of some plays).",
+        videoUrl: "https://streamable.com/i8j6so",
+        score: 62,
+        date: "2023-12-23T03:28:09+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18owk0g/highlights_all_the_last_few_possessions_from_the/",
+      },
+      {
+        title: "[Highlight] Peyton Watson with the And-1 Dunk in the clutch",
+        videoUrl: "https://streamable.com/lm1rhj",
+        score: 91,
+        date: "2023-12-23T03:08:23+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ow7a2/highlight_peyton_watson_with_the_and1_dunk_in_the/",
+      },
+      {
+        title:
+          "[Highlight] Cam Thomas hoists up the prayer 3 and gets fouled, cutting the lead 2 to with 22 seconds to go! (with replays)",
+        videoUrl: "https://streamable.com/hg7gi4",
+        score: 74,
+        date: "2023-12-23T02:49:41+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ovv6d/highlight_cam_thomas_hoists_up_the_prayer_3_and/",
+      },
+      {
+        title:
+          "[Highlight] Cam Thomas with the very unlucky in-and-out shot (with a replay. Including the reactions from the Nets' bench).",
+        videoUrl: "https://streamable.com/37x6o7",
+        score: 18,
+        date: "2023-12-23T02:49:32+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ovv24/highlight_cam_thomas_with_the_very_unlucky/",
+      },
+      {
+        title:
+          "[Highlight] Dayron Sharpe destroys Murrays layup attempt and Finney-Smith smokes the wide open alley-oop",
+        videoUrl: "https://streamable.com/cswgzb",
+        score: 20,
+        date: "2023-12-23T02:04:11+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ov19t/highlight_dayron_sharpe_destroys_murrays_layup/",
+      },
+      {
+        title: "[Highlight] Embiid scores 17 straight points for the Sixers",
+        videoUrl: "https://streamable.com/lkgyee",
+        score: 1467,
+        date: "2023-12-23T02:02:22+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ov00h/highlight_embiid_scores_17_straight_points_for/",
+      },
+      {
+        title:
+          "[Highlight] Claxton disrespectful block on Jokic leads to easy layup for Cam Thomas",
+        videoUrl: "https://streamable.com/w7f2gj",
+        score: 69,
+        date: "2023-12-23T01:56:02+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ouvmz/highlight_claxton_disrespectful_block_on_jokic/",
+      },
+      {
+        title:
+          "[Highlight] The Sixers run the same Maxey-Embiid PnR action 3 times in a row, leading to 3 straight buckets",
+        videoUrl: "https://streamable.com/7gtb1h",
+        score: 271,
+        date: "2023-12-23T01:45:08+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nba/comments/18ouo57/highlight_the_sixers_run_the_same_maxeyembiid_pnr/",
       },
     ],
   },
@@ -245,423 +452,420 @@ export const MOCK_HIGHLIGHTS = {
     top: [
       {
         title:
-          "Levski Sofia [1]-1 Eintracht Frankfurt - Hassimi Fadiga 90+5' [Great Goal] (Sound Warning)",
-        videoUrl: "https://v.redd.it/b9dm1s4xx3kb1",
-        score: 1533,
-        date: "2023-08-24T19:13:55+00:00",
+          "Walker and Melo getting into it at full-time in the Club World Cup final.",
+        videoUrl: "https://v.redd.it/xw6w2efvow7c1",
+        score: 2731,
+        date: "2023-12-22T20:29:13+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160b8lr/levski_sofia_11_eintracht_frankfurt_hassimi/",
+          "https://old.reddit.com/r/soccer/comments/18oo53t/walker_and_melo_getting_into_it_at_fulltime_in/",
+      },
+      {
+        title: "Young Palace fan shushing the away Brighton fans.",
+        videoUrl: "https://v.redd.it/e6c6vrd0kv7c1",
+        score: 3712,
+        date: "2023-12-22T16:40:12+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18oj30b/young_palace_fan_shushing_the_away_brighton_fans/",
       },
       {
         title:
-          'Toni Kroos reaction to the transfer news of Gabri Veiga, under Fabrizio Romanos instagram post: “embarrassing".',
-        videoUrl: "https://i.imgur.com/WMSyWGl.jpg",
-        score: 10967,
-        date: "2023-08-24T08:17:43+00:00",
+          "John Arias: \"After the 4th goal, Grealish started saying 'Olé' to make fun of us\"",
+        videoUrl: "https://v.redd.it/vixxlgoh3x7c1",
+        score: 831,
+        date: "2023-12-22T23:55:24+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/15zvn5t/toni_kroos_reaction_to_the_transfer_news_of_gabri/",
+          "https://old.reddit.com/r/soccer/comments/18osioe/john_arias_after_the_4th_goal_grealish_started/",
       },
       {
         title:
-          "Fluminense 2 x 0 Olimpia - John Kennedy being pulled away from a scuffle by Fluminense manager Fernando Diniz",
-        videoUrl: "https://v.redd.it/3bw37fku16kb1",
-        score: 85,
-        date: "2023-08-25T02:22:23+00:00",
+          "Alavés coach's angry reaction to Real Madrid's late winning goal",
+        videoUrl: "https://v.redd.it/co7t4djt4u7c1",
+        score: 6498,
+        date: "2023-12-22T11:55:24+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160m857/fluminense_2_x_0_olimpia_john_kennedy_being/",
+          "https://old.reddit.com/r/soccer/comments/18od9dy/alav%C3%A9s_coachs_angry_reaction_to_real_madrids_late/",
       },
       {
-        title: "Fluminense [1] - 0 Olimpia - André 42'",
-        videoUrl: "https://v.redd.it/9thrr6ewq5kb1",
-        score: 74,
-        date: "2023-08-25T01:19:03+00:00",
+        title: "Luca Ranieri (Fiorentina) great handball vs Monza 90+3'",
+        videoUrl: "https://v.redd.it/whweypd72x7c1",
+        score: 996,
+        date: "2023-12-22T21:44:24+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160kqq0/fluminense_1_0_olimpia_andr%C3%A9_42/",
+          "https://old.reddit.com/r/soccer/comments/18opr16/luca_ranieri_fiorentina_great_handball_vs_monza/",
       },
       {
-        title:
-          "Ittihad manager, Nuno Santo, on the rumor that he and Benzema don’t get along “…this is bullshit. My relationship with all the players is good.”",
-        videoUrl: "https://v.redd.it/q0dsssukj4kb1",
-        score: 149,
-        date: "2023-08-24T21:14:40+00:00",
+        title: "Aston Villa 0 - [1] Sheffield Utd - Cameron Archer 87'",
+        videoUrl: "https://dubz.co/v/a7yak3",
+        score: 675,
+        date: "2023-12-22T21:45:43+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160ef6s/ittihad_manager_nuno_santo_on_the_rumor_that_he/",
+          "https://old.reddit.com/r/soccer/comments/18ops1h/aston_villa_0_1_sheffield_utd_cameron_archer_87/",
       },
       {
-        title:
-          "Ludogorets 0 - [4] Ajax Amsterdam - Mohammed Kudus 50' (hat-trick)",
-        videoUrl: "https://dubz.co/c/d10221",
-        score: 196,
-        date: "2023-08-24T19:27:20+00:00",
+        title: "Manchester City [1] - 0 Fluminense - Alvarez J 1'",
+        videoUrl: "https://dubz.link/v/ztts6z",
+        score: 933,
+        date: "2023-12-22T18:02:02+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160ble8/ludogorets_0_4_ajax_amsterdam_mohammed_kudus_50/",
-      },
-      {
-        title:
-          "Annual sponsorship money each Bundesliga club gets from their main sponsor",
-        videoUrl: "https://i.redd.it/thwb6cdhg1kb1.jpg",
-        score: 891,
-        date: "2023-08-24T10:51:53+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/15zyjqo/annual_sponsorship_money_each_bundesliga_club/",
-      },
-      {
-        title: "Osasuna 1-[2] Club Brugge - Maxim De Cuyper 80'",
-        videoUrl: "https://v.redd.it/kmghc17bb4kb1",
-        score: 149,
-        date: "2023-08-24T20:28:54+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160d7c2/osasuna_12_club_brugge_maxim_de_cuyper_80/",
-      },
-      {
-        title: "Fluminense [2] - 0 Olimpia - Germán Cano 58'",
-        videoUrl: "https://v.redd.it/1bc4mdaww5kb1",
-        score: 52,
-        date: "2023-08-25T01:51:17+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160lifh/fluminense_2_0_olimpia_germ%C3%A1n_cano_58/",
+          "https://old.reddit.com/r/soccer/comments/18okxwo/manchester_city_1_0_fluminense_alvarez_j_1/",
       },
       {
         title:
-          "FC Nordsjælland [1]-0 FK Partizan - Martin Frese 11' [Great Strike]",
-        videoUrl: "https://v.redd.it/cwb600p583kb1",
-        score: 226,
-        date: "2023-08-24T16:48:51+00:00",
+          "Orthopaedic surgeon Lasse Lempainen operated on Reece James, Tomasso Pobega and Juan Cuadrado this week",
+        videoUrl: "https://i.redd.it/xnt4exw00v7c1.jpeg",
+        score: 1424,
+        date: "2023-12-22T14:50:36+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/1607a66/fc_nordsj%C3%A6lland_10_fk_partizan_martin_frese_11/",
+          "https://old.reddit.com/r/soccer/comments/18ogmob/orthopaedic_surgeon_lasse_lempainen_operated_on/",
       },
       {
-        title: "LOSC Lille 0 - [1] HNK Rijeka - Marco Pašalić great chip 24'",
-        videoUrl: "https://streamin.one/v/9b12f985",
-        score: 168,
-        date: "2023-08-24T18:34:18+00:00",
+        title: "Manchester City [4] - 0 Fluminense - Álvarez 88‎'‎",
+        videoUrl: "https://dubz.link/v/bf25jh",
+        score: 527,
+        date: "2023-12-22T19:47:38+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160a6m3/losc_lille_0_1_hnk_rijeka_marco_pa%C5%A1ali%C4%87_great/",
+          "https://old.reddit.com/r/soccer/comments/18on9h8/manchester_city_4_0_fluminense_%C3%A1lvarez_88/",
       },
       {
-        title: "Levski Sofia 0-[1] Eintracht Frankfurt - Randal Kolo Muani 6'",
-        videoUrl: "https://v.redd.it/k944ge0vc3kb1",
-        score: 186,
-        date: "2023-08-24T17:17:18+00:00",
+        title: "Aston Villa disallowed goal against Sheffield Utd 63'",
+        videoUrl: "https://dubz.co/v/6tgt31",
+        score: 337,
+        date: "2023-12-22T21:21:01+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/16082e7/levski_sofia_01_eintracht_frankfurt_randal_kolo/",
-      },
-      {
-        title: "Dynamo Kyiv 2 - [3] Besiktas - Bakhtiyor Zaynutdinov 90+5'",
-        videoUrl: "https://streamin.one/v/b0301fdd",
-        score: 117,
-        date: "2023-08-24T19:00:13+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160av8k/dynamo_kyiv_2_3_besiktas_bakhtiyor_zaynutdinov_905/",
+          "https://old.reddit.com/r/soccer/comments/18op997/aston_villa_disallowed_goal_against_sheffield_utd/",
       },
       {
         title:
-          "Osasuna 0 - [1] Club Brugge - Andreas Skov Olsen 50' | UEFA Conference League Play-off round",
-        videoUrl: "https://v.redd.it/l2eilrci44kb1",
-        score: 85,
-        date: "2023-08-24T19:50:07+00:00",
+          "An insight into the pre-game preparation of commentator Clive Tyldesley",
+        videoUrl: "https://v.redd.it/431tuyct0u7c1",
+        score: 1882,
+        date: "2023-12-22T11:31:40+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160c6xb/osasuna_0_1_club_brugge_andreas_skov_olsen_50/",
-      },
-      {
-        title: "Fenerbahçe [1]-1 Twente - Jayden Oosterwolde 32'",
-        videoUrl: "https://v.redd.it/6y9esxg7g3kb1",
-        score: 117,
-        date: "2023-08-24T17:34:19+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/1608jz4/fenerbah%C3%A7e_11_twente_jayden_oosterwolde_32/",
-      },
-      {
-        title: "Fenerbahçe 0-1 Twente - Manfred Ugalde 20'",
-        videoUrl: "https://v.redd.it/cbjvhf07e3kb1",
-        score: 118,
-        date: "2023-08-24T17:23:04+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/16088jk/fenerbah%C3%A7e_01_twente_manfred_ugalde_20/",
+          "https://old.reddit.com/r/soccer/comments/18ocwao/an_insight_into_the_pregame_preparation_of/",
       },
       {
         title:
-          "The joy of the Indian Mumbai City players after the AFC Champions League draw placed them with Al Hilal in order to face Neymar",
-        videoUrl: "https://v.redd.it/d952ubq6e1kb1",
-        score: 253,
-        date: "2023-08-24T12:48:17+00:00",
+          "Ange Postecoglou on the European Super League: “I always think with these concepts they're always done in a room with people who sometimes are detached from what this game is all about.”",
+        videoUrl:
+          "https://youtube.com/watch?si=mcwD2fZ04LcCHnyn&v=rY8Tj4h7Qt0&feature=youtu.be",
+        score: 668,
+        date: "2023-12-22T16:08:39+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160112n/the_joy_of_the_indian_mumbai_city_players_after/",
+          "https://old.reddit.com/r/soccer/comments/18oidhi/ange_postecoglou_on_the_european_super_league_i/",
       },
       {
-        title: "Fenerbahçe [5] - 1 Twente - Dusan Tadic 90+3' Penalty",
-        videoUrl: "https://v.redd.it/neprfyeay3kb1",
-        score: 76,
-        date: "2023-08-24T19:15:48+00:00",
+        title:
+          "World Champion Exequiel Palacios watching River Plate game with fans and Los Borrachos del Tablón (River Plate's barra)",
+        videoUrl: "https://i.redd.it/6nvdb7nkzy7c1.jpeg",
+        score: 70,
+        date: "2023-12-23T04:12:46+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160badp/fenerbah%C3%A7e_5_1_twente_dusan_tadic_903_penalty/",
+          "https://old.reddit.com/r/soccer/comments/18oxbq9/world_champion_exequiel_palacios_watching_river/",
       },
       {
-        title: "Fenerbahçe [2] - 1 Twente - Sebastian Szymanski 60'",
-        videoUrl: "https://v.redd.it/8u85uivfq3kb1",
+        title: "Kubo gets hit in the stomach vs Las Palmas.",
+        videoUrl: "https://v.redd.it/vfu6livfeu7c1",
+        score: 1063,
+        date: "2023-12-22T12:47:11+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18oe5b3/kubo_gets_hit_in_the_stomach_vs_las_palmas/",
+      },
+      {
+        title:
+          "[FBREF] Most searched football players on internet in 2023 in some countries",
+        videoUrl: "https://i.redd.it/duklsfs8208c1.jpeg",
+        score: 0,
+        date: "2023-12-23T07:49:33+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18p0rn1/fbref_most_searched_football_players_on_internet/",
+      },
+      {
+        title: "Manchester City [3] - 0 Fluminense - Phil Foden 72‎'‎",
+        videoUrl: "https://dubz.link/v/7r2qvf",
+        score: 277,
+        date: "2023-12-22T19:31:04+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18omx1m/manchester_city_3_0_fluminense_phil_foden_72/",
+      },
+      {
+        title: "Manchester City [2] - 0 Fluminense - Nino (own goal) 27‎'‎",
+        videoUrl: "https://dubz.link/v/nwf4ah",
+        score: 309,
+        date: "2023-12-22T18:27:44+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18oliyc/manchester_city_2_0_fluminense_nino_own_goal_27/",
+      },
+      {
+        title: "Pep Guardiola and Fernando Diniz friendly talk after the game",
+        videoUrl: "https://v.redd.it/h69twknb5x7c1",
         score: 82,
-        date: "2023-08-24T18:32:12+00:00",
+        date: "2023-12-23T01:26:34+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160a4k5/fenerbah%C3%A7e_2_1_twente_sebastian_szymanski_60/",
+          "https://old.reddit.com/r/soccer/comments/18oubjl/pep_guardiola_and_fernando_diniz_friendly_talk/",
       },
       {
-        title: "Ludogorets 0 - [2] Ajax Amsterdam - Mohammed Kudus 18'",
-        videoUrl: "https://dubz.co/c/b6ebef",
-        score: 69,
-        date: "2023-08-24T18:50:50+00:00",
+        title: "Salernitana 2-[2] Milan - Luka Jovic 90'",
+        videoUrl: "https://streamin.one/v/5c1fd69d",
+        score: 149,
+        date: "2023-12-22T21:38:32+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160ameb/ludogorets_0_2_ajax_amsterdam_mohammed_kudus_18/",
+          "https://old.reddit.com/r/soccer/comments/18opmho/salernitana_22_milan_luka_jovic_90/",
       },
       {
-        title: "Ludogorets 0 - [1] Ajax Amsterdam - Mohammed Kudus 16'",
-        videoUrl: "https://dubz.co/c/d5aa65",
-        score: 72,
-        date: "2023-08-24T18:49:31+00:00",
+        title: "Chris Wilder post-match interview",
+        videoUrl: "https://v.redd.it/09or34iddx7c1",
+        score: 114,
+        date: "2023-12-22T22:47:54+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160al3u/ludogorets_0_1_ajax_amsterdam_mohammed_kudus_16/",
+          "https://old.reddit.com/r/soccer/comments/18or3oi/chris_wilder_postmatch_interview/",
       },
       {
-        title: "AZ Alkmaar 0 - [1] SK Brann - Niklas Castro 59'",
-        videoUrl: "https://streamin.one/v/9933ba36",
-        score: 54,
-        date: "2023-08-24T20:08:01+00:00",
+        title: "Provedel amazing save [Empoli - Lazio]",
+        videoUrl: "https://v.redd.it/i9fl5pgnsx7c1",
+        score: 66,
+        date: "2023-12-23T00:13:36+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160cnx1/az_alkmaar_0_1_sk_brann_niklas_castro_59/",
+          "https://old.reddit.com/r/soccer/comments/18oswe2/provedel_amazing_save_empoli_lazio/",
       },
       {
-        title: "Dinamo Zagreb [3] - 1 Sparta Prague - Luka Ivanušec 61'",
-        videoUrl: "https://streamin.one/v/9c152bcf",
-        score: 57,
-        date: "2023-08-24T19:29:28+00:00",
+        title: "De La Cruz hits the crossbar vs. Rosario Central",
+        videoUrl: "https://v.redd.it/qmorsa2gvx7c1",
+        score: 53,
+        date: "2023-12-23T00:28:35+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160bnf3/dinamo_zagreb_3_1_sparta_prague_luka_ivanu%C5%A1ec_61/",
+          "https://old.reddit.com/r/soccer/comments/18ot72o/de_la_cruz_hits_the_crossbar_vs_rosario_central/",
       },
       {
-        title: "Youri Regeer (Twente) red card vs Fenerbahçe, 43'",
-        videoUrl: "https://v.redd.it/888fkt09i3kb1",
-        score: 75,
-        date: "2023-08-24T17:46:11+00:00",
+        title: "Rosario Central 0-2 River Plate - Nacho Fernández 31'",
+        videoUrl: "https://v.redd.it/qq1y3hrw8y7c1",
+        score: 40,
+        date: "2023-12-23T01:43:52+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/1608vym/youri_regeer_twente_red_card_vs_fenerbah%C3%A7e_43/",
+          "https://old.reddit.com/r/soccer/comments/18ounb4/rosario_central_02_river_plate_nacho_fern%C3%A1ndez_31/",
       },
       {
-        title: "Fenerbahçe [4] - 1 Twente - İrfan Can Kahveci 74'",
-        videoUrl: "https://v.redd.it/wl00hnpms3kb1",
-        score: 67,
-        date: "2023-08-24T18:43:57+00:00",
+        title: "Rosario Central 0-1 River Plate - Facundo Colidio 41'",
+        videoUrl: "https://v.redd.it/iwnp91bezx7c1",
+        score: 45,
+        date: "2023-12-23T00:51:23+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160afpk/fenerbah%C3%A7e_4_1_twente_irfan_can_kahveci_74/",
+          "https://old.reddit.com/r/soccer/comments/18otn3s/rosario_central_01_river_plate_facundo_colidio_41/",
+      },
+      {
+        title: "[Official] Atlético de Madrid Christmas video",
+        videoUrl: "https://youtu.be/KDGESBPKImw?si=LEPEyHHFJjEyCg-p",
+        score: 35,
+        date: "2023-12-23T02:38:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18ovo5f/official_atl%C3%A9tico_de_madrid_christmas_video/",
       },
     ],
     new: [
       {
         title:
-          "Fluminense 2 x 0 Olimpia - John Kennedy being pulled away from a scuffle by Fluminense manager Fernando Diniz",
-        videoUrl: "https://v.redd.it/3bw37fku16kb1",
-        score: 88,
-        date: "2023-08-25T02:22:23+00:00",
+          "[FBREF] Most searched football players on internet in 2023 in some countries",
+        videoUrl: "https://i.redd.it/duklsfs8208c1.jpeg",
+        score: 0,
+        date: "2023-12-23T07:49:33+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160m857/fluminense_2_x_0_olimpia_john_kennedy_being/",
+          "https://old.reddit.com/r/soccer/comments/18p0rn1/fbref_most_searched_football_players_on_internet/",
       },
       {
-        title: "Fluminense [2] - 0 Olimpia - Germán Cano 58'",
-        videoUrl: "https://v.redd.it/1bc4mdaww5kb1",
-        score: 59,
-        date: "2023-08-25T01:51:17+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160lifh/fluminense_2_0_olimpia_germ%C3%A1n_cano_58/",
-      },
-      {
-        title: "Fluminense [1] - 0 Olimpia - André 42'",
-        videoUrl: "https://v.redd.it/9thrr6ewq5kb1",
+        title:
+          "World Champion Exequiel Palacios watching River Plate game with fans and Los Borrachos del Tablón (River Plate's barra)",
+        videoUrl: "https://i.redd.it/6nvdb7nkzy7c1.jpeg",
         score: 71,
-        date: "2023-08-25T01:19:03+00:00",
+        date: "2023-12-23T04:12:46+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160kqq0/fluminense_1_0_olimpia_andr%C3%A9_42/",
+          "https://old.reddit.com/r/soccer/comments/18oxbq9/world_champion_exequiel_palacios_watching_river/",
+      },
+      {
+        title: "[Official] Atlético de Madrid Christmas video",
+        videoUrl: "https://youtu.be/KDGESBPKImw?si=LEPEyHHFJjEyCg-p",
+        score: 31,
+        date: "2023-12-23T02:38:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18ovo5f/official_atl%C3%A9tico_de_madrid_christmas_video/",
+      },
+      {
+        title: "Rosario Central 0-2 River Plate - Nacho Fernández 31'",
+        videoUrl: "https://v.redd.it/qq1y3hrw8y7c1",
+        score: 44,
+        date: "2023-12-23T01:43:52+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18ounb4/rosario_central_02_river_plate_nacho_fern%C3%A1ndez_31/",
+      },
+      {
+        title: "Pep Guardiola and Fernando Diniz friendly talk after the game",
+        videoUrl: "https://v.redd.it/h69twknb5x7c1",
+        score: 78,
+        date: "2023-12-23T01:26:34+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18oubjl/pep_guardiola_and_fernando_diniz_friendly_talk/",
+      },
+      {
+        title: "Rosario Central 0-1 River Plate - Facundo Colidio 41'",
+        videoUrl: "https://v.redd.it/iwnp91bezx7c1",
+        score: 45,
+        date: "2023-12-23T00:51:23+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18otn3s/rosario_central_01_river_plate_facundo_colidio_41/",
+      },
+      {
+        title: "What On Earth Is Going On At Hull City? (2023 Update)",
+        videoUrl: "https://youtu.be/YjN0guBoHJA?si=D6mPSRrQV3xpE7fF",
+        score: 8,
+        date: "2023-12-23T00:41:00+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18otfsl/what_on_earth_is_going_on_at_hull_city_2023_update/",
+      },
+      {
+        title: "De La Cruz hits the crossbar vs. Rosario Central",
+        videoUrl: "https://v.redd.it/qmorsa2gvx7c1",
+        score: 51,
+        date: "2023-12-23T00:28:35+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18ot72o/de_la_cruz_hits_the_crossbar_vs_rosario_central/",
+      },
+      {
+        title: "Provedel amazing save [Empoli - Lazio]",
+        videoUrl: "https://v.redd.it/i9fl5pgnsx7c1",
+        score: 63,
+        date: "2023-12-23T00:13:36+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18oswe2/provedel_amazing_save_empoli_lazio/",
       },
       {
         title:
-          "Al-Akhdoud GK carries his injured teammate as they’re leaving the stadium after their match against Al-Ahli in the Saudi pro league.",
-        videoUrl: "https://v.redd.it/siybqm30w4kb1",
-        score: 9,
-        date: "2023-08-24T22:24:16+00:00",
+          "John Arias: \"After the 4th goal, Grealish started saying 'Olé' to make fun of us\"",
+        videoUrl: "https://v.redd.it/vixxlgoh3x7c1",
+        score: 831,
+        date: "2023-12-22T23:55:24+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160gbi3/alakhdoud_gk_carries_his_injured_teammate_as/",
+          "https://old.reddit.com/r/soccer/comments/18osioe/john_arias_after_the_4th_goal_grealish_started/",
+      },
+      {
+        title: "Chris Wilder post-match interview",
+        videoUrl: "https://v.redd.it/09or34iddx7c1",
+        score: 117,
+        date: "2023-12-22T22:47:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18or3oi/chris_wilder_postmatch_interview/",
       },
       {
         title:
-          "[Dsport](VERY LOUD) Bulgarian radio hosts' reaction to Fadiga's equalizer against Eintracht",
+          "[The 44] Clip of Preston manager Ryan Lowe mocking PNE fans for criticising him while not having coaching badges. Ryan Lowe's side lost 2-1 to Swansea tonight, caretaker manager Alan Sheehan has less badges than Ryan Lowe.",
         videoUrl:
-          "https://dsport.bg/ekstaz-v-radioefira-stefan-i-valo-za-gola-na-levski-srestu-aintraht-audio~129001.html#parent=section",
-        score: 20,
-        date: "2023-08-24T22:18:46+00:00",
+          "https://twitter.com/The_Forty_Four/status/1737547568735813979?t=ZMHliLuMCSS6pq2VDOuN3g&s=19",
+        score: 65,
+        date: "2023-12-22T22:30:57+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160g5z4/dsportvery_loud_bulgarian_radio_hosts_reaction_to/",
+          "https://old.reddit.com/r/soccer/comments/18oqr16/the_44_clip_of_preston_manager_ryan_lowe_mocking/",
       },
       {
-        title:
-          "Ittihad manager, Nuno Santo, on the rumor that he and Benzema don’t get along “…this is bullshit. My relationship with all the players is good.”",
-        videoUrl: "https://v.redd.it/q0dsssukj4kb1",
-        score: 144,
-        date: "2023-08-24T21:14:40+00:00",
+        title: "Nacional [1]-3 Braga - Jose Gomes 62'",
+        videoUrl: "https://streamin.one/v/719cbe79",
+        score: 14,
+        date: "2023-12-22T21:53:34+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160ef6s/ittihad_manager_nuno_santo_on_the_rumor_that_he/",
+          "https://old.reddit.com/r/soccer/comments/18opy39/nacional_13_braga_jose_gomes_62/",
       },
       {
-        title: "Osasuna 1-[2] Club Brugge - Maxim De Cuyper 80'",
-        videoUrl: "https://v.redd.it/kmghc17bb4kb1",
-        score: 147,
-        date: "2023-08-24T20:28:54+00:00",
+        title: "Aston Villa 0 - [1] Sheffield Utd - Cameron Archer 87'",
+        videoUrl: "https://dubz.co/v/a7yak3",
+        score: 676,
+        date: "2023-12-22T21:45:43+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160d7c2/osasuna_12_club_brugge_maxim_de_cuyper_80/",
+          "https://old.reddit.com/r/soccer/comments/18ops1h/aston_villa_0_1_sheffield_utd_cameron_archer_87/",
       },
       {
-        title: "Osasuna [1]-1 Club Brugge - Chimy Ávila 78'",
-        videoUrl: "https://v.redd.it/wdusmttta4kb1",
-        score: 16,
-        date: "2023-08-24T20:26:18+00:00",
+        title: "Swansea [2]-1 Preston - Jamie Paterson 90'+5'",
+        videoUrl: "https://streamin.one/v/abe198d0",
+        score: 36,
+        date: "2023-12-22T21:44:44+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160d4yd/osasuna_11_club_brugge_chimy_%C3%A1vila_78/",
+          "https://old.reddit.com/r/soccer/comments/18opra0/swansea_21_preston_jamie_paterson_905/",
       },
       {
-        title: "AZ Alkmaar [1] - 1 SK Brann - Pantelis Hatzidiakos 71'",
-        videoUrl: "https://streamin.one/v/1b35811d",
+        title: "Luca Ranieri (Fiorentina) great handball vs Monza 90+3'",
+        videoUrl: "https://v.redd.it/whweypd72x7c1",
+        score: 994,
+        date: "2023-12-22T21:44:24+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18opr16/luca_ranieri_fiorentina_great_handball_vs_monza/",
+      },
+      {
+        title: "Salernitana 2-[2] Milan - Luka Jovic 90'",
+        videoUrl: "https://streamin.one/v/5c1fd69d",
+        score: 145,
+        date: "2023-12-22T21:38:32+00:00",
+        postUrl:
+          "https://old.reddit.com/r/soccer/comments/18opmho/salernitana_22_milan_luka_jovic_90/",
+      },
+      {
+        title: "Bristol City [3]-2 Hull - Jason Knight 84'",
+        videoUrl: "https://streamin.one/v/8cdbcc42",
         score: 26,
-        date: "2023-08-24T20:19:11+00:00",
+        date: "2023-12-22T21:31:24+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160cy7p/az_alkmaar_1_1_sk_brann_pantelis_hatzidiakos_71/",
-      },
-      {
-        title: "AZ Alkmaar 0 - [1] SK Brann - Niklas Castro 59'",
-        videoUrl: "https://streamin.one/v/9933ba36",
-        score: 55,
-        date: "2023-08-24T20:08:01+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160cnx1/az_alkmaar_0_1_sk_brann_niklas_castro_59/",
-      },
-      {
-        title: "Al Ahli [1] - 0 Al Akhdoud - Franck Kessie 90+7'",
-        videoUrl: "https://streamin.one/v/bde3661c",
-        score: 0,
-        date: "2023-08-24T20:07:00+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160cn0y/al_ahli_1_0_al_akhdoud_franck_kessie_907/",
-      },
-      {
-        title: "Union St.-Gilloise [2] - 0 FC Lugano - Casper Terho 71'",
-        videoUrl: "https://streamin.one/v/9c38e318",
-        score: 28,
-        date: "2023-08-24T20:05:06+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160cl79/union_stgilloise_2_0_fc_lugano_casper_terho_71/",
-      },
-      {
-        title: "Al Riyadh 0 - [4] Al Ittihad - Saleh Al Amri 90+4'",
-        videoUrl: "https://streamin.one/v/b8f21335",
-        score: 0,
-        date: "2023-08-24T20:01:43+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160chxi/al_riyadh_0_4_al_ittihad_saleh_al_amri_904/",
-      },
-      {
-        title: "Al Raed 0 - [4] Al Hilal - Abdullah Al Hamdan 89'",
-        videoUrl: "https://streamin.one/v/3502b63e",
-        score: 0,
-        date: "2023-08-24T19:54:53+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160cbid/al_raed_0_4_al_hilal_abdullah_al_hamdan_89/",
-      },
-      {
-        title: "Lille [2] - 1 Rijeka - Leny Yoro 90'",
-        videoUrl: "https://dubz.co/c/d2ff09",
-        score: 47,
-        date: "2023-08-24T19:50:34+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160c7f1/lille_2_1_rijeka_leny_yoro_90/",
+          "https://old.reddit.com/r/soccer/comments/18oph4d/bristol_city_32_hull_jason_knight_84/",
       },
       {
         title:
-          "Osasuna 0 - [1] Club Brugge - Andreas Skov Olsen 50' | UEFA Conference League Play-off round",
-        videoUrl: "https://v.redd.it/l2eilrci44kb1",
-        score: 86,
-        date: "2023-08-24T19:50:07+00:00",
+          "Europa Point [2]-0 Glacis United | Johan Andersson 48' | Gibraltar Football League",
+        videoUrl: "https://v.redd.it/6sv1mr3qzw7c1",
+        score: 12,
+        date: "2023-12-22T21:30:42+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160c6xb/osasuna_0_1_club_brugge_andreas_skov_olsen_50/",
+          "https://old.reddit.com/r/soccer/comments/18opgk1/europa_point_20_glacis_united_johan_andersson_48/",
       },
       {
-        title: "Midtjylland 3-[3] Legia Warszawa - Blaž Kramer 86'",
-        videoUrl: "https://v.redd.it/53qisgcq34kb1",
-        score: 43,
-        date: "2023-08-24T19:46:15+00:00",
+        title: "Bristol City [2]-2 Hull - Anis Mehmeti 76'",
+        videoUrl: "https://streamin.one/v/eb292315",
+        score: 19,
+        date: "2023-12-22T21:26:51+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160c3bg/midtjylland_33_legia_warszawa_bla%C5%BE_kramer_86/",
+          "https://old.reddit.com/r/soccer/comments/18opdld/bristol_city_22_hull_anis_mehmeti_76/",
       },
       {
-        title:
-          "Sergej Milinkovic Savic (Al Hilal) straight red card against Al Raed 76'",
-        videoUrl: "https://streamin.one/v/b5bcc993",
-        score: 0,
-        date: "2023-08-24T19:43:43+00:00",
+        title: "Aston Villa disallowed goal against Sheffield Utd 63'",
+        videoUrl: "https://dubz.co/v/6tgt31",
+        score: 330,
+        date: "2023-12-22T21:21:01+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160c0xd/sergej_milinkovic_savic_al_hilal_straight_red/",
+          "https://old.reddit.com/r/soccer/comments/18op997/aston_villa_disallowed_goal_against_sheffield_utd/",
       },
       {
-        title:
-          "Al Ittihad fans wearing Mohammed Salah's mask during the game against Al Riyadl",
-        videoUrl: "https://streamin.one/v/91ea4b92",
-        score: 0,
-        date: "2023-08-24T19:39:55+00:00",
+        title: "Nacional 0-3 Braga - Ricardo Horta 44'",
+        videoUrl: "https://streamin.one/v/8bd354a6",
+        score: 16,
+        date: "2023-12-22T21:18:53+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160bxa9/al_ittihad_fans_wearing_mohammed_salahs_mask/",
+          "https://old.reddit.com/r/soccer/comments/18op7lg/nacional_03_braga_ricardo_horta_44/",
       },
       {
-        title: "KRC Genk 0 - [1] Adana Demirspor - Emre Akbaba 47'",
-        videoUrl: "https://v.redd.it/exhqf6tq14kb1",
-        score: 33,
-        date: "2023-08-24T19:36:05+00:00",
+        title: "Swansea 1-[1] Preston - Liam Millar 67'",
+        videoUrl: "https://streamin.one/v/6c08e817",
+        score: 22,
+        date: "2023-12-22T21:16:39+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160btss/krc_genk_0_1_adana_demirspor_emre_akbaba_47/",
+          "https://old.reddit.com/r/soccer/comments/18op5wm/swansea_11_preston_liam_millar_67/",
       },
       {
-        title: "Al Raed 0 - [3] Al Hilal - Salem Al Dawsari 70'",
-        videoUrl: "https://streamin.one/v/4ad4fd4c",
-        score: 0,
-        date: "2023-08-24T19:34:19+00:00",
+        title: "Swansea 1-0 Preston - Jamie Paterson 60'",
+        videoUrl: "https://streamin.one/v/67992828",
+        score: 18,
+        date: "2023-12-22T21:14:05+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160bs5z/al_raed_0_3_al_hilal_salem_al_dawsari_70/",
+          "https://old.reddit.com/r/soccer/comments/18op3xw/swansea_10_preston_jamie_paterson_60/",
       },
       {
-        title: "Midtjylland [3]-2 Legia Warszawa - Franculino 71'",
-        videoUrl: "https://v.redd.it/fqqr8y7314kb1",
-        score: 39,
-        date: "2023-08-24T19:31:41+00:00",
+        title: "Salernitana [2]-1 Milan - Antonio Candreva 63'",
+        videoUrl: "https://streamin.one/v/e035f9a6",
+        score: 82,
+        date: "2023-12-22T21:10:46+00:00",
         postUrl:
-          "https://old.reddit.com/r/soccer/comments/160bpmm/midtjylland_32_legia_warszawa_franculino_71/",
-      },
-      {
-        title: "Dinamo Zagreb [3] - 1 Sparta Prague - Luka Ivanušec 61'",
-        videoUrl: "https://streamin.one/v/9c152bcf",
-        score: 57,
-        date: "2023-08-24T19:29:28+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160bnf3/dinamo_zagreb_3_1_sparta_prague_luka_ivanu%C5%A1ec_61/",
-      },
-      {
-        title: "Dinamo Zagreb [2] - 1 Sparta Prague - Dino Perić 58'",
-        videoUrl: "https://streamin.one/v/787ba769",
-        score: 32,
-        date: "2023-08-24T19:29:07+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160bn30/dinamo_zagreb_2_1_sparta_prague_dino_peri%C4%87_58/",
-      },
-      {
-        title:
-          "Ludogorets 0 - [4] Ajax Amsterdam - Mohammed Kudus 50' (hat-trick)",
-        videoUrl: "https://dubz.co/c/d10221",
-        score: 196,
-        date: "2023-08-24T19:27:20+00:00",
-        postUrl:
-          "https://old.reddit.com/r/soccer/comments/160ble8/ludogorets_0_4_ajax_amsterdam_mohammed_kudus_50/",
+          "https://old.reddit.com/r/soccer/comments/18op1e2/salernitana_21_milan_antonio_candreva_63/",
       },
     ],
   },
@@ -669,293 +873,260 @@ export const MOCK_HIGHLIGHTS = {
     top: [
       {
         title:
-          "[Highlight] Anthony Richardson with the Fly Eagles Fly celly in Philly",
-        videoUrl: "https://v.redd.it/nxmbfgngk5kb1",
-        score: 1478,
-        date: "2023-08-25T00:41:19+00:00",
+          "[Highlight]Brett Favre hospital pass ends with three injured players, two Broncos and a Packer",
+        videoUrl: "https://v.redd.it/29b4l2i1nv7c1",
+        score: 3368,
+        date: "2023-12-22T16:58:07+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/160jtxq/highlight_anthony_richardson_with_the_fly_eagles/",
+          "https://old.reddit.com/r/nfl/comments/18ojhrx/highlightbrett_favre_hospital_pass_ends_with/",
+      },
+      {
+        title: "[Highlight] Dick Butkus Wired for sound 1973",
+        videoUrl: "https://v.redd.it/jhet62k5px7c1",
+        score: 49,
+        date: "2023-12-22T23:53:33+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18osh8p/highlight_dick_butkus_wired_for_sound_1973/",
       },
       {
         title:
-          "[Highlight] Pickett drops a very pretty deep ball to George Pickens (which leads to a Najee TD)",
-        videoUrl: "https://v.redd.it/rxhlkvhfb5kb1",
-        score: 1431,
-        date: "2023-08-24T23:50:49+00:00",
+          "[Highlight] 3 years ago Kamara put on and elite performance for Christmas",
+        videoUrl: "https://v.redd.it/de8gio5wtfm71",
+        score: 48,
+        date: "2023-12-22T16:09:08+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/160il6z/highlight_pickett_drops_a_very_pretty_deep_ball/",
+          "https://old.reddit.com/r/nfl/comments/18oidud/highlight_3_years_ago_kamara_put_on_and_elite/",
       },
       {
-        title: "[Highlight] Well executed trick plays",
-        videoUrl: "https://v.redd.it/3ci8dkzw63kb1",
-        score: 1080,
-        date: "2023-08-24T16:42:00+00:00",
+        title: "[Highlight] Players You Forgot Were Elite! | Episode 3",
+        videoUrl: "https://youtu.be/0xQHArgoijY",
+        score: 16,
+        date: "2023-12-22T23:55:14+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/16073gw/highlight_well_executed_trick_plays/",
-      },
-      {
-        title:
-          "[Highlight] Today marks 14 days until the 2023 NFL Season starts! Let’s remember this 14 yard game winning TD pass from Kenny Pickett to George Pickens against the Raiders last season. This game was played 4 days after the death of Steelers legend Franco Harris. Steelers win, 13-10.",
-        videoUrl: "https://v.redd.it/zwim4qd722kb1",
-        score: 447,
-        date: "2023-08-24T12:55:58+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/16017ek/highlight_today_marks_14_days_until_the_2023_nfl/",
-      },
-      {
-        title:
-          '[Sidhu] More of John Lynch on KNBR: "Trey made incredible leaps and bounds this year and I think his games showed that. I give him a lot of credit because we didn\'t tailor an offense around him that highlights a lot of the things Trey is able to do"',
-        videoUrl:
-          "https://twitter.com/S1DHUU/status/1694736783794421921?t=TTBs_Z4QgkdMT_dXeK1ShA&s=19",
-        score: 76,
-        date: "2023-08-24T15:59:04+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/1605x4k/sidhu_more_of_john_lynch_on_knbr_trey_made/",
-      },
-      {
-        title: "[Highlight] Devon Allen with a big return to start the game",
-        videoUrl:
-          "https://twitter.com/nfl/status/1694865321382064613?s=46&t=dkrm_R6XhYnLK6PijN_gmw",
-        score: 36,
-        date: "2023-08-25T01:53:28+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/160lk8k/highlight_devon_allen_with_a_big_return_to_start/",
-      },
-      {
-        title:
-          "[HIGHLIGHT] All 10 punts from Ryan Stonehouse (4) and Ryan Wright (6) in the Vikings 24-16 Preseason win over the Titans. Wright received a PFF single-game punting grade of 68.5 (5th) while Stonehouse recorded a 69.0 (4th). Thoughts in comments",
-        videoUrl: "https://v.redd.it/pu8md2mrk6kb1",
-        score: 23,
-        date: "2023-08-25T04:06:41+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/160ofog/highlight_all_10_punts_from_ryan_stonehouse_4_and/",
+          "https://old.reddit.com/r/nfl/comments/18osija/highlight_players_you_forgot_were_elite_episode_3/",
       },
     ],
     new: [
       {
-        title:
-          "[HIGHLIGHT] All 10 punts from Ryan Stonehouse (4) and Ryan Wright (6) in the Vikings 24-16 Preseason win over the Titans. Wright received a PFF single-game punting grade of 68.5 (5th) while Stonehouse recorded a 69.0 (4th). Thoughts in comments",
-        videoUrl: "https://v.redd.it/pu8md2mrk6kb1",
-        score: 21,
-        date: "2023-08-25T04:06:41+00:00",
+        title: "[Highlight] Players You Forgot Were Elite! | Episode 3",
+        videoUrl: "https://youtu.be/0xQHArgoijY",
+        score: 15,
+        date: "2023-12-22T23:55:14+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/160ofog/highlight_all_10_punts_from_ryan_stonehouse_4_and/",
+          "https://old.reddit.com/r/nfl/comments/18osija/highlight_players_you_forgot_were_elite_episode_3/",
       },
       {
-        title: "[Highlight] Devon Allen with a big return to start the game",
+        title: "[Highlight] Dick Butkus Wired for sound 1973",
+        videoUrl: "https://v.redd.it/jhet62k5px7c1",
+        score: 50,
+        date: "2023-12-22T23:53:33+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18osh8p/highlight_dick_butkus_wired_for_sound_1973/",
+      },
+      {
+        title:
+          "[Highlight]Brett Favre hospital pass ends with three injured players, two Broncos and a Packer",
+        videoUrl: "https://v.redd.it/29b4l2i1nv7c1",
+        score: 3359,
+        date: "2023-12-22T16:58:07+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18ojhrx/highlightbrett_favre_hospital_pass_ends_with/",
+      },
+      {
+        title:
+          "[Highlight] 3 years ago Kamara put on and elite performance for Christmas",
+        videoUrl: "https://v.redd.it/de8gio5wtfm71",
+        score: 48,
+        date: "2023-12-22T16:09:08+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18oidud/highlight_3_years_ago_kamara_put_on_and_elite/",
+      },
+      {
+        title:
+          '[Highlight] Lane Johnson Responds to Boye Mafe after MNF Regarding his Early Movement. "They had a couple of em\' they should of called me on."',
+        videoUrl: "https://v.redd.it/bcguugis1s7c1",
+        score: 792,
+        date: "2023-12-22T04:55:08+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18o6wsp/highlight_lane_johnson_responds_to_boye_mafe/",
+      },
+      {
+        title:
+          "[Highlight] Carr to Perry on a 35-yd TD strike to make it an 8 point game",
         videoUrl:
-          "https://twitter.com/nfl/status/1694865321382064613?s=46&t=dkrm_R6XhYnLK6PijN_gmw",
-        score: 38,
-        date: "2023-08-25T01:53:28+00:00",
+          "https://twitter.com/Saints/status/1738046231627317464?t=Y68fdzVDIlXVAzDijho3Rg&s=19",
+        score: 191,
+        date: "2023-12-22T04:00:06+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/160lk8k/highlight_devon_allen_with_a_big_return_to_start/",
+          "https://old.reddit.com/r/nfl/comments/18o5y10/highlight_carr_to_perry_on_a_35yd_td_strike_to/",
       },
       {
-        title:
-          "[Highlight] Anthony Richardson with the Fly Eagles Fly celly in Philly",
-        videoUrl: "https://v.redd.it/nxmbfgngk5kb1",
-        score: 1479,
-        date: "2023-08-25T00:41:19+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/160jtxq/highlight_anthony_richardson_with_the_fly_eagles/",
-      },
-      {
-        title:
-          "[Highlight] Pickett drops a very pretty deep ball to George Pickens (which leads to a Najee TD)",
-        videoUrl: "https://v.redd.it/rxhlkvhfb5kb1",
-        score: 1435,
-        date: "2023-08-24T23:50:49+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/160il6z/highlight_pickett_drops_a_very_pretty_deep_ball/",
-      },
-      {
-        title: "[Highlight] Well executed trick plays",
-        videoUrl: "https://v.redd.it/3ci8dkzw63kb1",
-        score: 1081,
-        date: "2023-08-24T16:42:00+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/16073gw/highlight_well_executed_trick_plays/",
-      },
-      {
-        title:
-          '[Sidhu] More of John Lynch on KNBR: "Trey made incredible leaps and bounds this year and I think his games showed that. I give him a lot of credit because we didn\'t tailor an offense around him that highlights a lot of the things Trey is able to do"',
+        title: "[Highlight] Saints block the punt!",
         videoUrl:
-          "https://twitter.com/S1DHUU/status/1694736783794421921?t=TTBs_Z4QgkdMT_dXeK1ShA&s=19",
-        score: 73,
-        date: "2023-08-24T15:59:04+00:00",
+          "https://twitter.com/nfl/status/1738045289347612835?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 60,
+        date: "2023-12-22T03:59:28+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/1605x4k/sidhu_more_of_john_lynch_on_knbr_trey_made/",
+          "https://old.reddit.com/r/nfl/comments/18o5xke/highlight_saints_block_the_punt/",
       },
       {
-        title:
-          "[Highlight] Today marks 14 days until the 2023 NFL Season starts! Let’s remember this 14 yard game winning TD pass from Kenny Pickett to George Pickens against the Raiders last season. This game was played 4 days after the death of Steelers legend Franco Harris. Steelers win, 13-10.",
-        videoUrl: "https://v.redd.it/zwim4qd722kb1",
-        score: 449,
-        date: "2023-08-24T12:55:58+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/16017ek/highlight_today_marks_14_days_until_the_2023_nfl/",
-      },
-      {
-        title:
-          "[HIGHLIGHT] All 4 punts from Nolan Cooney in the Cardinals 10-38 preseason loss to the Chiefs. Cooney finished with a PFF single-game grade of 70.9 (2nd). Thoughts in comments.",
-        videoUrl: "https://v.redd.it/dd2bkjp7czjb1",
-        score: 75,
-        date: "2023-08-24T03:46:35+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15zqim3/highlight_all_4_punts_from_nolan_cooney_in_the/",
-      },
-      {
-        title:
-          "[Highlight] Marcus Mariota Game-Winning TD Pass to Corey Davis vs Eagles",
-        videoUrl: "https://v.redd.it/4sp3470fuwjb1",
-        score: 207,
-        date: "2023-08-23T19:21:46+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15zdpkr/highlight_marcus_mariota_gamewinning_td_pass_to/",
-      },
-      {
-        title:
-          "[Highlight] Minkah on his split from the Dolphins: “Part of the main issue was just how they were going about that season, their approach to, you know what I’m saying? And then when it came to position wise… it was just a difference of opinion and type of player I was between me and some coaches”",
-        videoUrl: "https://v.redd.it/mowgwy4s9wjb1",
-        score: 92,
-        date: "2023-08-23T17:25:26+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15zafo8/highlight_minkah_on_his_split_from_the_dolphins/",
-      },
-      {
-        title: "[Highlight] Mike Evans calls Quinnen Williams fat",
+        title: "[Highlight] Kyren leaps into the end zone for the score!",
         videoUrl:
-          "https://twitter.com/brgridiron/status/1694184873039417346?s=20",
-        score: 1297,
-        date: "2023-08-23T15:22:57+00:00",
+          "https://twitter.com/nfl/status/1738034702735581456?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 232,
+        date: "2023-12-22T03:12:49+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/15z6yge/highlight_mike_evans_calls_quinnen_williams_fat/",
+          "https://old.reddit.com/r/nfl/comments/18o53ft/highlight_kyren_leaps_into_the_end_zone_for_the/",
       },
       {
-        title:
-          "[Highlight] Today marks 15 days until the 2023 NFL Season starts! Let’s remember this 15 yard TD pass from Alex Smith to Travis Kelce against the Bills back in 2015. Travis Kelce would hit the Quan right after scoring. Chiefs win, 30-22.",
-        videoUrl: "https://v.redd.it/mb4h3vohxujb1",
-        score: 273,
-        date: "2023-08-23T12:56:15+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15z3581/highlight_today_marks_15_days_until_the_2023_nfl/",
-      },
-      {
-        title:
-          "[Highlight] Today marks 16 days until the 2023 NFL Season starts! Let’s remember the 3 TD game by Doug Baldwin against the Steelers back in 2015. The first TD being a 16 yard TD. Doug Baldwin would also have 6 catches for 145 yards as well. Seahawks win, 39-30.",
-        videoUrl: "https://v.redd.it/1ys6wxh8snjb1",
-        score: 126,
-        date: "2023-08-22T12:56:03+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15y51zr/highlight_today_marks_16_days_until_the_2023_nfl/",
-      },
-      {
-        title:
-          "[Highlight] Joey Slye delivers the go-ahead - and eventual game-winner - field goal for a Commanders victory against their fellow Beltway team!",
+        title: "[Highlight] Carr gets picked off by Fuller",
         videoUrl:
-          "https://twitter.com/NFL/status/1693824722709139938?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-        score: 187,
-        date: "2023-08-22T03:26:15+00:00",
+          "https://twitter.com/nfl/status/1738033686443147507?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 1288,
+        date: "2023-12-22T03:08:51+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/15xth4y/highlight_joey_slye_delivers_the_goahead_and/",
+          "https://old.reddit.com/r/nfl/comments/18o50q1/highlight_carr_gets_picked_off_by_fuller/",
       },
       {
-        title:
-          "[Highlight] BAL QB Josh Johnson delivers a perfect back shoulder throw to Tylan Wallace",
-        videoUrl: "https://v.redd.it/ihiny3jpdkjb1",
-        score: 97,
-        date: "2023-08-22T01:26:38+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15xqsvg/highlight_bal_qb_josh_johnson_delivers_a_perfect/",
-      },
-      {
-        title: "[Highlight] WAS QB Sam Howell throws a TD to Antonio Gibson!",
-        videoUrl: "https://v.redd.it/edwpssrbbkjb1",
-        score: 355,
-        date: "2023-08-22T01:13:13+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15xqhvf/highlight_was_qb_sam_howell_throws_a_td_to/",
-      },
-      {
-        title:
-          "[Highlight] Rookie CB Jartavius Martin's interception in the end zone!",
-        videoUrl: "https://v.redd.it/z65anttc9kjb1",
-        score: 433,
-        date: "2023-08-22T01:02:20+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15xq909/highlight_rookie_cb_jartavius_martins/",
-      },
-      {
-        title:
-          "[Highlight] WAS QB Sam Howell goes through his progressions on 3rd and 15.",
-        videoUrl: "https://v.redd.it/whedzxg29kjb1",
-        score: 1813,
-        date: "2023-08-22T01:00:35+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15xq7d4/highlight_was_qb_sam_howell_goes_through_his/",
-      },
-      {
-        title: "[Highlight] Zay Flowers finds the end zone!",
+        title: "[Highlight] Stafford goes deep to Puka again",
         videoUrl:
-          "https://x.com/mysportsupdate/status/1693779222962090210?s=46&t=Y_KXHBgeHwLgY9UkD4KA1A",
-        score: 341,
-        date: "2023-08-22T00:23:01+00:00",
+          "https://twitter.com/nfl/status/1738029924026642777?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 962,
+        date: "2023-12-22T02:58:13+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/15xpb3m/highlight_zay_flowers_finds_the_end_zone/",
+          "https://old.reddit.com/r/nfl/comments/18o4tc9/highlight_stafford_goes_deep_to_puka_again/",
       },
       {
         title:
-          "[Highlight] Today marks 17 days until the 2023 NFL Season starts! Let’s remember the day Travis Kelce had against the Chargers last season scoring 3 TDs. His final TD in the 4th quarter was a 17 yard TD that led to them winning the game. Chiefs win, 30-27.",
-        videoUrl: "https://v.redd.it/8pwkkfzkngjb1",
-        score: 400,
-        date: "2023-08-21T12:56:40+00:00",
+          "[Highlight] Stafford scrambles then drops a dime to Demarcus Robinson for a 32 yard gain!",
+        videoUrl: "https://twitter.com/BussinWTB/status/1738024275339079688",
+        score: 177,
+        date: "2023-12-22T02:38:07+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/15x6xnb/highlight_today_marks_17_days_until_the_2023_nfl/",
-      },
-      {
-        title: "[Highlight] Pat McAfee Recovers His Own Onside Kick",
-        videoUrl: "https://v.redd.it/530g8b1lgejb1",
-        score: 2386,
-        date: "2023-08-21T05:31:59+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15wybly/highlight_pat_mcafee_recovers_his_own_onside_kick/",
+          "https://old.reddit.com/r/nfl/comments/18o4fhq/highlight_stafford_scrambles_then_drops_a_dime_to/",
       },
       {
         title:
-          "[HIGHLIGHT] Punting competition! Every punt from rookie Lou Hedley (5) and Blake Gillikin (2) (and bonus 5 from JK Scott) in the Saints 22-17 win over the Chargers in PW2. PFF single-game grades available tomorrow. Thoughts in comments.",
-        videoUrl: "https://v.redd.it/bnp89cm90ejb1",
-        score: 55,
-        date: "2023-08-21T04:04:24+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15wwmlk/highlight_punting_competition_every_punt_from/",
-      },
-      {
-        title:
-          "[HIGHLIGHT] Easton Stick's final pass is intercepted to seal the Saints 22-17 win.",
-        videoUrl: "https://v.redd.it/dbddhvkfidjb1",
-        score: 98,
-        date: "2023-08-21T02:21:01+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15wuf3p/highlight_easton_sticks_final_pass_is_intercepted/",
-      },
-      {
-        title:
-          "[Highlight] Noah Eagle and Dan Fouts talking about their preferred counting method",
-        videoUrl: "https://v.redd.it/muby5q3cfdjb1",
-        score: 231,
-        date: "2023-08-21T02:02:44+00:00",
-        postUrl:
-          "https://old.reddit.com/r/nfl/comments/15wu0n8/highlight_noah_eagle_and_dan_fouts_talking_about/",
-      },
-      {
-        title:
-          "[Highlight] Saints QB Jameis Winston throws it deep to WR Shaquon Davis",
+          "[Highlight] Demarcus Robinson gets it in the back of the end zone",
         videoUrl:
-          "https://x.com/nflrt/status/1693421279984881897?s=46&t=J0p2oFk2S-oTfiSeDu017g",
-        score: 128,
-        date: "2023-08-21T00:35:44+00:00",
+          "https://twitter.com/nfl/status/1738024932788035895?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 305,
+        date: "2023-12-22T02:34:20+00:00",
         postUrl:
-          "https://old.reddit.com/r/nfl/comments/15ws36l/highlight_saints_qb_jameis_winston_throws_it_deep/",
+          "https://old.reddit.com/r/nfl/comments/18o4d0k/highlight_demarcus_robinson_gets_it_in_the_back/",
+      },
+      {
+        title: "[Highlight] Carr drops a dime to Shaheed for six",
+        videoUrl:
+          "https://twitter.com/nfl/status/1738021226340364784?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 294,
+        date: "2023-12-22T02:19:50+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18o42s1/highlight_carr_drops_a_dime_to_shaheed_for_six/",
+      },
+      {
+        title: "[Highlight] Stafford finds a wide open Puka for a big gain",
+        videoUrl:
+          "https://twitter.com/nfl/status/1738014634429542710?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 180,
+        date: "2023-12-22T01:54:08+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18o3kmu/highlight_stafford_finds_a_wide_open_puka_for_a/",
+      },
+      {
+        title: "[Highlight] Rams get to Carr on 4th down!",
+        videoUrl:
+          "https://twitter.com/nfl/status/1738013943275380767?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 91,
+        date: "2023-12-22T01:53:04+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18o3jx1/highlight_rams_get_to_carr_on_4th_down/",
+      },
+      {
+        title: "[Highlight] Stafford to Puka on 4th down for the score!",
+        videoUrl:
+          "https://twitter.com/nfl/status/1738010996139344218?s=46&t=U3cMdkI_C5XzlWnRYxxzMw",
+        score: 823,
+        date: "2023-12-22T01:38:47+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18o39r2/highlight_stafford_to_puka_on_4th_down_for_the/",
+      },
+      {
+        title:
+          "[Highlight] On this day in 2006, then Dolphins head coach Nick Saban declared: “I don’t know how else I can say it. I’ve said it over and over and over. I’m not going to be the Alabama coach.”",
+        videoUrl:
+          "https://twitter.com/oldtakesexposed/status/1737970560070488421?s=46",
+        score: 2295,
+        date: "2023-12-21T23:07:56+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18o02xe/highlight_on_this_day_in_2006_then_dolphins_head/",
+      },
+      {
+        title: "[Highlight] Pete Carroll's Locker Room Speech",
+        videoUrl: "https://v.redd.it/eivmzj6u2c7c1",
+        score: 7857,
+        date: "2023-12-19T23:10:05+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18mfdh1/highlight_pete_carrolls_locker_room_speech/",
+      },
+      {
+        title: "[Highlight] Top Ten Plays of Week 15 By Win Probability Added",
+        videoUrl: "https://v.redd.it/ahjsbwpwvb7c1",
+        score: 1031,
+        date: "2023-12-19T22:32:48+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18meiwk/highlight_top_ten_plays_of_week_15_by_win/",
+      },
+      {
+        title: "[Highlight] Drew Lock's Victory speech in the Locker Room",
+        videoUrl: "https://v.redd.it/9pufus63ob7c1",
+        score: 952,
+        date: "2023-12-19T21:47:24+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18mdi69/highlight_drew_locks_victory_speech_in_the_locker/",
+      },
+      {
+        title:
+          "[Highlight] Drew Locke shares his feelings on the game winning drive before getting spooked",
+        videoUrl: "https://v.redd.it/wocis12ccb7c1",
+        score: 379,
+        date: "2023-12-19T20:41:32+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18mbxwc/highlight_drew_locke_shares_his_feelings_on_the/",
+      },
+      {
+        title: "[Highlight] Geno cheering for Lock after he scores the TD",
+        videoUrl: "https://v.redd.it/7h0174bmt67c1",
+        score: 4242,
+        date: "2023-12-19T05:29:31+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18luaq0/highlight_geno_cheering_for_lock_after_he_scores/",
+      },
+      {
+        title:
+          "[Highlight] Drew Lock leads 92-yard game-winning drive with under two minutes to go",
+        videoUrl: "https://v.redd.it/tpcu8mtam67c1",
+        score: 2523,
+        date: "2023-12-19T04:48:45+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18ltjye/highlight_drew_lock_leads_92yard_gamewinning/",
+      },
+      {
+        title:
+          "[Highlight] Hurts tries another deep ball this time to AJ Brown and Julian Love picks it off again this time with a toe tap catch to seal the win",
+        videoUrl: "https://v.redd.it/tbj668lmg67c1",
+        score: 6037,
+        date: "2023-12-19T04:17:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18lsz2q/highlight_hurts_tries_another_deep_ball_this_time/",
+      },
+      {
+        title: "[Highlight] JULIAN LOVE CLUTCH SIDELINE INT!",
+        videoUrl: "https://twitter.com/NFL/status/1736963952444350792",
+        score: 613,
+        date: "2023-12-19T04:17:53+00:00",
+        postUrl:
+          "https://old.reddit.com/r/nfl/comments/18lsz1z/highlight_julian_love_clutch_sideline_int/",
       },
     ],
   },
@@ -963,490 +1134,246 @@ export const MOCK_HIGHLIGHTS = {
     top: [
       {
         title:
-          "Stephen Strasburg’s MLB debut against the Pirates, June 10, 2010. 14 K, 2 ER, 4 H, 7 IP. Got the win in a 5-2 Nats victory to begin a legendary 13 year career with the franchise.",
-        videoUrl: "https://youtu.be/Ezk0Pr8X6TI?si=Zrrs-NwQQmfALQ75",
-        score: 565,
-        date: "2023-08-24T19:21:22+00:00",
+          "Here is an another random retro game for you to watch this offseason! It’s the 2001 MLB All Star Futures game featuring notable players such as Miguel Cabrera,Adam Dunn,Adrian Gonzalez,Chase Utley and Hank Blalock during their days as top MLB prospects",
+        videoUrl: "https://youtu.be/0hTcuTk3GIA?si=XkXJ1Q-g56g7y1LT",
+        score: 0,
+        date: "2023-12-23T09:02:29+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160bfrh/stephen_strasburgs_mlb_debut_against_the_pirates/",
+          "https://old.reddit.com/r/baseball/comments/18p1rua/here_is_an_another_random_retro_game_for_you_to/",
       },
       {
-        title:
-          "[Highlight] Harrison Bader just misses a walk-off home run and the Yankees have now lost their last 7 rubber games",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/f6fbb8f6-437b-415b-aa34-54c9f850f20c.mp4",
-        score: 193,
-        date: "2023-08-24T20:07:05+00:00",
+        title: "Is Craig Kimbrel Bound For The Hall of Fame?",
+        videoUrl: "https://youtu.be/ak2sYvI-zag?si=xqCqLINtLejrZIQR",
+        score: 0,
+        date: "2023-12-22T17:43:36+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160cn31/highlight_harrison_bader_just_misses_a_walkoff/",
-      },
-      {
-        title:
-          "[Highlight] Anthony Santander hits his 24th home run of the season to tie the game at 2-2!",
-        videoUrl: "https://v.redd.it/f1i08vo1q5kb1",
-        score: 188,
-        date: "2023-08-25T01:12:59+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160klnr/highlight_anthony_santander_hits_his_24th_home/",
-      },
-      {
-        title:
-          "[Highlight] Ryan Jeffers breaks the tie with a 2-run homer off Will Smith.",
-        videoUrl: "https://streamable.com/t1cwdf",
-        score: 164,
-        date: "2023-08-25T01:37:40+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160l6yv/highlight_ryan_jeffers_breaks_the_tie_with_a_2run/",
-      },
-      {
-        title:
-          "[Highlight] CJ Abrams goes back-to-back with a no-doubter to right for his 14th home run of the year",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/5833ca87-ae4a-4b62-8e54-d1c400f4ceb2.mp4",
-        score: 153,
-        date: "2023-08-24T19:07:24+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160b2ei/highlight_cj_abrams_goes_backtoback_with_a/",
-      },
-      {
-        title:
-          "[Highlight] Cedric Mullins hits a 2-run homer to give the Orioles a 4-2 lead over the Blue Jays. The O's 2nd 2-run homer in as many innings.",
-        videoUrl: "https://v.redd.it/tzdy7ecot5kb1",
-        score: 150,
-        date: "2023-08-25T01:33:28+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160l3bs/highlight_cedric_mullins_hits_a_2run_homer_to/",
-      },
-      {
-        title:
-          "[Highlight] Kiké Hernandez celebrates his 32nd birthday with a 401 foot solo shot, his 2nd homer with the Dodgers and 8th of the season",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/5a4412d9-eac6-4a60-9de4-e055940b99e3.mp4",
-        score: 142,
-        date: "2023-08-24T23:00:16+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160h9yk/highlight_kik%C3%A9_hernandez_celebrates_his_32nd/",
-      },
-      {
-        title:
-          "[Highlight] Connor Wong hits a 2-run home run off Maldonado to make it 17-1 Red Sox!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/f1d65e15-d96a-42e4-a0f4-03268921d61a.mp4",
-        score: 138,
-        date: "2023-08-24T21:15:04+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160efj6/highlight_connor_wong_hits_a_2run_home_run_off/",
-      },
-      {
-        title: "Michael Busch launches his first career home run!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/f68677d6-e97b-40c6-a025-8eaa9916735b.mp4",
-        score: 102,
-        date: "2023-08-24T21:32:35+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160ewlk/michael_busch_launches_his_first_career_home_run/",
-      },
-      {
-        title:
-          "[Highlight] Wilyer Abreu's first career home run is a 431-foot bomb to the second deck!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/e54d916e-c0d5-4319-a693-90051438153f.mp4",
-        score: 99,
-        date: "2023-08-24T18:32:13+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160a4l2/highlight_wilyer_abreus_first_career_home_run_is/",
-      },
-      {
-        title:
-          "[Highlight] Alex Call goes deep to give the Nats a 4-3 lead over the Yankees in the 7th",
-        videoUrl: "https://streamable.com/3kt472",
-        score: 91,
-        date: "2023-08-24T19:00:52+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160avux/highlight_alex_call_goes_deep_to_give_the_nats_a/",
-      },
-      {
-        title:
-          "Josh Lowe launches a 452-foot bomb to give the Rays a 5-3 lead over the Rockies in the 8th",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/41532ba3-0bd6-4764-80fe-1c840fe539c2.mp4",
-        score: 69,
-        date: "2023-08-24T19:38:58+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160bwep/josh_lowe_launches_a_452foot_bomb_to_give_the/",
-      },
-      {
-        title:
-          "Zack Gelof has done it again! His 10th homer in 35 career games sets an Athletics franchise record and puts Oakland up 7-5",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/d3ea5fc7-b216-4170-be11-d851647fa5b1.mp4",
-        score: 67,
-        date: "2023-08-25T02:14:19+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160m1j6/zack_gelof_has_done_it_again_his_10th_homer_in_35/",
-      },
-      {
-        title:
-          "Jace Peterson Smokes a Ball Off the Wall with the bases loaded to open the scoring. Diamondbacks end it up 1-0 with runners on 1st and 2nd 1 out with the Baserunning Disasterclass",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/df800c04-a112-46f8-a8f5-c6a2965ac3e8.mp4",
-        score: 58,
-        date: "2023-08-25T03:42:23+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160nxr6/jace_peterson_smokes_a_ball_off_the_wall_with_the/",
-      },
-      {
-        title:
-          "[Highlight] After robbing one earlier in the game, Luis Robert Jr. crushes a 444ft Home Run for his 34th of the season",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/85d09a65-2172-40ea-9406-e5aaf746c40d.mp4",
-        score: 59,
-        date: "2023-08-25T01:44:44+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160ld00/highlight_after_robbing_one_earlier_in_the_game/",
-      },
-      {
-        title:
-          "[Highlight] Alex Verdugo hits a leadoff home run to open the scoring against the Astros!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/01cfd30a-5012-4212-8308-035b59e2726b.mp4",
-        score: 49,
-        date: "2023-08-24T18:13:25+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/1609mhc/highlight_alex_verdugo_hits_a_leadoff_home_run_to/",
-      },
-      {
-        title:
-          "Kiké Hernandez talks about shitting his pants during the 2020 NLDS",
-        videoUrl: "https://youtu.be/SISFwiDeeM8?si=_qigqdHPHQj5z2xi&t=1491",
-        score: 49,
-        date: "2023-08-25T02:19:48+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160m5zf/kik%C3%A9_hernandez_talks_about_shitting_his_pants/",
-      },
-      {
-        title:
-          "Adbert Alzolay gets the save for the second consecutive day to give the Cubs a 5-4 win!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/fc450eaf-055d-4741-ab31-d019e5cf4ac1.mp4",
-        score: 48,
-        date: "2023-08-25T02:02:38+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160lrza/adbert_alzolay_gets_the_save_for_the_second/",
-      },
-      {
-        title:
-          "[SNY] Gary, Keith, and Ron send their congratulations to Dwight Gooden and Darryl Strawberry on having their numbers retired by the Mets",
-        videoUrl: "https://twitter.com/SNYtv/status/1694737579243909163",
-        score: 48,
-        date: "2023-08-24T16:17:10+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/1606f7o/sny_gary_keith_and_ron_send_their_congratulations/",
-      },
-      {
-        title:
-          "[Highlight] Ramon Laureano has a brain freeze as he made a catching error. Freddie Freeman scored as a result!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/0f577707-5285-4680-bf07-255367b07bc2.mp4",
-        score: 45,
-        date: "2023-08-24T21:55:36+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160fizs/highlight_ramon_laureano_has_a_brain_freeze_as_he/",
-      },
-      {
-        title:
-          "[Highlight] Carlos Correa hits a game tying RBI double in the bottom of the 8th.",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/e8a5e162-c816-42d1-8fc6-87e9c22e275f.mp4",
-        score: 39,
-        date: "2023-08-25T01:34:23+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160l43h/highlight_carlos_correa_hits_a_game_tying_rbi/",
-      },
-      {
-        title:
-          "Brandon Belt cranks his 15th home run to cut the deficit to 5-3",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/6b248e97-187b-4601-99ad-f9ac327d17af.mp4",
-        score: 40,
-        date: "2023-08-25T01:45:55+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160le1b/brandon_belt_cranks_his_15th_home_run_to_cut_the/",
-      },
-      {
-        title:
-          "Shea Langeliers stays hot and bangs a three run shot to give Oakland the lead, much to the shock of broadcaster Vince Cotroneo",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/4c4f03f0-dda2-4497-b86e-01590fb914e3.mp4",
-        score: 28,
-        date: "2023-08-25T01:14:25+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160kms9/shea_langeliers_stays_hot_and_bangs_a_three_run/",
-      },
-      {
-        title:
-          "Rafael Devers gets his 3rd RBI of the the day with a single! 13-1 Red Sox over the Astros",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/3c326aeb-cbc5-4e43-913d-026171e03c39.mp4",
-        score: 24,
-        date: "2023-08-24T21:08:45+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160e9da/rafael_devers_gets_his_3rd_rbi_of_the_the_day/",
-      },
-      {
-        title:
-          "Shea Langeliers is still scorching hot as he bangs his second homer to tie the game at 5",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/b4ec830d-77d7-427a-802c-5be8a1d2b73d.mp4",
-        score: 25,
-        date: "2023-08-25T01:53:17+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160lk36/shea_langeliers_is_still_scorching_hot_as_he/",
+          "https://old.reddit.com/r/baseball/comments/18okipa/is_craig_kimbrel_bound_for_the_hall_of_fame/",
       },
     ],
     new: [
       {
         title:
-          "Jace Peterson Smokes a Ball Off the Wall with the bases loaded to open the scoring. Diamondbacks end it up 1-0 with runners on 1st and 2nd 1 out with the Baserunning Disasterclass",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/df800c04-a112-46f8-a8f5-c6a2965ac3e8.mp4",
-        score: 59,
-        date: "2023-08-25T03:42:23+00:00",
+          "Here is an another random retro game for you to watch this offseason! It’s the 2001 MLB All Star Futures game featuring notable players such as Miguel Cabrera,Adam Dunn,Adrian Gonzalez,Chase Utley and Hank Blalock during their days as top MLB prospects",
+        videoUrl: "https://youtu.be/0hTcuTk3GIA?si=XkXJ1Q-g56g7y1LT",
+        score: 0,
+        date: "2023-12-23T09:02:29+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160nxr6/jace_peterson_smokes_a_ball_off_the_wall_with_the/",
+          "https://old.reddit.com/r/baseball/comments/18p1rua/here_is_an_another_random_retro_game_for_you_to/",
+      },
+      {
+        title: "Is Craig Kimbrel Bound For The Hall of Fame?",
+        videoUrl: "https://youtu.be/ak2sYvI-zag?si=xqCqLINtLejrZIQR",
+        score: 0,
+        date: "2023-12-22T17:43:36+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18okipa/is_craig_kimbrel_bound_for_the_hall_of_fame/",
       },
       {
         title:
-          "Kiké Hernandez talks about shitting his pants during the 2020 NLDS",
-        videoUrl: "https://youtu.be/SISFwiDeeM8?si=_qigqdHPHQj5z2xi&t=1491",
-        score: 54,
-        date: "2023-08-25T02:19:48+00:00",
+          'Shohei Ohtani donated Baseball gloves today to his elementary school alma mater (Anetai Elementary School in Oshuu-shi, Iwate, Japan). A letter from Shohei was also included that said "I hope this glove will become a symbol for encouragement and dreams to the next generation".',
+        videoUrl: "https://v.redd.it/c959j1bs7s7c1",
+        score: 90,
+        date: "2023-12-22T05:31:02+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160m5zf/kik%C3%A9_hernandez_talks_about_shitting_his_pants/",
+          "https://old.reddit.com/r/baseball/comments/18o7j40/shohei_ohtani_donated_baseball_gloves_today_to/",
       },
       {
         title:
-          "Zack Gelof has done it again! His 10th homer in 35 career games sets an Athletics franchise record and puts Oakland up 7-5",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/d3ea5fc7-b216-4170-be11-d851647fa5b1.mp4",
-        score: 64,
-        date: "2023-08-25T02:14:19+00:00",
+          'In addition to appearing in the hit MC Hammer joint "Addams Family Grooove", former Phillies shortstop and MVP Jimmy Rollins also appeared in a Mavis Staples music video for her song "The Voice" where he shoots a 13 year old.',
+        videoUrl: "https://www.youtube.com/watch?v=HdXLB8pPH-A",
+        score: 15,
+        date: "2023-12-22T01:54:10+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160m1j6/zack_gelof_has_done_it_again_his_10th_homer_in_35/",
+          "https://old.reddit.com/r/baseball/comments/18o3knv/in_addition_to_appearing_in_the_hit_mc_hammer/",
       },
       {
         title:
-          "Adbert Alzolay gets the save for the second consecutive day to give the Cubs a 5-4 win!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/fc450eaf-055d-4741-ab31-d019e5cf4ac1.mp4",
-        score: 49,
-        date: "2023-08-25T02:02:38+00:00",
+          "[@Mets] From all of us at @CitiField:Happy Holidays, #Mets fans!",
+        videoUrl: "https://twitter.com/Mets/status/1737870909208158260",
+        score: 12,
+        date: "2023-12-21T20:20:22+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160lrza/adbert_alzolay_gets_the_save_for_the_second/",
+          "https://old.reddit.com/r/baseball/comments/18nwa10/mets_from_all_of_us_at_citifieldhappy_holidays/",
+      },
+      {
+        title: "[Foolish Bailey] 2024 Hall of Fame Ballot, a breakdown",
+        videoUrl: "https://youtu.be/znYObmZdt_w?si=kiqeOLdZI3YM8pAF",
+        score: 37,
+        date: "2023-12-21T20:09:02+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18nw0wq/foolish_bailey_2024_hall_of_fame_ballot_a/",
       },
       {
         title:
-          "Shea Langeliers is still scorching hot as he bangs his second homer to tie the game at 5",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/b4ec830d-77d7-427a-802c-5be8a1d2b73d.mp4",
-        score: 25,
-        date: "2023-08-25T01:53:17+00:00",
+          "DL Hall & Grayson Rodriguez Play Try Not to Laugh | Baltimore Orioles",
+        videoUrl: "https://www.youtube.com/watch?v=bBm5C-fLBps",
+        score: 12,
+        date: "2023-12-21T04:25:01+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160lk36/shea_langeliers_is_still_scorching_hot_as_he/",
+          "https://old.reddit.com/r/baseball/comments/18ne9ht/dl_hall_grayson_rodriguez_play_try_not_to_laugh/",
       },
       {
         title:
-          "Brandon Belt cranks his 15th home run to cut the deficit to 5-3",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/6b248e97-187b-4601-99ad-f9ac327d17af.mp4",
-        score: 35,
-        date: "2023-08-25T01:45:55+00:00",
+          "First saw this in 2012 and it is still by far my favorite MLB commercial",
+        videoUrl: "https://youtu.be/oiBd3ZIOjMg?si=l_-mlAY4Vr8zyUa-",
+        score: 16,
+        date: "2023-12-21T02:41:47+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160le1b/brandon_belt_cranks_his_15th_home_run_to_cut_the/",
+          "https://old.reddit.com/r/baseball/comments/18ncbnb/first_saw_this_in_2012_and_it_is_still_by_far_my/",
+      },
+      {
+        title: '100 NPB Players vote for best "Power Hitter" 2023',
+        videoUrl: "https://www.youtube.com/watch?v=-BgWs0zrWBg&t=6s",
+        score: 8,
+        date: "2023-12-20T14:58:26+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18mwibd/100_npb_players_vote_for_best_power_hitter_2023/",
+      },
+      {
+        title: "The 5 game tying Grand Slams in 2023",
+        videoUrl: "https://v.redd.it/55jzhtvmsc7c1",
+        score: 356,
+        date: "2023-12-20T01:35:08+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18mifxu/the_5_game_tying_grand_slams_in_2023/",
       },
       {
         title:
-          "[Highlight] After robbing one earlier in the game, Luis Robert Jr. crushes a 444ft Home Run for his 34th of the season",
+          "[Highlight] Miguel Sano hits a Little League Home Run for Estrellas Orientales in LIDOM",
+        videoUrl: "https://streamable.com/u9wl61",
+        score: 55,
+        date: "2023-12-20T01:14:42+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18mi12w/highlight_miguel_sano_hits_a_little_league_home/",
+      },
+      {
+        title:
+          "Little League slow-motion run: Pint-size baseball player savors run home",
         videoUrl:
-          "https://bdata-producedclips.mlb.com/85d09a65-2172-40ea-9406-e5aaf746c40d.mp4",
+          "https://m.youtube.com/watch?v=5i8vtxhlj2c&pp=ygUdbGl0dGxlIGxlYWd1ZSBzbG93IG1vdGlvbiBydW4%3D",
+        score: 10,
+        date: "2023-12-19T21:48:24+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18mdiza/little_league_slowmotion_run_pintsize_baseball/",
+      },
+      {
+        title:
+          "2023.5.20 Korea Baseball Team Lotte Giants FAN Night Performance",
+        videoUrl: "https://youtu.be/rmx0JGpLgMM?si=PFtmapgJhgi6KuC8",
+        score: 0,
+        date: "2023-12-19T14:12:03+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18m2svr/2023520_korea_baseball_team_lotte_giants_fan/",
+      },
+      {
+        title:
+          "[Highlight] Fernando Tatis Jr. hits a game tying home run for Estrellas Orientales in a LIDOM game",
+        videoUrl: "https://streamable.com/j9xkut",
+        score: 80,
+        date: "2023-12-19T01:42:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18lpv3l/highlight_fernando_tatis_jr_hits_a_game_tying/",
+      },
+      {
+        title:
+          "Disney+ Korea's Full Count Documentary about the 2022 KBO Season is available on Hulu",
+        videoUrl:
+          "https://www.hulu.com/watch/9e87d83e-fc1b-4e4f-8d0d-0ad355710b14",
         score: 60,
-        date: "2023-08-25T01:44:44+00:00",
+        date: "2023-12-19T01:21:24+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160ld00/highlight_after_robbing_one_earlier_in_the_game/",
+          "https://old.reddit.com/r/baseball/comments/18lpeo6/disney_koreas_full_count_documentary_about_the/",
       },
       {
         title:
-          "[Highlight] Ryan Jeffers breaks the tie with a 2-run homer off Will Smith.",
-        videoUrl: "https://streamable.com/t1cwdf",
-        score: 162,
-        date: "2023-08-25T01:37:40+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160l6yv/highlight_ryan_jeffers_breaks_the_tie_with_a_2run/",
-      },
-      {
-        title:
-          "[Highlight] Carlos Correa hits a game tying RBI double in the bottom of the 8th.",
+          "[Foul Territory] Vegas native Paul Sewald: \"Nobody wants the Las Vegas A's... the players deserve better than to get fed out there like a AAAA team in a city that doesn't want them.\"",
         videoUrl:
-          "https://bdata-producedclips.mlb.com/e8a5e162-c816-42d1-8fc6-87e9c22e275f.mp4",
-        score: 40,
-        date: "2023-08-25T01:34:23+00:00",
+          "https://twitter.com/FoulTerritoryTV/status/1736861395910557838",
+        score: 2941,
+        date: "2023-12-18T22:55:03+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160l43h/highlight_carlos_correa_hits_a_game_tying_rbi/",
+          "https://old.reddit.com/r/baseball/comments/18lm5te/foul_territory_vegas_native_paul_sewald_nobody/",
       },
       {
         title:
-          "[Highlight] Cedric Mullins hits a 2-run homer to give the Orioles a 4-2 lead over the Blue Jays. The O's 2nd 2-run homer in as many innings.",
-        videoUrl: "https://v.redd.it/tzdy7ecot5kb1",
-        score: 153,
-        date: "2023-08-25T01:33:28+00:00",
+          "[Foolish Baseball] Jesse Winker Had a Weird Year | Baseball Bits",
+        videoUrl: "https://youtu.be/Ngfmljhc_24?si=7lM5MlXcH-988utP",
+        score: 168,
+        date: "2023-12-18T20:06:46+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160l3bs/highlight_cedric_mullins_hits_a_2run_homer_to/",
+          "https://old.reddit.com/r/baseball/comments/18li4rt/foolish_baseball_jesse_winker_had_a_weird_year/",
       },
       {
         title:
-          "Shea Langeliers stays hot and bangs a three run shot to give Oakland the lead, much to the shock of broadcaster Vince Cotroneo",
+          "[Chocomamire] Yuki Saito interviewing former MLB catcher Kurt Suzuki about Shohei Ohtani trying to recruit him for Samurai Japan in the 2023 World Baseball Classic.",
+        videoUrl: "https://v.redd.it/7tks25o2b27c1",
+        score: 84,
+        date: "2023-12-18T14:23:17+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18l9vex/chocomamire_yuki_saito_interviewing_former_mlb/",
+      },
+      {
+        title: "THAT TIME Ronald Acuña Jr. Took Over LA and Secured the MVP",
+        videoUrl: "https://youtu.be/eHjMBTBQHEM?si=x3Yu1vOtqVDuygM4",
+        score: 0,
+        date: "2023-12-18T13:54:50+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18l98zx/that_time_ronald_acu%C3%B1a_jr_took_over_la_and/",
+      },
+      {
+        title:
+          "[July 7, 2023] Shota Imanaga's 15 strikeout game against the Yomiuri Giants (7 consecutive strikeouts in the 2nd to 4th innings), 115 pitches thrown over 7 innings pitched. Imanaga is currently posted for MLB teams this off-season.",
+        videoUrl: "https://v.redd.it/xxgl79tp2y6c1",
+        score: 127,
+        date: "2023-12-18T00:07:13+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18kv917/july_7_2023_shota_imanagas_15_strikeout_game/",
+      },
+      {
+        title:
+          "Jung Hoo Lee got a warm welcome from Dub Nation at yesterday’s Warriors game",
+        videoUrl: "https://streamable.com/953hjp",
+        score: 204,
+        date: "2023-12-17T21:51:09+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18ks9mw/jung_hoo_lee_got_a_warm_welcome_from_dub_nation/",
+      },
+      {
+        title:
+          "My favorite piece of baseball music - the Fox MLB lineup track (from 1996-2006)",
+        videoUrl: "https://www.youtube.com/watch?v=z6o7jyP3pmQ",
+        score: 15,
+        date: "2023-12-17T02:38:56+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18k792b/my_favorite_piece_of_baseball_music_the_fox_mlb/",
+      },
+      {
+        title:
+          "New SF Giants addition Lee Jung-hoo batting highlights against pitches clocking over 93+ mph in the KBO.",
+        videoUrl: "https://v.redd.it/zs4hd0rhqq6c1",
+        score: 132,
+        date: "2023-12-16T23:24:24+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18k3hsi/new_sf_giants_addition_lee_junghoo_batting/",
+      },
+      {
+        title:
+          "[Jolly Olive] MLB's Greatest Korean Player Deserved More Praise",
+        videoUrl: "https://youtu.be/of-fxpf8OvM?si=g4IMtoiKj5loE69I",
+        score: 208,
+        date: "2023-12-16T17:23:24+00:00",
+        postUrl:
+          "https://old.reddit.com/r/baseball/comments/18jvxws/jolly_olive_mlbs_greatest_korean_player_deserved/",
+      },
+      {
+        title:
+          "[@PitchingNinja] Rōki Sasaki, 92mph Splitter and 102mph Fastball, Individual Pitches + Overlay",
         videoUrl:
-          "https://bdata-producedclips.mlb.com/4c4f03f0-dda2-4497-b86e-01590fb914e3.mp4",
-        score: 26,
-        date: "2023-08-25T01:14:25+00:00",
+          "https://twitter.com/PitchingNinja/status/1736000996814278796",
+        score: 300,
+        date: "2023-12-16T15:50:07+00:00",
         postUrl:
-          "https://old.reddit.com/r/baseball/comments/160kms9/shea_langeliers_stays_hot_and_bangs_a_three_run/",
-      },
-      {
-        title:
-          "[Highlight] Anthony Santander hits his 24th home run of the season to tie the game at 2-2!",
-        videoUrl: "https://v.redd.it/f1i08vo1q5kb1",
-        score: 188,
-        date: "2023-08-25T01:12:59+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160klnr/highlight_anthony_santander_hits_his_24th_home/",
-      },
-      {
-        title:
-          "[Highlight] Kiké Hernandez celebrates his 32nd birthday with a 401 foot solo shot, his 2nd homer with the Dodgers and 8th of the season",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/5a4412d9-eac6-4a60-9de4-e055940b99e3.mp4",
-        score: 139,
-        date: "2023-08-24T23:00:16+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160h9yk/highlight_kik%C3%A9_hernandez_celebrates_his_32nd/",
-      },
-      {
-        title:
-          "[Highlight] Ramon Laureano has a brain freeze as he made a catching error. Freddie Freeman scored as a result!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/0f577707-5285-4680-bf07-255367b07bc2.mp4",
-        score: 45,
-        date: "2023-08-24T21:55:36+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160fizs/highlight_ramon_laureano_has_a_brain_freeze_as_he/",
-      },
-      {
-        title: "Michael Busch launches his first career home run!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/f68677d6-e97b-40c6-a025-8eaa9916735b.mp4",
-        score: 108,
-        date: "2023-08-24T21:32:35+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160ewlk/michael_busch_launches_his_first_career_home_run/",
-      },
-      {
-        title:
-          "[Highlight] Connor Wong hits a 2-run home run off Maldonado to make it 17-1 Red Sox!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/f1d65e15-d96a-42e4-a0f4-03268921d61a.mp4",
-        score: 138,
-        date: "2023-08-24T21:15:04+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160efj6/highlight_connor_wong_hits_a_2run_home_run_off/",
-      },
-      {
-        title:
-          "Rafael Devers gets his 3rd RBI of the the day with a single! 13-1 Red Sox over the Astros",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/3c326aeb-cbc5-4e43-913d-026171e03c39.mp4",
-        score: 27,
-        date: "2023-08-24T21:08:45+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160e9da/rafael_devers_gets_his_3rd_rbi_of_the_the_day/",
-      },
-      {
-        title:
-          "[Highlight] Harrison Bader just misses a walk-off home run and the Yankees have now lost their last 7 rubber games",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/f6fbb8f6-437b-415b-aa34-54c9f850f20c.mp4",
-        score: 190,
-        date: "2023-08-24T20:07:05+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160cn31/highlight_harrison_bader_just_misses_a_walkoff/",
-      },
-      {
-        title:
-          "Josh Lowe launches a 452-foot bomb to give the Rays a 5-3 lead over the Rockies in the 8th",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/41532ba3-0bd6-4764-80fe-1c840fe539c2.mp4",
-        score: 66,
-        date: "2023-08-24T19:38:58+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160bwep/josh_lowe_launches_a_452foot_bomb_to_give_the/",
-      },
-      {
-        title:
-          "[Highlight] The 19th Stantonian Blast of the year brings the Yanks within 1 of the Nats",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/02362f7e-689a-4e16-84f3-723ebb18d4a9.mp4",
-        score: 13,
-        date: "2023-08-24T19:30:42+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160bolt/highlight_the_19th_stantonian_blast_of_the_year/",
-      },
-      {
-        title:
-          "Stephen Strasburg’s MLB debut against the Pirates, June 10, 2010. 14 K, 2 ER, 4 H, 7 IP. Got the win in a 5-2 Nats victory to begin a legendary 13 year career with the franchise.",
-        videoUrl: "https://youtu.be/Ezk0Pr8X6TI?si=Zrrs-NwQQmfALQ75",
-        score: 561,
-        date: "2023-08-24T19:21:22+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160bfrh/stephen_strasburgs_mlb_debut_against_the_pirates/",
-      },
-      {
-        title:
-          "[Highlight] CJ Abrams goes back-to-back with a no-doubter to right for his 14th home run of the year",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/5833ca87-ae4a-4b62-8e54-d1c400f4ceb2.mp4",
-        score: 152,
-        date: "2023-08-24T19:07:24+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160b2ei/highlight_cj_abrams_goes_backtoback_with_a/",
-      },
-      {
-        title:
-          "[Highlight] Alex Call goes deep to give the Nats a 4-3 lead over the Yankees in the 7th",
-        videoUrl: "https://streamable.com/3kt472",
-        score: 86,
-        date: "2023-08-24T19:00:52+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160avux/highlight_alex_call_goes_deep_to_give_the_nats_a/",
-      },
-      {
-        title:
-          "[Highlight] Wilyer Abreu's first career home run is a 431-foot bomb to the second deck!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/e54d916e-c0d5-4319-a693-90051438153f.mp4",
-        score: 99,
-        date: "2023-08-24T18:32:13+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/160a4l2/highlight_wilyer_abreus_first_career_home_run_is/",
-      },
-      {
-        title:
-          "[Highlight] Alex Verdugo hits a leadoff home run to open the scoring against the Astros!",
-        videoUrl:
-          "https://bdata-producedclips.mlb.com/01cfd30a-5012-4212-8308-035b59e2726b.mp4",
-        score: 53,
-        date: "2023-08-24T18:13:25+00:00",
-        postUrl:
-          "https://old.reddit.com/r/baseball/comments/1609mhc/highlight_alex_verdugo_hits_a_leadoff_home_run_to/",
+          "https://old.reddit.com/r/baseball/comments/18jtywu/pitchingninja_r%C5%8Dki_sasaki_92mph_splitter_and/",
       },
     ],
   },
@@ -1454,111 +1381,143 @@ export const MOCK_HIGHLIGHTS = {
     top: [
       {
         title:
-          "Danny Ric, Zhou Guanyu, Oscar Piastri, Alex Albon arrive at the paddock",
-        videoUrl: "https://www.reddit.com/gallery/15zwziu",
-        score: 490,
-        date: "2023-08-24T09:31:24+00:00",
+          "Karun on Sky's podcast: I saw Jos in Qatar & we were chatting about the season. Jos told me, Max was furious after Baku. Max said to his dad then, I am not going to get beaten by him ever again this season. He was absolutely livid and said, he will not beat me again. And lo and behold, he was right",
+        videoUrl: "https://imgur.com/a/SSqAfHY",
+        score: 3757,
+        date: "2023-12-22T14:13:22+00:00",
         postUrl:
-          "https://old.reddit.com/r/formula1/comments/15zwziu/danny_ric_zhou_guanyu_oscar_piastri_alex_albon/",
-      },
-      {
-        title: "[F1] Weekend Warm-Up | 2023 Dutch Grand Prix",
-        videoUrl: "https://www.youtube.com/watch?v=9nrOUgXQWyc",
-        score: 19,
-        date: "2023-08-24T18:51:26+00:00",
-        postUrl:
-          "https://old.reddit.com/r/formula1/comments/160an1o/f1_weekend_warmup_2023_dutch_grand_prix/",
-      },
-      {
-        title: "F1 | Thursday Drivers' Wrap | 2023 Dutch Grand Prix",
-        videoUrl:
-          "https://www.youtube.com/watch?v=tfzFaM-M6oE&ab_channel=FORMULA1",
-        score: 12,
-        date: "2023-08-24T19:10:22+00:00",
-        postUrl:
-          "https://old.reddit.com/r/formula1/comments/160b57m/f1_thursday_drivers_wrap_2023_dutch_grand_prix/",
-      },
-      {
-        title: "JUAN MANUEL FANGIO v JACK BRABHAM 1978 Sandown",
-        videoUrl: "https://youtube.com/watch?v=xXIVxBN8078&si=Mz3mNco0_mtIk1dF",
-        score: 11,
-        date: "2023-08-25T02:48:49+00:00",
-        postUrl:
-          "https://old.reddit.com/r/formula1/comments/160mszd/juan_manuel_fangio_v_jack_brabham_1978_sandown/",
+          "https://old.reddit.com/r/formula1/comments/18ofull/karun_on_skys_podcast_i_saw_jos_in_qatar_we_were/",
       },
       {
         title:
-          "How fast is Max Verstappen at the #DutchGP? | Oracle Virtual Laps",
-        videoUrl: "https://youtu.be/FWhvn09F_og?si=XTBQ-5bTkL-QTl_2",
-        score: 6,
-        date: "2023-08-24T17:03:04+00:00",
+          "F1 champ Max Verstappen vs Indycar champ Alex Palou going head to head in equal cars.",
+        videoUrl: "https://youtu.be/5fGtjgcTQ8w?si=XmUIWdhH8wMFHqNl",
+        score: 551,
+        date: "2023-12-23T00:21:13+00:00",
         postUrl:
-          "https://old.reddit.com/r/formula1/comments/1607o3s/how_fast_is_max_verstappen_at_the_dutchgp_oracle/",
+          "https://old.reddit.com/r/formula1/comments/18ot1v3/f1_champ_max_verstappen_vs_indycar_champ_alex/",
+      },
+      {
+        title: "1955 Formula 1 Monaco Grand Prix, Alberto Ascari last race.",
+        videoUrl: "https://youtube.com/watch?v=wWFZ9TnD35w&si=vgwcbIuGTTfa4z6y",
+        score: 48,
+        date: "2023-12-22T11:15:51+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18ocnfb/1955_formula_1_monaco_grand_prix_alberto_ascari/",
+      },
+      {
+        title: "[F1] McLaren's 2023 F1 Season Was Incredible",
+        videoUrl: "https://youtu.be/GFdRVHSYZJI?si=2YoDyycpnIh14pT9",
+        score: 47,
+        date: "2023-12-22T16:02:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18oi8r2/f1_mclarens_2023_f1_season_was_incredible/",
       },
       {
         title:
-          "Why was this video privated? (Every Driver's over the line team radio)",
+          "Oracle Red Bull Racing | Max and Checo React To EVEN MORE Old Driver Tweets",
         videoUrl:
-          "https://www.youtube.com/watch?v=As7I1yTaQzE&list=WL&index=95&pp=gAQBiAQB",
-        score: 0,
-        date: "2023-08-25T00:51:01+00:00",
+          "https://www.youtube.com/watch?v=G3_hgLjll9E&ab_channel=OracleRedBullRacing",
+        score: 36,
+        date: "2023-12-22T13:01:26+00:00",
         postUrl:
-          "https://old.reddit.com/r/formula1/comments/160k2f3/why_was_this_video_privated_every_drivers_over/",
+          "https://old.reddit.com/r/formula1/comments/18oeeqe/oracle_red_bull_racing_max_and_checo_react_to/",
+      },
+      {
+        title: "Data Driven F1 Drivers: Jacky Ickx",
+        videoUrl: "https://youtu.be/n3sIw2s4lhM?si=NKPiwhL2458uOs0R",
+        score: 24,
+        date: "2023-12-22T14:41:50+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18ogfvf/data_driven_f1_drivers_jacky_ickx/",
+      },
+      {
+        title:
+          "[Channel 4] The Best F1 Interviews of 2023 | Max, Lewis and Lando's Channel 4 Highlights",
+        videoUrl: "https://youtu.be/Ez1JOzsIMxA?si=vqopSJ9wOqomaLoQ",
+        score: 16,
+        date: "2023-12-22T14:28:25+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18og5o0/channel_4_the_best_f1_interviews_of_2023_max/",
+      },
+      {
+        title: "WTF Happened To The Indian Grand Prix?",
+        videoUrl: "https://youtu.be/XxOaQzhGOf0?si=E2611IYidso0y-LQ",
+        score: 1,
+        date: "2023-12-22T21:18:21+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18op77q/wtf_happened_to_the_indian_grand_prix/",
       },
     ],
     new: [
       {
-        title: "JUAN MANUEL FANGIO v JACK BRABHAM 1978 Sandown",
-        videoUrl: "https://youtube.com/watch?v=xXIVxBN8078&si=Mz3mNco0_mtIk1dF",
-        score: 11,
-        date: "2023-08-25T02:48:49+00:00",
+        title:
+          "F1 champ Max Verstappen vs Indycar champ Alex Palou going head to head in equal cars.",
+        videoUrl: "https://youtu.be/5fGtjgcTQ8w?si=XmUIWdhH8wMFHqNl",
+        score: 549,
+        date: "2023-12-23T00:21:13+00:00",
         postUrl:
-          "https://old.reddit.com/r/formula1/comments/160mszd/juan_manuel_fangio_v_jack_brabham_1978_sandown/",
+          "https://old.reddit.com/r/formula1/comments/18ot1v3/f1_champ_max_verstappen_vs_indycar_champ_alex/",
       },
       {
-        title:
-          "Why was this video privated? (Every Driver's over the line team radio)",
-        videoUrl:
-          "https://www.youtube.com/watch?v=As7I1yTaQzE&list=WL&index=95&pp=gAQBiAQB",
+        title: "WTF Happened To The Indian Grand Prix?",
+        videoUrl: "https://youtu.be/XxOaQzhGOf0?si=E2611IYidso0y-LQ",
         score: 0,
-        date: "2023-08-25T00:51:01+00:00",
+        date: "2023-12-22T21:18:21+00:00",
         postUrl:
-          "https://old.reddit.com/r/formula1/comments/160k2f3/why_was_this_video_privated_every_drivers_over/",
+          "https://old.reddit.com/r/formula1/comments/18op77q/wtf_happened_to_the_indian_grand_prix/",
       },
       {
-        title: "F1 | Thursday Drivers' Wrap | 2023 Dutch Grand Prix",
+        title: "[F1] McLaren's 2023 F1 Season Was Incredible",
+        videoUrl: "https://youtu.be/GFdRVHSYZJI?si=2YoDyycpnIh14pT9",
+        score: 46,
+        date: "2023-12-22T16:02:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18oi8r2/f1_mclarens_2023_f1_season_was_incredible/",
+      },
+      {
+        title: "Data Driven F1 Drivers: Jacky Ickx",
+        videoUrl: "https://youtu.be/n3sIw2s4lhM?si=NKPiwhL2458uOs0R",
+        score: 22,
+        date: "2023-12-22T14:41:50+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18ogfvf/data_driven_f1_drivers_jacky_ickx/",
+      },
+      {
+        title:
+          "[Channel 4] The Best F1 Interviews of 2023 | Max, Lewis and Lando's Channel 4 Highlights",
+        videoUrl: "https://youtu.be/Ez1JOzsIMxA?si=vqopSJ9wOqomaLoQ",
+        score: 16,
+        date: "2023-12-22T14:28:25+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18og5o0/channel_4_the_best_f1_interviews_of_2023_max/",
+      },
+      {
+        title:
+          "Karun on Sky's podcast: I saw Jos in Qatar & we were chatting about the season. Jos told me, Max was furious after Baku. Max said to his dad then, I am not going to get beaten by him ever again this season. He was absolutely livid and said, he will not beat me again. And lo and behold, he was right",
+        videoUrl: "https://imgur.com/a/SSqAfHY",
+        score: 3759,
+        date: "2023-12-22T14:13:22+00:00",
+        postUrl:
+          "https://old.reddit.com/r/formula1/comments/18ofull/karun_on_skys_podcast_i_saw_jos_in_qatar_we_were/",
+      },
+      {
+        title:
+          "Oracle Red Bull Racing | Max and Checo React To EVEN MORE Old Driver Tweets",
         videoUrl:
-          "https://www.youtube.com/watch?v=tfzFaM-M6oE&ab_channel=FORMULA1",
-        score: 12,
-        date: "2023-08-24T19:10:22+00:00",
+          "https://www.youtube.com/watch?v=G3_hgLjll9E&ab_channel=OracleRedBullRacing",
+        score: 35,
+        date: "2023-12-22T13:01:26+00:00",
         postUrl:
-          "https://old.reddit.com/r/formula1/comments/160b57m/f1_thursday_drivers_wrap_2023_dutch_grand_prix/",
+          "https://old.reddit.com/r/formula1/comments/18oeeqe/oracle_red_bull_racing_max_and_checo_react_to/",
       },
       {
-        title: "[F1] Weekend Warm-Up | 2023 Dutch Grand Prix",
-        videoUrl: "https://www.youtube.com/watch?v=9nrOUgXQWyc",
-        score: 18,
-        date: "2023-08-24T18:51:26+00:00",
+        title: "1955 Formula 1 Monaco Grand Prix, Alberto Ascari last race.",
+        videoUrl: "https://youtube.com/watch?v=wWFZ9TnD35w&si=vgwcbIuGTTfa4z6y",
+        score: 48,
+        date: "2023-12-22T11:15:51+00:00",
         postUrl:
-          "https://old.reddit.com/r/formula1/comments/160an1o/f1_weekend_warmup_2023_dutch_grand_prix/",
-      },
-      {
-        title:
-          "How fast is Max Verstappen at the #DutchGP? | Oracle Virtual Laps",
-        videoUrl: "https://youtu.be/FWhvn09F_og?si=XTBQ-5bTkL-QTl_2",
-        score: 8,
-        date: "2023-08-24T17:03:04+00:00",
-        postUrl:
-          "https://old.reddit.com/r/formula1/comments/1607o3s/how_fast_is_max_verstappen_at_the_dutchgp_oracle/",
-      },
-      {
-        title:
-          "Danny Ric, Zhou Guanyu, Oscar Piastri, Alex Albon arrive at the paddock",
-        videoUrl: "https://www.reddit.com/gallery/15zwziu",
-        score: 487,
-        date: "2023-08-24T09:31:24+00:00",
-        postUrl:
-          "https://old.reddit.com/r/formula1/comments/15zwziu/danny_ric_zhou_guanyu_oscar_piastri_alex_albon/",
+          "https://old.reddit.com/r/formula1/comments/18ocnfb/1955_formula_1_monaco_grand_prix_alberto_ascari/",
       },
     ],
   },
@@ -1566,125 +1525,125 @@ export const MOCK_HIGHLIGHTS = {
     top: [
       {
         title:
-          'Max Holloway emotional on Maui fires: "I always go in with Hawaii on my back, and it feels heavier now"',
-        videoUrl: "https://youtu.be/_AhuS-dJBow",
-        score: 1210,
-        date: "2023-08-24T14:40:16+00:00",
+          "Leon Edwards wrestling coach breaking down his strategy for dealing with Covington",
+        videoUrl:
+          "https://www.instagram.com/reel/C1KcadZt_1q/?igsh=MzRlODBiNWFlZA%3D%3D",
+        score: 259,
+        date: "2023-12-22T17:38:30+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/1603t45/max_holloway_emotional_on_maui_fires_i_always_go/",
+          "https://old.reddit.com/r/MMA/comments/18okedu/leon_edwards_wrestling_coach_breaking_down_his/",
       },
       {
         title:
-          "Max Holloway has landed 3,122 significant strikes in the UFC. That is 1,302 significant strikes more than any other UFC fighter. For reference, only 22 other fighters (or 1%) have landed more than 1,302 significant strikes in their UFC career.",
-        videoUrl: "https://i.redd.it/o3006oe243kb1.png",
-        score: 699,
-        date: "2023-08-24T16:27:33+00:00",
+          "[SPOILER] One Friday Fights 46: Nong-O Gaiyanghadao vs. Nico Carrillo",
+        videoUrl: "https://dubz.link/v/9z4j0f",
+        score: 260,
+        date: "2023-12-22T16:17:19+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/1606pkf/max_holloway_has_landed_3122_significant_strikes/",
+          "https://old.reddit.com/r/MMA/comments/18oikkd/spoiler_one_friday_fights_46_nongo_gaiyanghadao/",
       },
       {
-        title: "ONE Friday Fights 30: Saemapetch Vs Kaonar Full card",
-        videoUrl: "https://i.redd.it/3yt7rf9um6kb1.jpg",
-        score: 24,
-        date: "2023-08-25T04:16:27+00:00",
+        title: "Shavkat Rakhmonov reveals his biggest secrets",
+        videoUrl: "https://www.youtube.com/watch?v=siG1hSXpeZo",
+        score: 133,
+        date: "2023-12-22T18:27:27+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/160omu3/one_friday_fights_30_saemapetch_vs_kaonar_full/",
+          "https://old.reddit.com/r/MMA/comments/18oliqr/shavkat_rakhmonov_reveals_his_biggest_secrets/",
       },
       {
-        title: "Found this gem.",
-        videoUrl: "https://www.youtube.com/watch?v=yE-tmPO0Bps",
-        score: 0,
-        date: "2023-08-25T07:00:34+00:00",
+        title: "What's your most iconic moment / memory in MMA history?",
+        videoUrl: "https://i.redd.it/g7u43a7j6w7c1.jpeg",
+        score: 133,
+        date: "2023-12-22T18:46:31+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/160rnat/found_this_gem/",
+          "https://old.reddit.com/r/MMA/comments/18olyat/whats_your_most_iconic_moment_memory_in_mma/",
       },
       {
-        title:
-          "How Sean O'Malley TKO'ed Aljamain Sterling | Teddy Atlas Analysis",
-        videoUrl: "https://youtu.be/N1XGEm_blAo?si=Qd_LDbUQTEwfeOBG",
-        score: 0,
-        date: "2023-08-24T15:34:01+00:00",
+        title: "[SPOILER] Suablack vs. Craig Coakley | ONE Friday Fights 46",
+        videoUrl: "https://dubz.live/c/89b10b",
+        score: 92,
+        date: "2023-12-22T13:28:34+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/1605939/how_sean_omalley_tkoed_aljamain_sterling_teddy/",
-      },
-      {
-        title: "Stylebender | Official Trailer HD | September 28",
-        videoUrl: "https://youtu.be/AFCcOS6lbpE?si=4zc5uPnfU-l8sqd9",
-        score: 0,
-        date: "2023-08-25T02:15:58+00:00",
-        postUrl:
-          "https://old.reddit.com/r/MMA/comments/160m2w4/stylebender_official_trailer_hd_september_28/",
+          "https://old.reddit.com/r/MMA/comments/18oex95/spoiler_suablack_vs_craig_coakley_one_friday/",
       },
       {
         title:
-          "Probably not the place to post this but I was curious on how I did here",
-        videoUrl: "https://vimeo.com/857781451",
-        score: 0,
-        date: "2023-08-25T06:43:55+00:00",
+          "Belal Muhammad Explains Blueprint to Beat Leon Edwards | Morning Kombat",
+        videoUrl: "https://www.youtube.com/watch?v=SDIl3aED-KY",
+        score: 49,
+        date: "2023-12-23T00:41:39+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/160rd1g/probably_not_the_place_to_post_this_but_i_was/",
+          "https://old.reddit.com/r/MMA/comments/18otgac/belal_muhammad_explains_blueprint_to_beat_leon/",
+      },
+      {
+        title: "Robbie lawler sprawls on Rory",
+        videoUrl: "https://streamable.com/8gif3d",
+        score: 0,
+        date: "2023-12-23T07:50:25+00:00",
+        postUrl:
+          "https://old.reddit.com/r/MMA/comments/18p0s36/robbie_lawler_sprawls_on_rory/",
       },
     ],
     new: [
       {
-        title: "Found this gem.",
-        videoUrl: "https://www.youtube.com/watch?v=yE-tmPO0Bps",
+        title: "Robbie lawler sprawls on Rory",
+        videoUrl: "https://streamable.com/8gif3d",
         score: 0,
-        date: "2023-08-25T07:00:34+00:00",
+        date: "2023-12-23T07:50:25+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/160rnat/found_this_gem/",
+          "https://old.reddit.com/r/MMA/comments/18p0s36/robbie_lawler_sprawls_on_rory/",
       },
       {
         title:
-          "Probably not the place to post this but I was curious on how I did here",
-        videoUrl: "https://vimeo.com/857781451",
-        score: 0,
-        date: "2023-08-25T06:43:55+00:00",
+          "Belal Muhammad Explains Blueprint to Beat Leon Edwards | Morning Kombat",
+        videoUrl: "https://www.youtube.com/watch?v=SDIl3aED-KY",
+        score: 46,
+        date: "2023-12-23T00:41:39+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/160rd1g/probably_not_the_place_to_post_this_but_i_was/",
+          "https://old.reddit.com/r/MMA/comments/18otgac/belal_muhammad_explains_blueprint_to_beat_leon/",
       },
       {
-        title: "ONE Friday Fights 30: Saemapetch Vs Kaonar Full card",
-        videoUrl: "https://i.redd.it/3yt7rf9um6kb1.jpg",
-        score: 26,
-        date: "2023-08-25T04:16:27+00:00",
+        title: "What's your most iconic moment / memory in MMA history?",
+        videoUrl: "https://i.redd.it/g7u43a7j6w7c1.jpeg",
+        score: 138,
+        date: "2023-12-22T18:46:31+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/160omu3/one_friday_fights_30_saemapetch_vs_kaonar_full/",
+          "https://old.reddit.com/r/MMA/comments/18olyat/whats_your_most_iconic_moment_memory_in_mma/",
       },
       {
-        title: "Stylebender | Official Trailer HD | September 28",
-        videoUrl: "https://youtu.be/AFCcOS6lbpE?si=4zc5uPnfU-l8sqd9",
-        score: 0,
-        date: "2023-08-25T02:15:58+00:00",
+        title: "Shavkat Rakhmonov reveals his biggest secrets",
+        videoUrl: "https://www.youtube.com/watch?v=siG1hSXpeZo",
+        score: 133,
+        date: "2023-12-22T18:27:27+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/160m2w4/stylebender_official_trailer_hd_september_28/",
-      },
-      {
-        title:
-          "Max Holloway has landed 3,122 significant strikes in the UFC. That is 1,302 significant strikes more than any other UFC fighter. For reference, only 22 other fighters (or 1%) have landed more than 1,302 significant strikes in their UFC career.",
-        videoUrl: "https://i.redd.it/o3006oe243kb1.png",
-        score: 699,
-        date: "2023-08-24T16:27:33+00:00",
-        postUrl:
-          "https://old.reddit.com/r/MMA/comments/1606pkf/max_holloway_has_landed_3122_significant_strikes/",
+          "https://old.reddit.com/r/MMA/comments/18oliqr/shavkat_rakhmonov_reveals_his_biggest_secrets/",
       },
       {
         title:
-          "How Sean O'Malley TKO'ed Aljamain Sterling | Teddy Atlas Analysis",
-        videoUrl: "https://youtu.be/N1XGEm_blAo?si=Qd_LDbUQTEwfeOBG",
-        score: 0,
-        date: "2023-08-24T15:34:01+00:00",
+          "Leon Edwards wrestling coach breaking down his strategy for dealing with Covington",
+        videoUrl:
+          "https://www.instagram.com/reel/C1KcadZt_1q/?igsh=MzRlODBiNWFlZA%3D%3D",
+        score: 261,
+        date: "2023-12-22T17:38:30+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/1605939/how_sean_omalley_tkoed_aljamain_sterling_teddy/",
+          "https://old.reddit.com/r/MMA/comments/18okedu/leon_edwards_wrestling_coach_breaking_down_his/",
       },
       {
         title:
-          'Max Holloway emotional on Maui fires: "I always go in with Hawaii on my back, and it feels heavier now"',
-        videoUrl: "https://youtu.be/_AhuS-dJBow",
-        score: 1217,
-        date: "2023-08-24T14:40:16+00:00",
+          "[SPOILER] One Friday Fights 46: Nong-O Gaiyanghadao vs. Nico Carrillo",
+        videoUrl: "https://dubz.link/v/9z4j0f",
+        score: 259,
+        date: "2023-12-22T16:17:19+00:00",
         postUrl:
-          "https://old.reddit.com/r/MMA/comments/1603t45/max_holloway_emotional_on_maui_fires_i_always_go/",
+          "https://old.reddit.com/r/MMA/comments/18oikkd/spoiler_one_friday_fights_46_nongo_gaiyanghadao/",
+      },
+      {
+        title: "[SPOILER] Suablack vs. Craig Coakley | ONE Friday Fights 46",
+        videoUrl: "https://dubz.live/c/89b10b",
+        score: 94,
+        date: "2023-12-22T13:28:34+00:00",
+        postUrl:
+          "https://old.reddit.com/r/MMA/comments/18oex95/spoiler_suablack_vs_craig_coakley_one_friday/",
       },
     ],
   },
@@ -1692,43 +1651,149 @@ export const MOCK_HIGHLIGHTS = {
     top: [
       {
         title:
-          "Halak complaining to the ref about high stick after Toews scores on him during Hossa’s Goodbye Game",
-        videoUrl: "https://v.redd.it/pkyakbj6b5kb1",
-        score: 102,
-        date: "2023-08-24T23:49:36+00:00",
+          "[EDM 0 - (1) NYR] Zibanejad with a nifty one-touch pass to feed Wheeler for the goal",
+        videoUrl: "https://v.redd.it/3qulsqqc2y7c1",
+        score: 988,
+        date: "2023-12-23T01:06:42+00:00",
         postUrl:
-          "https://old.reddit.com/r/hockey/comments/160ik3v/halak_complaining_to_the_ref_about_high_stick/",
+          "https://old.reddit.com/r/hockey/comments/18otxvm/edm_0_1_nyr_zibanejad_with_a_nifty_onetouch_pass/",
       },
       {
         title:
-          "Trying to fine tune my technique for my wrist shot. I’m quite weak so I feel like it’s almost impossible for me to sling shot my stick. Besides lowering my bottom hand a bit, what could I improve on my technique to get more of a sling shot?",
-        videoUrl: "https://v.redd.it/iot8pfnyi5kb1",
-        score: 2,
-        date: "2023-08-25T00:33:10+00:00",
+          "[BOS 0 - WPG (2)] Gabe Vilardi extends his goal streak to 5 games as he finishes off a pretty pass from Nikolaj Ehlers",
+        videoUrl: "https://v.redd.it/2vvbguw5iy7c1",
+        score: 170,
+        date: "2023-12-23T02:35:41+00:00",
         postUrl:
-          "https://old.reddit.com/r/hockey/comments/160jmpi/trying_to_fine_tune_my_technique_for_my_wrist/",
+          "https://old.reddit.com/r/hockey/comments/18ovm1x/bos_0_wpg_2_gabe_vilardi_extends_his_goal_streak/",
+      },
+      {
+        title:
+          "[BOS 0 - WPG (4)] Adam Lowry quickly gets his stick on a rebound and the Jets captain makes it 4-0.",
+        videoUrl: "https://v.redd.it/qhu2phihpy7c1",
+        score: 115,
+        date: "2023-12-23T03:17:28+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18owday/bos_0_wpg_4_adam_lowry_quickly_gets_his_stick_on/",
+      },
+      {
+        title:
+          "[BOS 0 - WPG (3)] Nino Niederreiter extends the Jets lead with a powerplay tally",
+        videoUrl: "https://v.redd.it/dx8rs15yky7c1",
+        score: 87,
+        date: "2023-12-23T02:51:03+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18ovw47/bos_0_wpg_3_nino_niederreiter_extends_the_jets/",
+      },
+      {
+        title:
+          "Posting an incredible World Junior goal until the tournament starts: Day 23",
+        videoUrl: "https://v.redd.it/m4vez8ip3y7c1",
+        score: 20,
+        date: "2023-12-23T01:14:21+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18ou34d/posting_an_incredible_world_junior_goal_until_the/",
+      },
+      {
+        title: "Weird NHL Vol. 97",
+        videoUrl: "https://youtu.be/BlGzVuZ7yV8?si=v49HG9q6_31gwjo2",
+        score: 17,
+        date: "2023-12-22T15:51:23+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18ohzap/weird_nhl_vol_97/",
+      },
+      {
+        title:
+          "Controversial goal scored by the Coventry Blaze on Wednesday night",
+        videoUrl: "https://v.redd.it/ko10nrx6cv7c1",
+        score: 16,
+        date: "2023-12-22T15:56:29+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18oi39r/controversial_goal_scored_by_the_coventry_blaze/",
+      },
+      {
+        title:
+          "[Hadi Kalakeche] Connor Bedard’s rookie season, and why his goal-scoring isn’t even the main reason he’s an exceptional player. A scouting breakdown & video analysis of his first 31 games.",
+        videoUrl: "https://www.youtube.com/watch?v=4oZ9wawK_2I&t=1s",
+        score: 14,
+        date: "2023-12-22T12:26:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18odske/hadi_kalakeche_connor_bedards_rookie_season_and/",
       },
     ],
     new: [
       {
         title:
-          "Trying to fine tune my technique for my wrist shot. I’m quite weak so I feel like it’s almost impossible for me to sling shot my stick. Besides lowering my bottom hand a bit, what could I improve on my technique to get more of a sling shot?",
-        videoUrl: "https://v.redd.it/iot8pfnyi5kb1",
-        score: 4,
-        date: "2023-08-25T00:33:10+00:00",
+          "[BOS 0 - WPG (4)] Adam Lowry quickly gets his stick on a rebound and the Jets captain makes it 4-0.",
+        videoUrl: "https://v.redd.it/qhu2phihpy7c1",
+        score: 113,
+        date: "2023-12-23T03:17:28+00:00",
         postUrl:
-          "https://old.reddit.com/r/hockey/comments/160jmpi/trying_to_fine_tune_my_technique_for_my_wrist/",
+          "https://old.reddit.com/r/hockey/comments/18owday/bos_0_wpg_4_adam_lowry_quickly_gets_his_stick_on/",
       },
       {
         title:
-          "Halak complaining to the ref about high stick after Toews scores on him during Hossa’s Goodbye Game",
-        videoUrl: "https://v.redd.it/pkyakbj6b5kb1",
-        score: 102,
-        date: "2023-08-24T23:49:36+00:00",
+          "[BOS 0 - WPG (3)] Nino Niederreiter extends the Jets lead with a powerplay tally",
+        videoUrl: "https://v.redd.it/dx8rs15yky7c1",
+        score: 87,
+        date: "2023-12-23T02:51:03+00:00",
         postUrl:
-          "https://old.reddit.com/r/hockey/comments/160ik3v/halak_complaining_to_the_ref_about_high_stick/",
+          "https://old.reddit.com/r/hockey/comments/18ovw47/bos_0_wpg_3_nino_niederreiter_extends_the_jets/",
+      },
+      {
+        title:
+          "[BOS 0 - WPG (2)] Gabe Vilardi extends his goal streak to 5 games as he finishes off a pretty pass from Nikolaj Ehlers",
+        videoUrl: "https://v.redd.it/2vvbguw5iy7c1",
+        score: 168,
+        date: "2023-12-23T02:35:41+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18ovm1x/bos_0_wpg_2_gabe_vilardi_extends_his_goal_streak/",
+      },
+      {
+        title:
+          "Posting an incredible World Junior goal until the tournament starts: Day 23",
+        videoUrl: "https://v.redd.it/m4vez8ip3y7c1",
+        score: 20,
+        date: "2023-12-23T01:14:21+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18ou34d/posting_an_incredible_world_junior_goal_until_the/",
+      },
+      {
+        title:
+          "[EDM 0 - (1) NYR] Zibanejad with a nifty one-touch pass to feed Wheeler for the goal",
+        videoUrl: "https://v.redd.it/3qulsqqc2y7c1",
+        score: 990,
+        date: "2023-12-23T01:06:42+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18otxvm/edm_0_1_nyr_zibanejad_with_a_nifty_onetouch_pass/",
+      },
+      {
+        title:
+          "Controversial goal scored by the Coventry Blaze on Wednesday night",
+        videoUrl: "https://v.redd.it/ko10nrx6cv7c1",
+        score: 16,
+        date: "2023-12-22T15:56:29+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18oi39r/controversial_goal_scored_by_the_coventry_blaze/",
+      },
+      {
+        title: "Weird NHL Vol. 97",
+        videoUrl: "https://youtu.be/BlGzVuZ7yV8?si=v49HG9q6_31gwjo2",
+        score: 17,
+        date: "2023-12-22T15:51:23+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18ohzap/weird_nhl_vol_97/",
+      },
+      {
+        title:
+          "[Hadi Kalakeche] Connor Bedard’s rookie season, and why his goal-scoring isn’t even the main reason he’s an exceptional player. A scouting breakdown & video analysis of his first 31 games.",
+        videoUrl: "https://www.youtube.com/watch?v=4oZ9wawK_2I&t=1s",
+        score: 11,
+        date: "2023-12-22T12:26:54+00:00",
+        postUrl:
+          "https://old.reddit.com/r/hockey/comments/18odske/hadi_kalakeche_connor_bedards_rookie_season_and/",
       },
     ],
   },
-  lastupdated: 1692953417179,
+  lastupdated: 1703322369817,
 };

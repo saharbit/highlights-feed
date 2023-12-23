@@ -22,7 +22,7 @@ export const getHighlightsCount = createSelector(
       }
     }
     return list.length;
-  }
+  },
 );
 
 export const getTabHighlights = createSelector(
@@ -37,7 +37,7 @@ export const getTabHighlights = createSelector(
     for (let [sub, categories] of Object.entries(highlights)) {
       if (sub !== "lastupdated" && (!subreddit || subreddit.value === sub)) {
         list.push(
-          ...categories[tab].map((highlight) => ({ ...highlight, sub }))
+          ...categories[tab].map((highlight) => ({ ...highlight, sub })),
         );
       }
     }
@@ -52,7 +52,7 @@ export const getTabHighlights = createSelector(
 
     if (search) {
       list = list.filter((highlight) =>
-        highlight.title.toLowerCase().includes(search.toLowerCase())
+        highlight.title.toLowerCase().includes(search.toLowerCase()),
       );
 
       return list;
@@ -63,7 +63,7 @@ export const getTabHighlights = createSelector(
     }
 
     return list;
-  }
+  },
 );
 
 export const getCurrentTab = createSelector([getTab], (currentTab) => {
